@@ -1,0 +1,10000 @@
+b'\x00'	0
+b'\x01'	1
+b'\x02'	2
+b'\x03'	3
+b'\x04'	4
+b'\x05'	5
+b'\x06'	6
+b'\x07'	7
+b'\x08'	8
+b'\t'	9
+b'\n'	10
+b'\n\n'	884
+b'\n '	1852
+b'\x0b'	11
+b'\x0c'	12
+b'\r'	13
+b'\x0e'	14
+b'\x0f'	15
+b'\x10'	16
+b'\x11'	17
+b'\x12'	18
+b'\x13'	19
+b'\x14'	20
+b'\x15'	21
+b'\x16'	22
+b'\x17'	23
+b'\x18'	24
+b'\x19'	25
+b'\x1a'	26
+b'\x1b'	27
+b'\x1c'	28
+b'\x1d'	29
+b'\x1e'	30
+b'\x1f'	31
+b' '	32
+b' \n'	4773
+b' \n\n'	7025
+b' \n '	5825
+b'  '	6371
+b' "'	317
+b" '"	2565
+b" ''"	7594
+b' -'	1843
+b' --'	8301
+b' 1'	6220
+b' 10'	8895
+b' 2'	7732
+b' 3'	2702
+b' 4'	8601
+b' 5'	6459
+b' 9'	8320
+b' 91'	9504
+b' 911'	9505
+b' A'	433
+b' AB'	8532
+b' ABC'	8533
+b' ABCs'	8534
+b' AN'	9894
+b' AND'	9895
+b' Abby'	4624
+b' Abigail'	7311
+b' Ac'	8362
+b' Accident'	8363
+b' Accidents'	8364
+b' Acorn'	5167
+b' Acorns'	8113
+b' Adam'	5976
+b' After'	1470
+b' Al'	3344
+b' Albert'	6236
+b' Alex'	6517
+b' Alice'	5270
+b' All'	1380
+b' Along'	7698
+b' Also'	9950
+b' Although'	7522
+b' Always'	5821
+b' Alya'	8595
+b' Amanda'	8587
+b' Amy'	781
+b' An'	6155
+b' And'	720
+b' Andy'	3302
+b' Animal'	8445
+b' Animals'	8446
+b' Ann'	2166
+b' Anna'	826
+b' Anne'	5921
+b' Annie'	7665
+b' Another'	8294
+b' Ant'	5923
+b' App'	7692
+b' Apple'	7693
+b' Are'	3819
+b' Arm'	6007
+b' Arthur'	6990
+b' As'	1351
+b' Ash'	7778
+b' At'	1796
+b' Aunt'	8421
+b' Auntie'	7117
+b' Automobile'	8672
+b' Automobiles'	8673
+b' Ava'	6417
+b' B'	373
+b' Baby'	5942
+b' Bal'	7249
+b' Ball'	8604
+b' Bally'	5010
+b' Baloo'	7250
+b' Band'	7300
+b' Bang'	9751
+b' Bark'	7411
+b' Barney'	8994
+b' Barry'	5422
+b' Be'	2890
+b' Bear'	2408
+b' Bears'	9966
+b' Because'	7051
+b' Bee'	6701
+b' Before'	4936
+b' Behind'	6428
+b' Being'	5683
+b' Believe'	8738
+b' Bella'	1953
+b' Ben'	532
+b' Benny'	2758
+b' Bert'	6832
+b' Bessie'	5041
+b' Bet'	3601
+b' Betsy'	5309
+b' Betty'	4297
+b' Big'	4515
+b' Bigg'	6535
+b' Biggie'	6536
+b' Bill'	3336
+b' Billy'	1597
+b' Bin'	9929
+b' Binky'	5104
+b' Bird'	3261
+b' Birdie'	5565
+b' Birdy'	5007
+b' Birthday'	6049
+b' Bl'	1799
+b' Black'	8822
+b' Blink'	5006
+b' Blob'	9036
+b' Blue'	1920
+b' Bo'	6538
+b' Bob'	737
+b' Bobbie'	6765
+b' Bobby'	2788
+b' Bobo'	1490
+b' Bolly'	6448
+b' Bones'	6143
+b' Boo'	6292
+b' Books'	8580
+b' Bop'	5989
+b' Both'	5423
+b' Boun'	5085
+b' Bouncy'	5086
+b' Bow'	4911
+b' Boy'	8774
+b' Br'	2524
+b' Brad'	6893
+b' Brett'	7824
+b' Brian'	6030
+b' Bright'	9411
+b' Brightly'	9412
+b' Bro'	8111
+b' Broccoli'	8112
+b' Brother'	7332
+b' Brown'	3039
+b' Brownie'	4653
+b' Brush'	5809
+b' Bu'	2429
+b' Bub'	7241
+b' Bubb'	5811
+b' Bubbles'	5812
+b' Bubu'	7242
+b' Buddy'	1598
+b' Bug'	5099
+b' Buggy'	6575
+b' Bugs'	9544
+b' Bulb'	8518
+b' Bull'	7985
+b' Bunny'	2638
+b' But'	537
+b' Buzz'	3218
+b' Buzzy'	3871
+b' By'	5818
+b' Bye'	6280
+b' C'	1080
+b' CAN'	9891
+b' CAND'	9892
+b' CANDY'	9893
+b' CO'	9896
+b' COOK'	9897
+b' COOKI'	9898
+b' COOKIE'	9899
+b' COOKIES'	9900
+b' Cable'	6227
+b' Cally'	7072
+b' Can'	1166
+b' Cand'	9957
+b' Candles'	9958
+b' Car'	5575
+b' Care'	8091
+b' Carefully'	8092
+b' Cari'	6887
+b' Carl'	5981
+b' Cars'	8577
+b' Cat'	2676
+b' Caterpillar'	5869
+b' Caul'	9012
+b' Cauli'	9013
+b' Ch'	2072
+b' Charlie'	4913
+b' Che'	8704
+b' Chef'	8705
+b' Cher'	7854
+b' Cherry'	7855
+b' Chick'	5214
+b' Chicky'	7328
+b' China'	9656
+b' Chirpy'	3305
+b' Chloe'	4506
+b' Choo'	9241
+b' Chris'	6255
+b' Cindy'	9410
+b' Cir'	8498
+b' Circles'	9797
+b' Cl'	4902
+b' Claire'	5918
+b' Clara'	5430
+b' Cle'	7679
+b' Clear'	8517
+b' Clim'	7452
+b' Climb'	9925
+b' Climbing'	8139
+b' Co'	5023
+b' Coal'	7926
+b' Coco'	5614
+b' Come'	2473
+b' Comp'	7901
+b' Compy'	7902
+b' Cookie'	6534
+b' Cotton'	7149
+b' Cow'	5470
+b' Cowy'	6573
+b' Cr'	7888
+b' Cra'	5325
+b' Crab'	6892
+b' Crabby'	6235
+b' Crayons'	8959
+b' Cro'	8048
+b' Crocodile'	8049
+b' Cuddles'	4740
+b' D'	677
+b' DJ'	9992
+b' DJs'	9993
+b' DO'	8560
+b' Da'	9644
+b' Dad'	1366
+b' Daddy'	2609
+b' Daise'	9645
+b' Daisey'	9646
+b' Daisy'	1649
+b' Dan'	5727
+b' Danny'	5957
+b' Dare'	4933
+b' Darrin'	7451
+b' Dave'	4726
+b' Davey'	8429
+b' David'	5738
+b' Dead'	9500
+b' Deal'	7081
+b' Despite'	7768
+b' Dezi'	6009
+b' Did'	7759
+b' Dina'	6558
+b' Dinner'	9308
+b' Dino'	4863
+b' Do'	1170
+b' Dodo'	6132
+b' Dog'	2177
+b' Doggy'	2456
+b' Dogs'	6662
+b' Dolly'	2958
+b' Don'	2832
+b' Dot'	9430
+b' Dr'	6434
+b' Dream'	9556
+b' Dreams'	9557
+b' Drip'	9535
+b' Drop'	9431
+b' Ducky'	2085
+b' Dusty'	8041
+b' E'	685
+b' EAT'	8564
+b' Each'	5038
+b' Eag'	7733
+b' Eagle'	7734
+b' Ear'	7380
+b' Earth'	7381
+b' Eating'	8440
+b' Ed'	7324
+b' Eddie'	7473
+b' Elephant'	5202
+b' Ella'	2519
+b' Ellie'	3375
+b' Elly'	4930
+b' Elsa'	5463
+b' Em'	1662
+b' Emily'	2588
+b' Emma'	2118
+b' En'	6045
+b' End'	4333
+b' Enjoy'	6046
+b' Even'	2772
+b' Eventually'	4171
+b' Every'	864
+b' Everybody'	9406
+b' Everyday'	5884
+b' Everyone'	1394
+b' Everything'	5505
+b' Everytime'	9693
+b' Everywhere'	4158
+b' Ex'	7423
+b' Exc'	9960
+b' Excited'	9961
+b' Exercise'	9232
+b' F'	595
+b' Farm'	8809
+b' Farmer'	8810
+b' Fel'	6230
+b' Felix'	6231
+b' Fido'	6119
+b' Fif'	6153
+b' Fifi'	6154
+b' Fin'	1276
+b' Finally'	2205
+b' Finn'	4836
+b' Finny'	4184
+b' First'	6609
+b' Fishy'	6531
+b' Fl'	4569
+b' Flick'	5988
+b' Flor'	6896
+b' Flora'	6897
+b' Flore'	6271
+b' Florence'	6272
+b' Fluffy'	1075
+b' Fo'	4642
+b' Follow'	6174
+b' Foot'	9940
+b' Football'	9941
+b' For'	5378
+b' Fore'	8222
+b' Forever'	8223
+b' Forgiving'	8701
+b' Fox'	5335
+b' Frank'	4474
+b' Frankie'	5992
+b' Fred'	1966
+b' Freddy'	3577
+b' Freeze'	8583
+b' Friend'	5937
+b' Friends'	6441
+b' Friendship'	8550
+b' Fro'	3550
+b' Frog'	5008
+b' Froggy'	4448
+b' Frogs'	9777
+b' From'	907
+b' Fun'	7862
+b' G'	1130
+b' Gary'	7192
+b' Gently'	9374
+b' George'	6270
+b' Get'	5789
+b' Gigi'	3817
+b' Gina'	6392
+b' Gir'	4840
+b' Giraffe'	4841
+b' Give'	3551
+b' Giving'	8634
+b' Go'	2608
+b' God'	4940
+b' Gog'	6266
+b' Gogo'	6267
+b' Gold'	6745
+b' Goldy'	6746
+b' Good'	4965
+b' Goodbye'	6684
+b' Gor'	9573
+b' Gorilla'	9574
+b' Gr'	5948
+b' Gra'	1851
+b' Grace'	5122
+b' Gracie'	6042
+b' Grand'	5063
+b' Granddaughter'	9250
+b' Grandma'	2151
+b' Grandpa'	5154
+b' Granny'	5949
+b' Grass'	9270
+b' Gray'	5839
+b' Green'	5986
+b' Gulp'	6740
+b' H'	306
+b' HE'	9886
+b' HEA'	9887
+b' HEAL'	9888
+b' HEALTH'	9889
+b' HEALTHY'	9890
+b' Ha'	8228
+b' Hana'	6556
+b' Hand'	8462
+b' Hannah'	7271
+b' Happ'	9403
+b' Happiness'	9404
+b' Happy'	4790
+b' Harmony'	6891
+b' Harry'	6100
+b' Hatty'	5798
+b' Have'	4843
+b' He'	315
+b' Hel'	4273
+b' Held'	9637
+b' Help'	4274
+b' Helping'	6962
+b' Henny'	5593
+b' Henry'	6243
+b' Her'	912
+b' Herb'	6257
+b' Here'	3515
+b' Hi'	9258
+b' Hiding'	9024
+b' Hippy'	6229
+b' His'	797
+b' Ho'	4990
+b' Hold'	6808
+b' Holding'	9917
+b' Holly'	7664
+b' Hooray'	8519
+b' Hoot'	5222
+b' Hop'	5107
+b' Hopper'	5177
+b' Hoppy'	5994
+b' Horse'	7842
+b' How'	2445
+b' However'	5674
+b' Hung'	6872
+b' I'	340
+b' Ice'	8410
+b' If'	2782
+b' Im'	9605
+b' Imag'	9606
+b' Imagine'	9607
+b' In'	940
+b' Inside'	1658
+b' Inst'	7844
+b' Instantly'	8827
+b' Instead'	2851
+b' Is'	4026
+b' Isabella'	6258
+b' Isn'	7034
+b' It'	432
+b' Its'	5877
+b' Izzy'	6232
+b' J'	605
+b' Jack'	1198
+b' Jackie'	5810
+b' Jacky'	5312
+b' Jacob'	6310
+b' Jake'	4676
+b' James'	4903
+b' Jamie'	7533
+b' Jane'	1448
+b' Janie'	5459
+b' Jazz'	3238
+b' Jeff'	6226
+b' Jelly'	6439
+b' Jellyfish'	6440
+b' Jen'	2885
+b' Jenny'	2458
+b' Jerry'	2826
+b' Jess'	3374
+b' Jessica'	5019
+b' Jessie'	5584
+b' Jill'	2314
+b' Jilly'	6876
+b' Jim'	2567
+b' Jimmy'	3820
+b' Jo'	4651
+b' Joe'	1818
+b' Joey'	4480
+b' John'	1512
+b' Johnny'	4344
+b' Johny'	9793
+b' Jojo'	5985
+b' Jolly'	6250
+b' Jordan'	9040
+b' Josh'	5453
+b' Joshua'	9074
+b' Joy'	4910
+b' Judge'	9032
+b' Julie'	7681
+b' Jump'	8650
+b' Jumpy'	5995
+b' June'	6868
+b' Junk'	9344
+b' Just'	2378
+b' K'	882
+b' Kanga'	5984
+b' Kate'	5321
+b' Katelyn'	7215
+b' Katie'	5209
+b' Ke'	5067
+b' Keep'	6081
+b' Keith'	6568
+b' Kelly'	7329
+b' Kevin'	9283
+b' Kids'	5941
+b' Kiki'	3913
+b' Kim'	3802
+b' Kind'	9281
+b' Kindness'	9282
+b' Kirsty'	7275
+b' Kitty'	990
+b' L'	361
+b' Land'	7293
+b' Larry'	6631
+b' Laser'	6490
+b' Last'	9218
+b' Lastly'	9219
+b' Later'	5586
+b' Laz'	9811
+b' Lazy'	9812
+b' Leave'	6037
+b' Lee'	4830
+b' Lena'	7143
+b' Lenny'	4387
+b' Leo'	1896
+b' Let'	1067
+b' Lets'	9274
+b' Liam'	6675
+b' Lies'	9985
+b' Life'	8953
+b' Like'	7100
+b' Lila'	1517
+b' Lilah'	7807
+b' Lilly'	5669
+b' Lily'	404
+b' Lina'	6569
+b' Linda'	6481
+b' Lion'	7569
+b' Lisa'	2099
+b' Listen'	7610
+b' Little'	5026
+b' Liz'	6762
+b' Lizzie'	7935
+b' Lizzy'	5613
+b' Log'	9805
+b' Loggy'	9806
+b' Lola'	4934
+b' Longhead'	7929
+b' Look'	4530
+b' Lou'	5623
+b' Love'	5777
+b' Lucy'	698
+b' Luke'	5943
+b' Lulu'	4235
+b' Luna'	2847
+b' M'	377
+b' MA'	8901
+b' MAI'	8902
+b' MAIL'	8903
+b' MAILB'	8904
+b' MAILBO'	8905
+b' MAILBOX'	8906
+b' Ma'	9182
+b' Mabel'	6869
+b' Maggie'	4961
+b' Majest'	9183
+b' Majesty'	9184
+b' Make'	8573
+b' Making'	8743
+b' Malerious'	7475
+b' Mama'	2630
+b' Man'	8794
+b' Mandy'	5801
+b' Many'	3161
+b' Map'	9996
+b' Maple'	9997
+b' Mar'	4136
+b' Maria'	5271
+b' Marie'	5640
+b' Mark'	2332
+b' Marsh'	7919
+b' Marshall'	7920
+b' Mary'	2459
+b' Math'	9857
+b' Max'	509
+b' May'	4948
+b' Maya'	6886
+b' Maybe'	1969
+b' Me'	4828
+b' Meg'	5467
+b' Mei'	8422
+b' Melon'	8491
+b' Mem'	9707
+b' Memories'	9708
+b' Mia'	639
+b' Michael'	7230
+b' Might'	5813
+b' Mighty'	5814
+b' Mike'	7873
+b' Mila'	7508
+b' Milly'	4744
+b' Mimi'	1693
+b' Mina'	5788
+b' Mine'	8214
+b' Mint'	9251
+b' Miss'	3770
+b' Missile'	6238
+b' Mittens'	4837
+b' Mo'	5184
+b' Mole'	7131
+b' Molly'	2193
+b' Mom'	687
+b' Mommy'	1282
+b' Momo'	2202
+b' Mon'	6544
+b' Monster'	7291
+b' Moon'	7137
+b' Moppy'	5799
+b' More'	8546
+b' Mouse'	5617
+b' Mr'	1169
+b' Mrs'	3564
+b' Mum'	3430
+b' Mummy'	3461
+b' Mus'	6937
+b' Mushroom'	5473
+b' Music'	6938
+b' Musician'	8009
+b' My'	2589
+b' N'	950
+b' NO'	7703
+b' NOT'	9885
+b' Nana'	4490
+b' Nate'	6567
+b' Navy'	5618
+b' Ne'	9169
+b' Near'	9814
+b' Neither'	9170
+b' Next'	4711
+b' Nice'	5782
+b' Nick'	6923
+b' No'	3194
+b' Nobody'	7182
+b' Noelle'	7298
+b' Not'	4682
+b' Nothing'	6634
+b' Now'	1097
+b' Num'	9237
+b' Numbers'	9238
+b' Nutty'	7377
+b' O'	1404
+b' OK'	3386
+b' Oat'	6453
+b' Offic'	7268
+b' Officer'	7269
+b' Oh'	7966
+b' Okay'	7003
+b' Ol'	5805
+b' Old'	7949
+b' Olive'	8753
+b' Oliver'	5806
+b' Ollie'	2792
+b' Olly'	7252
+b' On'	2318
+b' Once'	5048
+b' One'	527
+b' Only'	7878
+b' Or'	3926
+b' Orange'	7891
+b' Ot'	9851
+b' Other'	8599
+b' Otter'	9852
+b' Ouch'	7643
+b' Our'	5771
+b' Out'	6031
+b' Ow'	3544
+b' Owl'	4228
+b' Own'	8296
+b' Ox'	6273
+b' Oxygen'	6130
+b' Oysters'	9652
+b' P'	958
+b' Pam'	6158
+b' Pandy'	4323
+b' Papa'	4638
+b' Paper'	8499
+b' Par'	7951
+b' Party'	7952
+b' Pass'	7103
+b' Passport'	7104
+b' Pat'	4558
+b' Patch'	7850
+b' Paul'	4438
+b' Paws'	6256
+b' Pe'	2817
+b' Pea'	7334
+b' Peanut'	6364
+b' Peering'	9720
+b' Penny'	6316
+b' People'	3476
+b' Pepper'	6340
+b' Peppers'	9103
+b' Per'	5210
+b' Percy'	5315
+b' Perf'	9968
+b' Perfume'	9969
+b' Pete'	4570
+b' Peter'	3936
+b' Piano'	9908
+b' Piggy'	7289
+b' Pilot'	8175
+b' Pin'	9029
+b' Pinching'	9030
+b' Pine'	6845
+b' Piney'	6846
+b' Pinky'	4736
+b' Pip'	6126
+b' Pipp'	3996
+b' Pippa'	6841
+b' Pippin'	4322
+b' Pippy'	5804
+b' Pizza'	5450
+b' Pl'	6788
+b' Plan'	7675
+b' Planet'	7676
+b' Play'	8452
+b' Playing'	8453
+b' Please'	2564
+b' Po'	8736
+b' Poke'	7770
+b' Polly'	4166
+b' Poppy'	3173
+b' Poula'	8413
+b' Pretty'	8652
+b' Prin'	3815
+b' Prince'	5612
+b' Princess'	6851
+b' Print'	5999
+b' Printing'	9879
+b' Printy'	6264
+b' Pu'	6537
+b' Puppy'	6865
+b' Pur'	6621
+b' Purr'	6933
+b' Purrkins'	6934
+b' Put'	7113
+b' Q'	5486
+b' Que'	7462
+b' Queen'	7463
+b' Quick'	6289
+b' R'	1138
+b' Rabbit'	6098
+b' Rachel'	7859
+b' Ray'	5314
+b' Re'	8014
+b' Read'	8575
+b' Reading'	8576
+b' Ready'	8015
+b' Red'	5441
+b' Rel'	7976
+b' Reluctantly'	9119
+b' Remember'	5101
+b' Remy'	2622
+b' Rep'	9566
+b' Repe'	9567
+b' Repeat'	9568
+b' Rex'	2790
+b' Rhythm'	6494
+b' Ria'	6866
+b' Rich'	7203
+b' Riding'	8661
+b' Rir'	6877
+b' Riri'	6878
+b' Ro'	3625
+b' Rob'	4064
+b' Robby'	6489
+b' Robert'	7154
+b' Robot'	6212
+b' Rocco'	6572
+b' Rock'	4719
+b' Rocky'	5082
+b' Rollie'	4839
+b' Rose'	3624
+b' Rover'	4834
+b' Ruby'	4233
+b' Rudy'	7259
+b' Ruff'	6848
+b' Ruffles'	6849
+b' Run'	8728
+b' S'	297
+b' Sa'	8920
+b' Sadly'	6842
+b' Said'	9261
+b' Sally'	980
+b' Sam'	546
+b' Samantha'	8999
+b' Sammy'	2994
+b' Samuel'	7333
+b' Sandy'	3600
+b' Sant'	6002
+b' Santa'	6003
+b' Sara'	875
+b' Sarah'	1614
+b' Saus'	8921
+b' Sausages'	8922
+b' Save'	8581
+b' Say'	7005
+b' Saying'	9965
+b' Sc'	9709
+b' Scissors'	9710
+b' Sean'	8588
+b' See'	5248
+b' Serious'	6815
+b' Seth'	6678
+b' Sh'	3786
+b' Shall'	8852
+b' Sharing'	5140
+b' She'	338
+b' Shell'	7326
+b' Shiny'	5797
+b' Should'	7989
+b' Show'	7039
+b' Sienna'	6322
+b' Sister'	7947
+b' Sit'	8138
+b' Sky'	5462
+b' Slow'	4597
+b' Slowly'	5935
+b' Sm'	4318
+b' Smith'	4483
+b' Smoke'	8766
+b' Sn'	3094
+b' Snake'	9499
+b' Sne'	8613
+b' Sneaky'	8614
+b' Snow'	3408
+b' Snowman'	5109
+b' Snowy'	4476
+b' Snugg'	6660
+b' Snuggles'	6661
+b' So'	674
+b' Sof'	3934
+b' Sofia'	4574
+b' Softy'	5808
+b' Sol'	9571
+b' Solving'	9572
+b' Some'	2981
+b' Someone'	6349
+b' Somet'	2699
+b' Something'	5910
+b' Sometimes'	2911
+b' Soon'	1688
+b' Sophie'	4601
+b' Sorry'	6454
+b' Soup'	8497
+b' Sp'	1999
+b' Spark'	3728
+b' Sparkle'	7173
+b' Sparky'	5226
+b' Spe'	6560
+b' Speedy'	6561
+b' Spidey'	6094
+b' Spike'	3235
+b' Spin'	5428
+b' Spinny'	5622
+b' Spirit'	6008
+b' Splash'	5936
+b' Spot'	593
+b' Spring'	7330
+b' Spud'	6831
+b' Squ'	7661
+b' Sque'	4315
+b' Squeaky'	4734
+b' Squeeze'	6904
+b' Squirrel'	7662
+b' St'	2409
+b' Stacy'	6574
+b' Star'	9098
+b' Stay'	5487
+b' Ste'	7687
+b' Stealing'	6624
+b' Steam'	7688
+b' Stella'	6874
+b' Steve'	6288
+b' Steven'	8140
+b' Stitch'	5020
+b' Stop'	5405
+b' Store'	8949
+b' Stre'	9998
+b' Street'	9999
+b' Stretching'	9255
+b' String'	6824
+b' Su'	4743
+b' Suddenly'	1294
+b' Sue'	515
+b' Sug'	7266
+b' Sugar'	7267
+b' Summer'	6792
+b' Sun'	5135
+b' Sund'	6541
+b' Sunday'	6542
+b' Sunny'	5864
+b' Sunshine'	5955
+b' Sur'	8454
+b' Sure'	8558
+b' Surf'	9730
+b' Surfing'	9731
+b' Sus'	8831
+b' Susan'	8832
+b' Susie'	3990
+b' Suzie'	5990
+b' Suzy'	5616
+b' Sw'	5803
+b' Sweet'	8516
+b' Sweetie'	9835
+b' Switch'	6269
+b' Sylvia'	6736
+b' T'	272
+b' THAT'	8900
+b' TO'	8563
+b' TV'	2671
+b' Take'	7596
+b' Tangle'	7710
+b' Tape'	9052
+b' Tara'	5408
+b' Tato'	5608
+b' Ted'	6850
+b' Teddy'	4892
+b' Terry'	7234
+b' Th'	835
+b' Thank'	1911
+b' Thanks'	6712
+b' Thanksgiving'	7936
+b' That'	1357
+b' The'	286
+b' Their'	2570
+b' Then'	900
+b' There'	1571
+b' These'	5689
+b' They'	312
+b' Things'	9752
+b' Think'	8428
+b' This'	1238
+b' Thomas'	7033
+b' Those'	6312
+b' Though'	9599
+b' Tiger'	8262
+b' Tim'	343
+b' Time'	7998
+b' Timmy'	1468
+b' Tina'	5490
+b' Tiny'	2266
+b' Tippy'	4915
+b' To'	1661
+b' Tob'	5111
+b' Toby'	5112
+b' Today'	3315
+b' Todd'	7847
+b' Together'	2303
+b' Tom'	409
+b' Tomato'	8002
+b' Tommy'	1782
+b' Too'	8710
+b' Toto'	4527
+b' Toys'	7073
+b' Trucky'	8527
+b' True'	3103
+b' Trust'	8460
+b' Try'	6683
+b' Tu'	4100
+b' Tuesday'	4101
+b' Tuesdays'	9083
+b' Tuna'	6559
+b' Turkey'	8211
+b' Turtle'	6912
+b' Tweet'	3755
+b' Tweety'	5723
+b' Twinkle'	9097
+b' U'	3239
+b' Un'	5195
+b' Uncle'	7305
+b' Under'	4677
+b' Unfortunately'	6228
+b' Unite'	9819
+b' University'	9445
+b' Unt'	8858
+b' Until'	8859
+b' Up'	6637
+b' Upon'	9201
+b' Use'	6960
+b' Using'	9598
+b' V'	4057
+b' Violet'	5748
+b' Vivi'	4723
+b' W'	534
+b' WAN'	8561
+b' WANT'	8562
+b' WE'	8559
+b' Wait'	9640
+b' Wally'	6565
+b' Want'	6032
+b' War'	7885
+b' Watch'	5673
+b' Water'	6383
+b' We'	792
+b' Wednesday'	4808
+b' Well'	7601
+b' Wh'	1076
+b' What'	1628
+b' Whee'	7932
+b' When'	915
+b' Whenever'	4791
+b' Where'	4426
+b' Which'	7086
+b' While'	3037
+b' Whip'	9148
+b' Whiskers'	2050
+b' Who'	5303
+b' Whoe'	8726
+b' Whoever'	8727
+b' Why'	2708
+b' Wigg'	3426
+b' Wiggles'	5429
+b' Wiggly'	4012
+b' Will'	3863
+b' William'	7895
+b' Wisdom'	4738
+b' With'	2530
+b' Without'	6362
+b' Wo'	7430
+b' Wolf'	8097
+b' Woof'	5880
+b' Wor'	6750
+b' Working'	7579
+b' World'	9078
+b' Would'	4759
+b' Wow'	9317
+b' X'	5779
+b' Xia'	6777
+b' Xiao'	6778
+b' Y'	4019
+b' Yawn'	6566
+b' Yes'	6110
+b' Yesterday'	5373
+b' Yet'	6307
+b' You'	631
+b' Your'	3632
+b' Yuck'	8659
+b' Z'	1668
+b' Zane'	6551
+b' Zara'	6636
+b' Zero'	5783
+b' Ziggy'	6571
+b' Zigzag'	5224
+b' Zip'	3979
+b' Zoe'	4180
+b' Zog'	7992
+b' Zoom'	3502
+b' Zoomy'	3994
+b' a'	259
+b' aa'	9841
+b' aahed'	9842
+b' ab'	643
+b' aback'	9439
+b' abil'	6873
+b' abilities'	7843
+b' ability'	9069
+b' able'	2100
+b' about'	669
+b' above'	3932
+b' ac'	1350
+b' acce'	3423
+b' accep'	4946
+b' accept'	4308
+b' accepted'	4947
+b' accident'	3182
+b' accidentally'	4249
+b' accom'	5660
+b' accompl'	5661
+b' accomplish'	5837
+b' accomplishment'	6615
+b' accused'	9808
+b' ach'	5703
+b' ache'	7550
+b' achieve'	6985
+b' achieved'	7153
+b' acorn'	2705
+b' acorns'	4541
+b' across'	2157
+b' act'	2217
+b' acted'	5845
+b' acting'	6974
+b' action'	8741
+b' actions'	5920
+b' activ'	5132
+b' active'	8169
+b' activities'	5656
+b' activity'	6930
+b' acts'	6311
+b' actually'	5511
+b' ad'	1043
+b' add'	3364
+b' added'	4912
+b' addition'	8751
+b' address'	9006
+b' adm'	2906
+b' admir'	5740
+b' admiration'	8586
+b' admire'	4015
+b' admired'	4868
+b' admiring'	6133
+b' adop'	9657
+b' adopted'	9658
+b' ador'	3427
+b' adorable'	3470
+b' adoringly'	9662
+b' adult'	8495
+b' adults'	9789
+b' adv'	4449
+b' advent'	1222
+b' adventur'	2819
+b' adventure'	1340
+b' adventurer'	6783
+b' adventurers'	6895
+b' adventures'	2327
+b' adventuring'	9262
+b' adventurous'	2845
+b' advice'	4450
+b' aer'	3132
+b' aerop'	3133
+b' aeropl'	3134
+b' aeroplane'	3171
+b' aeroplanes'	9225
+b' af'	2799
+b' aff'	7356
+b' affect'	8416
+b' afford'	9116
+b' afra'	2820
+b' afraid'	2821
+b' after'	887
+b' aftern'	4866
+b' afternoon'	4867
+b' afterwards'	6807
+b' ag'	552
+b' again'	594
+b' against'	4129
+b' age'	7278
+b' ages'	7135
+b' ago'	5523
+b' agre'	1191
+b' agree'	4688
+b' agreed'	1260
+b' agreeing'	9425
+b' agreement'	5282
+b' agrees'	6377
+b' ahead'	4289
+b' aim'	7583
+b' aimed'	7834
+b' air'	1482
+b' airpl'	6139
+b' airplanes'	6422
+b' airport'	4309
+b' ais'	8627
+b' al'	550
+b' alarm'	4209
+b' alert'	3530
+b' alien'	5653
+b' alive'	4268
+b' all'	431
+b' aller'	8430
+b' allerg'	8431
+b' allergic'	8432
+b' alley'	6097
+b' allig'	5324
+b' alligator'	5461
+b' allow'	4446
+b' allowed'	4176
+b' allowing'	8409
+b' almost'	3186
+b' alone'	1600
+b' along'	2315
+b' alre'	4253
+b' already'	4254
+b' alright'	6172
+b' also'	1086
+b' although'	8692
+b' always'	689
+b' am'	753
+b' amaz'	1453
+b' amazed'	2106
+b' amazement'	4799
+b' amazing'	2043
+b' amb'	3887
+b' ambul'	3888
+b' ambulance'	3889
+b' among'	8198
+b' amongst'	9348
+b' amused'	6728
+b' an'	421
+b' anc'	2744
+b' anch'	4286
+b' anchor'	4287
+b' ancient'	2745
+b' and'	267
+b' ang'	2969
+b' angel'	3117
+b' anger'	8444
+b' angr'	7434
+b' angrily'	7435
+b' angry'	1054
+b' animal'	784
+b' animals'	841
+b' ank'	8054
+b' ankle'	8055
+b' ann'	5231
+b' announ'	7659
+b' announced'	7660
+b' annoy'	5819
+b' annoyed'	6581
+b' annoying'	7636
+b' another'	1306
+b' ans'	1861
+b' answ'	1862
+b' answer'	2505
+b' answered'	3056
+b' answers'	5481
+b' ant'	1745
+b' antic'	7444
+b' anticip'	7445
+b' anticipated'	9547
+b' anticipation'	8132
+b' ants'	2677
+b' anx'	3089
+b' anxious'	3090
+b' any'	695
+b' anymore'	868
+b' anyone'	2263
+b' anything'	1586
+b' anytime'	8197
+b' anyway'	4261
+b' anywhere'	5273
+b' ap'	3384
+b' apart'	4879
+b' apol'	4251
+b' apolog'	4252
+b' apologised'	7418
+b' apologize'	7346
+b' apologized'	5193
+b' apology'	7785
+b' app'	965
+b' appear'	5346
+b' appeared'	2590
+b' appet'	8160
+b' appetite'	8161
+b' appl'	8096
+b' applaud'	4612
+b' applauded'	6082
+b' applauding'	7762
+b' apple'	1368
+b' apples'	1788
+b' applied'	9252
+b' appre'	5425
+b' apprec'	5426
+b' appreci'	5427
+b' appreciate'	6131
+b' appreciation'	8486
+b' appro'	5059
+b' approached'	5149
+b' apr'	3284
+b' apron'	3285
+b' aprons'	8872
+b' ar'	1418
+b' are'	493
+b' area'	6707
+b' areas'	9844
+b' arf'	7877
+b' arg'	4157
+b' argu'	6075
+b' argue'	5153
+b' argued'	5504
+b' arguing'	6076
+b' argument'	8032
+b' arm'	1576
+b' armchair'	3957
+b' arms'	2355
+b' around'	616
+b' arri'	1984
+b' arrive'	7549
+b' arrived'	2009
+b' arrow'	2789
+b' art'	4018
+b' artist'	8069
+b' as'	451
+b' ash'	2466
+b' ashamed'	2662
+b' ashes'	5253
+b' asht'	4987
+b' ashtray'	4988
+b' aside'	5672
+b' ask'	1226
+b' asked'	539
+b' asking'	2684
+b' asks'	1824
+b' asleep'	2891
+b' ast'	7575
+b' aston'	9518
+b' astonished'	9519
+b' astron'	8697
+b' astronaut'	8698
+b' at'	449
+b' ate'	1033
+b' atm'	8380
+b' atmos'	8381
+b' atmosp'	8382
+b' atmosphere'	8383
+b' att'	1645
+b' attach'	4003
+b' attached'	4689
+b' attaching'	8022
+b' attacked'	9854
+b' attention'	4820
+b' attic'	3247
+b' attractive'	2711
+b' aud'	5549
+b' audience'	5550
+b' aunt'	3163
+b' automobile'	2804
+b' automobiles'	5991
+b' av'	2373
+b' avail'	3669
+b' available'	3670
+b' avo'	6178
+b' avoc'	3559
+b' avocad'	6233
+b' avocado'	3919
+b' avocados'	6234
+b' avoid'	6179
+b' aw'	3941
+b' awake'	6429
+b' award'	8934
+b' aware'	8204
+b' away'	569
+b' awe'	5654
+b' awes'	6374
+b' awesome'	6375
+b' awful'	7467
+b' awfully'	9457
+b' ax'	3095
+b' axe'	3096
+b' b'	265
+b' ba'	2259
+b' baa'	8782
+b' bab'	1239
+b' babies'	4687
+b' baby'	1273
+b' back'	503
+b' backed'	6121
+b' backf'	9549
+b' backfired'	9550
+b' background'	7563
+b' backgrounds'	9057
+b' backpack'	5794
+b' backpacks'	9076
+b' backs'	7364
+b' backward'	5947
+b' backwards'	6647
+b' backy'	2446
+b' backyard'	2447
+b' bad'	897
+b' badge'	7264
+b' badly'	5126
+b' bag'	1231
+b' bags'	3783
+b' bak'	4535
+b' bake'	2488
+b' baked'	4950
+b' baker'	6088
+b' bakery'	5161
+b' baking'	4516
+b' bal'	2439
+b' balan'	4471
+b' balance'	2902
+b' balanced'	5301
+b' balancing'	5762
+b' bald'	3353
+b' ball'	467
+b' ballet'	9085
+b' balloon'	1445
+b' balloons'	2900
+b' balls'	1811
+b' bam'	7147
+b' bamboo'	7148
+b' ban'	2258
+b' banan'	2339
+b' banana'	2988
+b' bananas'	3880
+b' band'	1888
+b' bandage'	4094
+b' bandages'	6774
+b' bands'	7243
+b' bang'	5412
+b' banged'	6776
+b' banging'	8830
+b' bangs'	9415
+b' bank'	8870
+b' bar'	1426
+b' barber'	3024
+b' bare'	5929
+b' barely'	5930
+b' bark'	2372
+b' barked'	1801
+b' barking'	4447
+b' barks'	4899
+b' barn'	2493
+b' barrel'	3537
+b' barrels'	8611
+b' barren'	9180
+b' bars'	8866
+b' base'	4303
+b' baseball'	4804
+b' basement'	6796
+b' bask'	1964
+b' basket'	1965
+b' basketball'	4292
+b' baskets'	6963
+b' bat'	2220
+b' bath'	1712
+b' bathe'	3902
+b' bathed'	8721
+b' bathing'	6992
+b' bathrob'	7408
+b' bathrobe'	3654
+b' bathrobes'	7409
+b' bathroom'	2854
+b' baths'	6577
+b' batht'	3627
+b' bathtub'	3628
+b' batt'	8394
+b' batter'	3098
+b' batteries'	5972
+b' battery'	3807
+b' battle'	8395
+b' be'	328
+b' beach'	1640
+b' bead'	8970
+b' beads'	8971
+b' beak'	2180
+b' beam'	8811
+b' beamed'	6122
+b' bean'	2625
+b' beans'	4816
+b' bear'	861
+b' beard'	5645
+b' bears'	5095
+b' beast'	7618
+b' beat'	4895
+b' beating'	8571
+b' beaut'	991
+b' beautif'	7541
+b' beautiful'	1009
+b' beautifully'	8293
+b' beauty'	4973
+b' bec'	522
+b' became'	706
+b' because'	715
+b' becom'	6343
+b' become'	2736
+b' becomes'	9227
+b' becoming'	6753
+b' bed'	1132
+b' bedroom'	3935
+b' beds'	5507
+b' bedshe'	9177
+b' bedsheets'	9178
+b' bedtime'	6169
+b' bee'	1647
+b' beeh'	7447
+b' beehive'	7448
+b' been'	1384
+b' beep'	4520
+b' beeped'	8116
+b' bees'	2951
+b' beet'	3390
+b' beetle'	3391
+b' before'	1093
+b' beg'	4400
+b' began'	1265
+b' begged'	5895
+b' begin'	5478
+b' beginning'	6017
+b' begs'	9289
+b' beh'	1158
+b' beha'	5734
+b' behav'	5914
+b' behave'	2853
+b' behaved'	5735
+b' behavi'	5915
+b' behaving'	5792
+b' behavior'	8256
+b' behaviour'	6393
+b' behind'	1337
+b' behold'	9375
+b' being'	1034
+b' bel'	1252
+b' belie'	1736
+b' belief'	9702
+b' believe'	1910
+b' believed'	4375
+b' believing'	6600
+b' bell'	2207
+b' bellies'	7570
+b' bells'	8788
+b' belly'	6627
+b' belong'	1931
+b' belonged'	3273
+b' belongings'	8090
+b' belongs'	4391
+b' beloved'	6935
+b' below'	4410
+b' belt'	5093
+b' belts'	8266
+b' ben'	1954
+b' bench'	2114
+b' benches'	8477
+b' bend'	5183
+b' bending'	8186
+b' bends'	9461
+b' beneath'	5117
+b' bent'	3777
+b' ber'	2996
+b' berries'	2997
+b' berry'	5785
+b' beside'	5638
+b' best'	693
+b' bet'	4416
+b' better'	853
+b' betwe'	5035
+b' between'	5036
+b' bey'	7084
+b' beyond'	7085
+b' bicy'	3958
+b' bicycle'	4103
+b' bicycles'	8038
+b' big'	348
+b' bigger'	1667
+b' biggest'	3767
+b' bike'	1771
+b' bikes'	3737
+b' bill'	3521
+b' billboard'	3683
+b' billboards'	9903
+b' bills'	8379
+b' bin'	3040
+b' bind'	9983
+b' bird'	408
+b' birdc'	4151
+b' birdcage'	4152
+b' birdie'	7054
+b' birds'	1182
+b' birdse'	7945
+b' birdseed'	7946
+b' birthday'	2058
+b' bit'	1408
+b' bite'	1938
+b' bites'	5316
+b' biting'	5268
+b' bits'	8579
+b' bitten'	6416
+b' bitter'	3479
+b' bl'	633
+b' black'	1939
+b' blackboard'	3828
+b' blade'	8629
+b' blamed'	9604
+b' blank'	1817
+b' blanket'	1835
+b' blankets'	5596
+b' blast'	7056
+b' blaz'	9334
+b' blaze'	9335
+b' ble'	5870
+b' bleed'	5871
+b' bleeding'	6072
+b' blend'	9277
+b' blew'	1492
+b' blin'	5189
+b' blink'	7657
+b' blinked'	5190
+b' blinking'	8981
+b' blinks'	8492
+b' block'	1126
+b' blocked'	7700
+b' blocking'	5891
+b' blocks'	1237
+b' blond'	7494
+b' blonde'	7495
+b' blood'	4807
+b' bloom'	2831
+b' bloomed'	5432
+b' blooming'	5778
+b' blouse'	5579
+b' blow'	2835
+b' blowing'	4901
+b' blown'	5900
+b' blows'	6185
+b' blue'	917
+b' blueberries'	4945
+b' blueberry'	4257
+b' blushed'	8750
+b' bo'	402
+b' boa'	9649
+b' board'	3070
+b' boards'	9248
+b' boast'	8549
+b' boat'	964
+b' boats'	4496
+b' bobbing'	7705
+b' bod'	6733
+b' bodies'	6734
+b' body'	2646
+b' boil'	7608
+b' boiling'	7461
+b' bond'	8973
+b' bone'	1854
+b' bones'	5609
+b' boo'	5611
+b' book'	919
+b' bookcase'	4518
+b' books'	1508
+b' bookshe'	4310
+b' bookshelf'	4311
+b' boom'	5896
+b' booming'	7678
+b' boot'	3981
+b' booth'	7195
+b' boots'	4718
+b' bor'	1847
+b' bored'	3148
+b' boring'	2905
+b' born'	7560
+b' borrow'	3723
+b' boss'	1968
+b' bossy'	2230
+b' bot'	642
+b' both'	696
+b' bother'	4782
+b' bothered'	7521
+b' bothering'	7603
+b' bott'	1450
+b' bottle'	1636
+b' bottles'	7235
+b' bottom'	3221
+b' bought'	2159
+b' boun'	1878
+b' bounce'	2403
+b' bounced'	4109
+b' bounces'	7776
+b' bouncing'	5399
+b' bouncy'	5391
+b' bound'	9507
+b' bounded'	9508
+b' bow'	2075
+b' bowed'	6610
+b' bowing'	7994
+b' bowl'	1807
+b' bowls'	6607
+b' box'	600
+b' boxes'	3414
+b' boy'	494
+b' boys'	3125
+b' br'	561
+b' bra'	1010
+b' brace'	3339
+b' bracelet'	3340
+b' bracelets'	7849
+b' braid'	7573
+b' brain'	5186
+b' bran'	1584
+b' branch'	1732
+b' branches'	3540
+b' brand'	6033
+b' brave'	1084
+b' bravely'	5169
+b' braver'	7764
+b' bravery'	7140
+b' bre'	1104
+b' bread'	2124
+b' break'	1615
+b' breakf'	4098
+b' breakfast'	4099
+b' breaking'	4850
+b' breaks'	4175
+b' breat'	4603
+b' breath'	2980
+b' breathe'	5289
+b' breathed'	7586
+b' breathing'	6958
+b' breaths'	8993
+b' bree'	9509
+b' breeze'	4609
+b' breezed'	9510
+b' bri'	2136
+b' brick'	3456
+b' bricks'	5460
+b' brid'	5474
+b' bride'	8162
+b' bridge'	2510
+b' bridges'	5625
+b' bright'	1266
+b' brighten'	9380
+b' brightening'	9381
+b' brighter'	5234
+b' brightest'	7741
+b' brightly'	4573
+b' brill'	2768
+b' brilli'	2769
+b' brilliant'	2795
+b' bring'	2178
+b' bringing'	6474
+b' brings'	4955
+b' bro'	970
+b' broccoli'	4135
+b' broke'	1469
+b' broken'	1373
+b' broom'	4324
+b' brother'	1556
+b' brothers'	4459
+b' brought'	1616
+b' brown'	1703
+b' bru'	6344
+b' bruises'	6650
+b' brus'	5696
+b' brush'	2254
+b' brushed'	5266
+b' brushes'	6084
+b' brushing'	8976
+b' bu'	879
+b' bubb'	6277
+b' bubble'	5219
+b' bubbles'	3267
+b' bubbling'	7609
+b' bubbly'	7957
+b' buck'	1769
+b' bucket'	1914
+b' buckets'	5083
+b' buckle'	4632
+b' buckled'	9100
+b' buckles'	8892
+b' bud'	6263
+b' budge'	8156
+b' bug'	844
+b' buggy'	8757
+b' bugs'	2225
+b' build'	1449
+b' building'	2469
+b' buildings'	6211
+b' built'	3233
+b' bulb'	3246
+b' bulbs'	7175
+b' bull'	3014
+b' bully'	7184
+b' bump'	3469
+b' bumped'	4415
+b' bumps'	6649
+b' bumpy'	7650
+b' bunch'	7631
+b' bunny'	1156
+b' bur'	5662
+b' buried'	4452
+b' burn'	3110
+b' burned'	4579
+b' burning'	6583
+b' burnt'	8007
+b' burrow'	7706
+b' burst'	7068
+b' bury'	3648
+b' burying'	6680
+b' bus'	1324
+b' buses'	9933
+b' bush'	2014
+b' bushes'	3744
+b' bushy'	7750
+b' business'	8155
+b' busy'	2034
+b' but'	412
+b' butter'	1464
+b' butterf'	1551
+b' butterflies'	4451
+b' butterfly'	1626
+b' button'	1802
+b' buttons'	4353
+b' buy'	1455
+b' buying'	8764
+b' buzz'	4341
+b' buzzed'	5826
+b' buzzing'	5413
+b' by'	855
+b' bye'	5479
+b' c'	278
+b' ca'	975
+b' cab'	2866
+b' cabin'	2867
+b' cabinet'	3616
+b' cable'	3768
+b' cact'	3376
+b' cactus'	3377
+b' cage'	2696
+b' cake'	838
+b' cakes'	4441
+b' cal'	6584
+b' calend'	3604
+b' calendar'	3605
+b' call'	918
+b' called'	1019
+b' calling'	4080
+b' calls'	4862
+b' calm'	2436
+b' calmed'	6585
+b' calming'	8742
+b' cam'	3610
+b' came'	553
+b' camera'	3611
+b' camp'	3991
+b' campf'	8384
+b' campfire'	8385
+b' camping'	6160
+b' can'	465
+b' canary'	7959
+b' cand'	2914
+b' candies'	5386
+b' candle'	3956
+b' candles'	5191
+b' candy'	1839
+b' cane'	4237
+b' cannot'	2240
+b' cans'	8816
+b' cap'	2248
+b' cape'	4727
+b' capt'	4763
+b' captain'	4764
+b' capture'	8813
+b' car'	556
+b' card'	1935
+b' cardboard'	3908
+b' cardinal'	7958
+b' cards'	4654
+b' care'	671
+b' cared'	4538
+b' careful'	848
+b' carefully'	1654
+b' careless'	2752
+b' cares'	8615
+b' caressed'	9257
+b' caret'	9297
+b' caretaker'	9298
+b' caring'	4191
+b' carp'	3613
+b' carpenter'	8506
+b' carpet'	3722
+b' carried'	2423
+b' carries'	8479
+b' carrot'	1784
+b' carrots'	2862
+b' carry'	2015
+b' carrying'	4137
+b' cars'	1409
+b' cart'	2152
+b' cartoon'	4923
+b' cartoons'	7172
+b' case'	3303
+b' cash'	6195
+b' cashier'	6485
+b' cast'	1396
+b' castle'	1562
+b' castles'	3175
+b' cat'	457
+b' catch'	1136
+b' catches'	5492
+b' catching'	6301
+b' cater'	2580
+b' caterpillar'	2581
+b' caterpillars'	7804
+b' cats'	2678
+b' caught'	1841
+b' caulif'	2896
+b' cauliflower'	3008
+b' cauliflowers'	7915
+b' cause'	6942
+b' caused'	8000
+b' caut'	8392
+b' cautiously'	8393
+b' cave'	2170
+b' ce'	1669
+b' ceiling'	3413
+b' cel'	2722
+b' cele'	2122
+b' celebr'	2123
+b' celebrate'	2636
+b' celebrated'	5240
+b' celebrating'	6025
+b' celebration'	5034
+b' celery'	2723
+b' cell'	3642
+b' cells'	7559
+b' center'	7188
+b' cere'	4189
+b' cereal'	4321
+b' ceremon'	9665
+b' ceremony'	9666
+b' ch'	661
+b' chain'	3659
+b' chains'	8106
+b' chair'	1876
+b' chairs'	4900
+b' chalk'	2993
+b' chalks'	9088
+b' chall'	5205
+b' challen'	5206
+b' challenge'	5207
+b' cham'	4648
+b' chamber'	4649
+b' chance'	4777
+b' chang'	6418
+b' change'	2450
+b' changed'	3250
+b' changes'	6291
+b' changing'	6419
+b' char'	9026
+b' chara'	6546
+b' charac'	6547
+b' character'	6548
+b' characters'	7308
+b' charge'	7617
+b' charity'	9027
+b' charm'	3083
+b' charming'	3084
+b' chas'	4096
+b' chase'	2594
+b' chased'	2576
+b' chases'	6455
+b' chasing'	4521
+b' chat'	7538
+b' chatted'	8592
+b' chatter'	7540
+b' chattered'	8292
+b' che'	929
+b' cheap'	3397
+b' cheaper'	7740
+b' cheat'	7894
+b' check'	4139
+b' checked'	4246
+b' checking'	8755
+b' checkout'	7739
+b' cheek'	4208
+b' cheeks'	5697
+b' cheer'	2743
+b' cheered'	2119
+b' cheerful'	3891
+b' cheering'	6968
+b' cheers'	8099
+b' chees'	2012
+b' cheese'	2026
+b' cheesy'	9336
+b' chef'	5541
+b' chefs'	6552
+b' cher'	3087
+b' cherished'	8093
+b' cherries'	4105
+b' cherry'	4614
+b' chess'	3697
+b' chest'	2647
+b' chew'	2516
+b' chewed'	5510
+b' chewing'	5965
+b' chewy'	7671
+b' chick'	2132
+b' chicken'	2539
+b' chickens'	4296
+b' child'	1529
+b' children'	1750
+b' chill'	7846
+b' chilly'	8961
+b' chim'	3867
+b' chimney'	3868
+b' chimp'	9538
+b' chip'	8152
+b' chipm'	9301
+b' chipmunk'	9302
+b' chirp'	4757
+b' chirped'	5758
+b' chirping'	6024
+b' cho'	2422
+b' choco'	9179
+b' chocol'	3100
+b' chocolate'	3101
+b' choice'	4511
+b' choices'	7379
+b' choo'	5966
+b' choose'	3210
+b' choosing'	6786
+b' chop'	6244
+b' chopped'	7000
+b' chores'	3652
+b' chos'	6742
+b' chose'	4222
+b' chosen'	6743
+b' chs'	9716
+b' chsa'	9717
+b' chsao'	9718
+b' chsaoged'	9719
+b' chub'	3554
+b' chubby'	3555
+b' chuck'	6772
+b' chuckled'	6773
+b' chug'	9977
+b' chur'	4481
+b' church'	4482
+b' cine'	8848
+b' cinema'	8849
+b' cir'	2312
+b' circ'	8602
+b' circle'	2850
+b' circled'	8603
+b' circles'	4370
+b' circus'	7748
+b' city'	3781
+b' cl'	500
+b' cla'	1214
+b' clack'	8927
+b' clam'	6898
+b' clap'	2841
+b' clapped'	1485
+b' clapping'	5300
+b' claps'	5897
+b' clas'	7917
+b' clasped'	7918
+b' class'	2317
+b' classes'	8285
+b' classmates'	7319
+b' classroom'	4394
+b' claw'	4540
+b' claws'	4707
+b' clay'	2849
+b' cle'	806
+b' clean'	888
+b' cleaned'	2765
+b' cleaner'	7672
+b' cleaning'	3066
+b' cleans'	8490
+b' cleanup'	9454
+b' clear'	2592
+b' cleared'	8241
+b' clearing'	7126
+b' cler'	9601
+b' clerk'	9602
+b' clever'	2478
+b' click'	6071
+b' cliff'	3818
+b' clim'	911
+b' climb'	1216
+b' climbed'	1348
+b' climbing'	3825
+b' climbs'	4705
+b' clip'	7162
+b' clo'	801
+b' clock'	2605
+b' clocks'	9502
+b' clos'	1015
+b' close'	1444
+b' closeby'	9215
+b' closed'	1828
+b' closely'	5729
+b' closer'	1321
+b' closes'	6331
+b' closet'	2990
+b' clot'	1297
+b' cloth'	2272
+b' clothes'	1532
+b' clothesp'	9743
+b' clothespins'	9744
+b' clothing'	9426
+b' cloths'	8990
+b' cloud'	1268
+b' clouds'	2236
+b' cloudy'	6994
+b' clover'	6643
+b' clown'	3484
+b' clowns'	6175
+b' club'	3780
+b' clubs'	9817
+b' clues'	9456
+b' clum'	3306
+b' clumsy'	3307
+b' clut'	8643
+b' co'	596
+b' coal'	3013
+b' coat'	1853
+b' coats'	4627
+b' cob'	3673
+b' cobra'	6720
+b' cobw'	4187
+b' cobweb'	4188
+b' cobwebs'	9043
+b' cocked'	9400
+b' cocoa'	3968
+b' coffee'	2740
+b' coin'	2670
+b' coins'	4170
+b' col'	932
+b' cold'	1244
+b' colder'	8224
+b' coldness'	7856
+b' coll'	2126
+b' collage'	9420
+b' collap'	7498
+b' collapse'	9580
+b' collapsed'	8216
+b' collar'	4767
+b' collect'	2569
+b' collected'	5543
+b' collecting'	5040
+b' collection'	4890
+b' collects'	9682
+b' color'	956
+b' colorful'	1563
+b' coloring'	7263
+b' colors'	1377
+b' colour'	4194
+b' coloured'	7516
+b' colourful'	4575
+b' colours'	5952
+b' com'	850
+b' comb'	2852
+b' combed'	6090
+b' combined'	8360
+b' combing'	9876
+b' come'	941
+b' comes'	2382
+b' comet'	4365
+b' comets'	9229
+b' comf'	4269
+b' comfort'	4115
+b' comfortable'	3237
+b' comforted'	5655
+b' comforting'	7789
+b' comfy'	5044
+b' coming'	1480
+b' comm'	7799
+b' command'	8425
+b' common'	8164
+b' commot'	8941
+b' commotion'	8942
+b' comp'	1783
+b' compan'	9205
+b' companion'	9206
+b' company'	7491
+b' compared'	8065
+b' compass'	3288
+b' compassion'	3323
+b' compassionate'	3437
+b' compet'	3249
+b' compete'	7431
+b' competing'	9622
+b' competit'	3441
+b' competition'	7923
+b' competitive'	3594
+b' compl'	3485
+b' complain'	3960
+b' complained'	6083
+b' complaining'	6113
+b' complaints'	9613
+b' comple'	3203
+b' complet'	3534
+b' complete'	3950
+b' completed'	6303
+b' completely'	5858
+b' completing'	8541
+b' complic'	9015
+b' complicated'	9016
+b' compr'	8029
+b' comprom'	8030
+b' compromise'	8031
+b' comput'	3061
+b' computer'	3298
+b' computers'	6476
+b' con'	1189
+b' conc'	8669
+b' concer'	6493
+b' concern'	8463
+b' concerned'	7228
+b' cone'	3139
+b' cones'	6388
+b' conf'	4847
+b' confidence'	7584
+b' confident'	6287
+b' confl'	6275
+b' conflict'	6276
+b' confused'	2398
+b' cong'	6665
+b' congr'	6666
+b' congrat'	6667
+b' congratul'	6668
+b' congratulate'	9253
+b' congratulated'	8232
+b' congratulations'	8098
+b' conn'	6465
+b' connect'	7597
+b' connected'	7599
+b' connecting'	9593
+b' conqu'	8529
+b' conquered'	8530
+b' cons'	8605
+b' conse'	6409
+b' consequ'	6410
+b' consequence'	6411
+b' consequences'	6412
+b' consider'	8606
+b' cont'	1488
+b' contain'	5931
+b' container'	9653
+b' content'	3885
+b' contented'	9239
+b' contentedly'	9240
+b' contentment'	8717
+b' contents'	8291
+b' contest'	5292
+b' contestant'	9383
+b' contestants'	9384
+b' contin'	1733
+b' continue'	6096
+b' continued'	1775
+b' contra'	9608
+b' contrapt'	9609
+b' contraptions'	9610
+b' contro'	6205
+b' control'	6206
+b' conv'	9926
+b' convin'	7442
+b' convince'	9927
+b' convincing'	8130
+b' coo'	2367
+b' cook'	1073
+b' cooked'	3401
+b' cookie'	1924
+b' cookies'	1542
+b' cooking'	3531
+b' cool'	1458
+b' cooler'	4285
+b' coolness'	9974
+b' cools'	9625
+b' coop'	7899
+b' cooper'	7900
+b' cooperate'	8960
+b' cop'	3028
+b' copied'	9391
+b' copper'	4937
+b' cops'	7813
+b' copy'	5366
+b' cor'	6064
+b' coral'	9174
+b' cord'	3693
+b' cords'	8042
+b' corn'	1898
+b' corner'	2961
+b' cornered'	9432
+b' corners'	5698
+b' correct'	7087
+b' correctly'	8690
+b' cost'	2504
+b' costly'	8978
+b' costs'	9446
+b' costum'	4992
+b' costume'	3138
+b' costumes'	4993
+b' cosy'	8725
+b' cot'	8400
+b' cott'	8401
+b' cottage'	8402
+b' cotton'	8122
+b' cou'	1127
+b' couch'	2387
+b' coug'	8636
+b' cough'	5761
+b' coughed'	8637
+b' could'	470
+b' couldn'	1016
+b' count'	1354
+b' counted'	2846
+b' counter'	4753
+b' counting'	3191
+b' country'	4363
+b' countryside'	8178
+b' counts'	6503
+b' couple'	8067
+b' cour'	1982
+b' courage'	4036
+b' course'	1983
+b' cover'	2182
+b' covered'	2829
+b' covering'	9962
+b' covers'	6826
+b' cow'	1764
+b' cowb'	8880
+b' cowboy'	8881
+b' cows'	3892
+b' coz'	9739
+b' cozier'	9740
+b' cozy'	2579
+b' cr'	1329
+b' cra'	1665
+b' crab'	2084
+b' crabs'	5728
+b' crack'	2976
+b' cracked'	7014
+b' cracker'	6500
+b' crackers'	6925
+b' cracks'	8298
+b' crad'	9815
+b' cradling'	9816
+b' craft'	6752
+b' crafts'	7166
+b' crane'	5113
+b' crash'	5475
+b' crashed'	5581
+b' crashing'	9596
+b' craw'	1950
+b' crawl'	2864
+b' crawled'	3202
+b' crawler'	9382
+b' crawling'	4998
+b' crayon'	2051
+b' crayons'	2812
+b' craz'	9292
+b' craziest'	9293
+b' crazy'	3907
+b' cre'	1061
+b' creak'	8309
+b' creaked'	8254
+b' cream'	1416
+b' creams'	8886
+b' creamy'	8594
+b' creat'	2113
+b' create'	3172
+b' created'	5626
+b' creating'	5830
+b' creation'	5684
+b' creations'	8724
+b' creativ'	7164
+b' creative'	3030
+b' creativity'	7165
+b' creature'	3529
+b' creatures'	5185
+b' creek'	5997
+b' creep'	9398
+b' crept'	6022
+b' crew'	8996
+b' cri'	2511
+b' crib'	3660
+b' cricket'	3631
+b' cried'	1313
+b' cries'	3136
+b' cro'	1716
+b' croak'	8578
+b' croaked'	9763
+b' croaking'	9413
+b' crocodile'	2453
+b' croo'	9515
+b' crooked'	9516
+b' crops'	9181
+b' cross'	2904
+b' crossed'	4340
+b' crossing'	7798
+b' crow'	6507
+b' crowded'	9838
+b' crown'	2562
+b' crowns'	6216
+b' cruel'	8034
+b' crumb'	7209
+b' crumbs'	7210
+b' crump'	8507
+b' crumpled'	8508
+b' crunch'	5602
+b' crunchy'	5603
+b' crut'	7223
+b' crutch'	7224
+b' cry'	1049
+b' crying'	1800
+b' cryst'	4457
+b' crystal'	4458
+b' cu'	938
+b' cub'	4381
+b' cube'	3866
+b' cubes'	5922
+b' cudd'	4758
+b' cuddle'	7225
+b' cuddled'	6063
+b' cuddly'	6602
+b' cul'	9105
+b' culpr'	9106
+b' culprit'	9107
+b' cun'	9722
+b' cunning'	9723
+b' cup'	1648
+b' cupboard'	4534
+b' cupboards'	9328
+b' cups'	4721
+b' cur'	4279
+b' curi'	1200
+b' curiosity'	6819
+b' curious'	1211
+b' curiously'	6612
+b' curled'	5047
+b' curly'	7780
+b' curre'	8184
+b' current'	8185
+b' curt'	4062
+b' curtain'	4063
+b' curtains'	6479
+b' cush'	2838
+b' cushion'	3215
+b' cushions'	5443
+b' cust'	8147
+b' custom'	8148
+b' customer'	8149
+b' cut'	1203
+b' cute'	1936
+b' cuts'	5861
+b' cutting'	4678
+b' d'	277
+b' da'	7791
+b' dab'	9970
+b' dad'	712
+b' daddy'	2158
+b' dads'	6447
+b' dais'	8734
+b' daisies'	8735
+b' daisy'	4876
+b' dam'	7690
+b' damage'	7691
+b' damp'	8784
+b' dan'	816
+b' danc'	9019
+b' dance'	1307
+b' danced'	1635
+b' dancer'	3754
+b' dancers'	9020
+b' dances'	7492
+b' dancing'	2424
+b' dand'	6900
+b' dandel'	6901
+b' dandelion'	6902
+b' dang'	7714
+b' danger'	1677
+b' dangerous'	1858
+b' dangers'	7715
+b' dar'	6580
+b' dare'	3688
+b' dared'	4765
+b' daring'	6603
+b' dark'	1342
+b' darker'	5844
+b' darkness'	7245
+b' darl'	9004
+b' darling'	7340
+b' darlings'	9005
+b' dart'	8951
+b' darted'	8447
+b' dash'	9386
+b' daughter'	2899
+b' day'	323
+b' dayd'	8272
+b' daydream'	8273
+b' daydreaming'	9433
+b' days'	1970
+b' dazz'	9587
+b' dazzling'	9588
+b' de'	1041
+b' dead'	2825
+b' deaf'	3349
+b' deal'	5733
+b' dear'	4865
+b' deb'	8663
+b' debr'	8387
+b' debris'	8388
+b' dec'	673
+b' decide'	3119
+b' decided'	719
+b' decides'	5403
+b' deciding'	9845
+b' decis'	6802
+b' decision'	6698
+b' decisions'	6803
+b' decor'	2528
+b' decorate'	3223
+b' decorated'	6073
+b' decorating'	6296
+b' decoration'	9569
+b' decorations'	5567
+b' ded'	9387
+b' dedic'	9388
+b' dedication'	9389
+b' deed'	6748
+b' deeds'	8315
+b' deep'	1534
+b' deeper'	4665
+b' deer'	3562
+b' def'	7096
+b' defe'	7465
+b' defeated'	7466
+b' defend'	8834
+b' defin'	9532
+b' definit'	9533
+b' definitely'	9534
+b' del'	1385
+b' delay'	4788
+b' delayed'	8732
+b' deli'	8050
+b' delic'	1762
+b' delicate'	3745
+b' delicious'	1988
+b' delight'	3281
+b' delighted'	4361
+b' delightful'	9654
+b' deliver'	3345
+b' delivered'	6109
+b' delivering'	6641
+b' delivery'	8051
+b' dem'	4200
+b' demand'	4345
+b' demanded'	5508
+b' demanding'	7299
+b' demands'	8682
+b' demon'	8235
+b' demonst'	8236
+b' demonstrated'	8237
+b' den'	5987
+b' dent'	6460
+b' dentist'	6461
+b' depend'	3321
+b' dependable'	3481
+b' des'	2271
+b' desc'	7646
+b' descri'	8464
+b' described'	9748
+b' deser'	6215
+b' desert'	6067
+b' deserve'	7199
+b' deserved'	8875
+b' design'	3716
+b' designed'	7645
+b' designing'	7490
+b' designs'	9539
+b' desk'	3929
+b' desks'	9636
+b' desp'	9342
+b' despair'	9343
+b' dess'	3763
+b' dessert'	3764
+b' dest'	2651
+b' destination'	6079
+b' destro'	2859
+b' destroy'	2860
+b' destroyed'	4364
+b' destroying'	7626
+b' det'	7939
+b' detail'	7940
+b' details'	7941
+b' deter'	3633
+b' determ'	3680
+b' determination'	7585
+b' determined'	3821
+b' dev'	8078
+b' devast'	8079
+b' devastated'	8080
+b' di'	1704
+b' dials'	9503
+b' diam'	2299
+b' diamond'	2300
+b' diamonds'	9392
+b' diary'	3228
+b' dict'	3292
+b' diction'	3293
+b' dictionary'	3294
+b' did'	452
+b' didn'	808
+b' die'	6399
+b' died'	5699
+b' dif'	1172
+b' diff'	2921
+b' differe'	1278
+b' difference'	5574
+b' differences'	9727
+b' different'	1308
+b' differently'	7248
+b' diffic'	2922
+b' difficult'	2923
+b' dig'	2716
+b' digg'	5835
+b' digging'	5836
+b' din'	1405
+b' dinner'	1588
+b' dinners'	8616
+b' dinos'	2936
+b' dinosaur'	2937
+b' dinosaurs'	7410
+b' dip'	8923
+b' dipped'	6442
+b' dips'	7742
+b' dir'	1232
+b' direct'	5676
+b' direction'	8843
+b' directions'	6057
+b' dirt'	1986
+b' dirty'	1504
+b' dis'	1249
+b' disag'	4146
+b' disagre'	4147
+b' disagree'	5651
+b' disagreed'	4953
+b' disagreement'	9168
+b' disapp'	2102
+b' disappear'	3733
+b' disappeared'	3708
+b' disappoin'	3740
+b' disappoint'	8176
+b' disappointed'	3824
+b' disappointment'	8177
+b' disc'	5055
+b' disco'	2692
+b' discover'	2934
+b' discovered'	4148
+b' discovering'	7517
+b' discovery'	5643
+b' discu'	5056
+b' discuss'	5057
+b' disg'	2858
+b' disgust'	2882
+b' disgusting'	2883
+b' dish'	2243
+b' dishes'	4044
+b' dishw'	5886
+b' dishwas'	5887
+b' dishwasher'	5888
+b' disob'	7257
+b' disobey'	7258
+b' displ'	4543
+b' display'	4544
+b' displayed'	7483
+b' disple'	9185
+b' displeased'	9186
+b' disres'	9824
+b' disrespect'	9825
+b' dist'	2040
+b' distance'	4275
+b' distant'	3943
+b' distra'	9733
+b' distrac'	9734
+b' distracted'	9735
+b' distur'	2952
+b' disturb'	3334
+b' disturbed'	5585
+b' ditch'	7125
+b' div'	7995
+b' dive'	3050
+b' dived'	7795
+b' divided'	7996
+b' diving'	6780
+b' dizz'	9320
+b' dizziness'	9321
+b' dizzy'	2476
+b' do'	371
+b' doc'	8226
+b' doctor'	2109
+b' doctors'	9175
+b' documents'	8227
+b' dod'	7144
+b' dodged'	7727
+b' dodging'	9651
+b' does'	1241
+b' doesn'	4445
+b' dog'	459
+b' doggy'	5525
+b' dogs'	2477
+b' doing'	1420
+b' dol'	3607
+b' doll'	984
+b' dollars'	9067
+b' dolls'	1756
+b' dolph'	3608
+b' dolphin'	3856
+b' dolphins'	6822
+b' don'	880
+b' done'	1425
+b' donkey'	5073
+b' doo'	9511
+b' doomed'	7883
+b' door'	898
+b' doorb'	8640
+b' doorbell'	8641
+b' doors'	4089
+b' doorway'	8255
+b' doozy'	9512
+b' dot'	6329
+b' dots'	8036
+b' dough'	2982
+b' dove'	3251
+b' down'	601
+b' downstairs'	5256
+b' dr'	1151
+b' dra'	4159
+b' drag'	1860
+b' dragged'	5709
+b' dragon'	1923
+b' dragons'	6149
+b' drain'	4357
+b' drains'	8982
+b' drank'	2377
+b' draw'	1256
+b' drawbr'	9615
+b' drawbridge'	9616
+b' drawer'	3707
+b' drawing'	2674
+b' drawings'	3911
+b' drawn'	8535
+b' draws'	5692
+b' dre'	865
+b' dream'	1432
+b' dreamed'	4192
+b' dreaming'	3875
+b' dreams'	3592
+b' dress'	1140
+b' dressed'	4803
+b' dresser'	7335
+b' dresses'	4785
+b' dressing'	9065
+b' drew'	2611
+b' dri'	1414
+b' dried'	4849
+b' dries'	7870
+b' drift'	7751
+b' drifted'	6651
+b' drink'	1709
+b' drinking'	5400
+b' drinks'	4964
+b' drip'	7023
+b' dripping'	7602
+b' drive'	2257
+b' driver'	2140
+b' drivers'	7656
+b' drives'	6203
+b' driveway'	9765
+b' driving'	4031
+b' dro'	1454
+b' drop'	3183
+b' dropped'	1916
+b' dropping'	7542
+b' drops'	4498
+b' drove'	2125
+b' drown'	8213
+b' drowned'	9362
+b' drum'	2624
+b' drums'	7385
+b' drunk'	9506
+b' dry'	1633
+b' drying'	7591
+b' du'	8052
+b' duck'	1148
+b' duckling'	7908
+b' ducks'	2179
+b' duet'	9621
+b' dug'	2503
+b' dull'	3112
+b' dumb'	6953
+b' dump'	7412
+b' dumped'	7413
+b' duo'	9216
+b' during'	5227
+b' dust'	4491
+b' dusted'	9818
+b' dustp'	7954
+b' dustpan'	7955
+b' dusty'	6922
+b' e'	345
+b' each'	756
+b' eag'	2421
+b' eager'	2645
+b' eagerly'	4550
+b' eagerness'	8183
+b' eagle'	5328
+b' ear'	1747
+b' earl'	6681
+b' earlier'	6682
+b' early'	3951
+b' earn'	7658
+b' earned'	8935
+b' earning'	9790
+b' earr'	8767
+b' earrings'	8768
+b' ears'	3614
+b' earth'	3730
+b' earthqu'	5336
+b' earthquake'	5337
+b' eas'	1957
+b' ease'	7099
+b' easier'	5793
+b' easily'	4795
+b' east'	5600
+b' easy'	2244
+b' eat'	729
+b' eaten'	5043
+b' eating'	1714
+b' eats'	5715
+b' ech'	8536
+b' echo'	8537
+b' echoed'	9843
+b' echoing'	9987
+b' ed'	3653
+b' edge'	3844
+b' edges'	7216
+b' eff'	5554
+b' effort'	5743
+b' efforts'	7892
+b' egg'	1637
+b' eggs'	2998
+b' eight'	5503
+b' either'	3698
+b' el'	1849
+b' elbow'	6784
+b' elbows'	8521
+b' eld'	7303
+b' elder'	2347
+b' elderly'	2348
+b' elders'	7304
+b' ele'	1868
+b' elephant'	2097
+b' elephants'	5032
+b' elev'	4034
+b' elevator'	4035
+b' else'	1873
+b' em'	1607
+b' emb'	2337
+b' embar'	2396
+b' embarra'	2397
+b' embarrass'	4985
+b' embarrassed'	2690
+b' embra'	7378
+b' embrace'	9146
+b' embraced'	8253
+b' emer'	4526
+b' emera'	7060
+b' emerald'	7061
+b' emerged'	7801
+b' emergen'	4792
+b' emergenc'	9198
+b' emergencies'	9199
+b' emergency'	4886
+b' emp'	2419
+b' empty'	2420
+b' en'	804
+b' enc'	3541
+b' encl'	8142
+b' enclos'	8143
+b' enclosure'	8144
+b' encom'	9407
+b' encompa'	9408
+b' encompassed'	9409
+b' encou'	3757
+b' encount'	8487
+b' encountered'	8488
+b' encourag'	8338
+b' encourage'	4695
+b' encouraged'	5297
+b' encouragement'	7415
+b' encourages'	9540
+b' encouraging'	9758
+b' end'	881
+b' ended'	4499
+b' ending'	2773
+b' ends'	7358
+b' enduring'	9849
+b' enem'	8303
+b' enemies'	8304
+b' enemy'	9617
+b' ener'	4798
+b' energet'	7830
+b' energetic'	7831
+b' energy'	5064
+b' eng'	2928
+b' engine'	3064
+b' engineer'	7728
+b' engines'	7588
+b' enjoy'	1165
+b' enjoyable'	7193
+b' enjoyed'	1526
+b' enjoying'	3629
+b' enjoys'	8268
+b' enorm'	2486
+b' enormous'	2487
+b' enough'	1708
+b' ent'	2543
+b' enter'	4887
+b' entered'	5228
+b' entering'	8040
+b' enth'	3882
+b' enthus'	3883
+b' enthusia'	3884
+b' enthusiasm'	7838
+b' enthusiast'	4084
+b' enthusiastic'	4085
+b' enthusiastically'	9149
+b' entire'	7655
+b' entr'	6767
+b' entrance'	6768
+b' env'	3421
+b' envel'	3524
+b' envelope'	3525
+b' envious'	3634
+b' environ'	7694
+b' environment'	7695
+b' envy'	9837
+b' equ'	5576
+b' equip'	5577
+b' equipment'	5578
+b' er'	5110
+b' erase'	6863
+b' eraser'	5802
+b' esc'	2383
+b' escape'	2536
+b' escaped'	5649
+b' esp'	4873
+b' especi'	4874
+b' especially'	4875
+b' ev'	7836
+b' even'	869
+b' evening'	3901
+b' event'	6165
+b' eventually'	3308
+b' ever'	926
+b' every'	591
+b' everybody'	6739
+b' everyday'	6911
+b' everyone'	1032
+b' everything'	1836
+b' everywhere'	1574
+b' evil'	7837
+b' ex'	574
+b' exact'	6420
+b' exactly'	6421
+b' exam'	3565
+b' examine'	5017
+b' examined'	6810
+b' examining'	8618
+b' exc'	688
+b' exce'	8016
+b' except'	8017
+b' exch'	8480
+b' exchange'	9764
+b' excite'	3341
+b' excited'	722
+b' excitedly'	4701
+b' excitement'	3567
+b' exciting'	3346
+b' excla'	4851
+b' exclaimed'	4852
+b' exerc'	3155
+b' exercise'	3392
+b' exercises'	6976
+b' exercising'	8792
+b' exha'	6906
+b' exhaust'	6907
+b' exhausted'	6908
+b' exit'	5382
+b' exp'	2309
+b' expec'	9113
+b' expect'	4814
+b' expected'	5859
+b' expecting'	9114
+b' expens'	2639
+b' expensive'	2640
+b' exper'	4869
+b' experience'	4959
+b' experiences'	7841
+b' experim'	9945
+b' experiment'	9946
+b' expert'	8376
+b' expl'	1157
+b' explain'	4229
+b' explained'	3579
+b' explains'	8258
+b' explor'	2644
+b' exploration'	9034
+b' explore'	1436
+b' explored'	4864
+b' explorer'	7512
+b' explorers'	8307
+b' exploring'	3213
+b' express'	9530
+b' expressions'	9531
+b' ext'	4501
+b' extra'	4667
+b' ey'	1125
+b' eye'	3650
+b' eyes'	1196
+b' f'	269
+b' fa'	531
+b' fab'	7458
+b' fabric'	7459
+b' face'	1038
+b' faced'	5815
+b' faces'	2394
+b' fact'	6722
+b' factor'	4817
+b' factory'	4818
+b' facts'	8265
+b' fade'	8114
+b' fading'	8056
+b' fail'	8418
+b' failed'	8058
+b' fain'	9142
+b' faint'	9143
+b' fair'	1323
+b' fairies'	6324
+b' fairness'	8933
+b' fairy'	1642
+b' fake'	2291
+b' fall'	1395
+b' fallen'	4675
+b' falling'	3709
+b' falls'	3362
+b' fam'	894
+b' famil'	4444
+b' familiar'	7017
+b' families'	4805
+b' family'	951
+b' famous'	2956
+b' fan'	1846
+b' fancy'	2228
+b' fant'	8823
+b' fantastic'	8824
+b' far'	924
+b' fara'	6341
+b' faraway'	6342
+b' farm'	1330
+b' farmer'	2016
+b' farmers'	8714
+b' fart'	4819
+b' farther'	5555
+b' farthest'	6128
+b' fasc'	6359
+b' fascin'	6360
+b' fascinated'	6361
+b' fash'	4463
+b' fashion'	4464
+b' fast'	757
+b' fasten'	8876
+b' faster'	1687
+b' fastest'	3803
+b' fat'	2472
+b' father'	3415
+b' fauc'	4484
+b' faucet'	4485
+b' fault'	7402
+b' fav'	1114
+b' favor'	1179
+b' favorite'	1184
+b' favour'	3788
+b' favourite'	3789
+b' fe'	649
+b' fear'	2514
+b' fearful'	3192
+b' fears'	6658
+b' feast'	8702
+b' feather'	2484
+b' feathered'	9124
+b' feathers'	3655
+b' fed'	5127
+b' feed'	2431
+b' feeding'	5143
+b' feel'	735
+b' feeling'	1305
+b' feelings'	4722
+b' feels'	2002
+b' feet'	2660
+b' fell'	1062
+b' felt'	529
+b' fence'	2233
+b' fest'	4141
+b' festiv'	4142
+b' festival'	4143
+b' fetch'	5431
+b' fever'	7652
+b' few'	2022
+b' fi'	833
+b' field'	1660
+b' fields'	5712
+b' fier'	3463
+b' fierce'	3464
+b' fif'	7820
+b' fifty'	7821
+b' fig'	3318
+b' fight'	1392
+b' fighting'	2176
+b' figure'	3477
+b' figured'	7043
+b' figures'	6813
+b' fil'	2407
+b' file'	3989
+b' fill'	1547
+b' filled'	1757
+b' filling'	6396
+b' fills'	6888
+b' film'	4054
+b' films'	9689
+b' filth'	8720
+b' filthy'	3137
+b' fin'	1039
+b' finally'	1779
+b' find'	572
+b' finding'	3270
+b' finds'	3823
+b' fine'	3129
+b' fing'	2343
+b' finger'	2755
+b' fingers'	4421
+b' finish'	2268
+b' finished'	1548
+b' finishing'	7571
+b' fins'	7868
+b' fire'	1364
+b' fired'	7729
+b' fireman'	4295
+b' firemen'	5755
+b' fireplace'	4881
+b' fires'	8064
+b' firework'	3975
+b' fireworks'	5175
+b' firm'	6040
+b' firmly'	6932
+b' first'	1219
+b' fis'	2960
+b' fish'	840
+b' fisher'	3142
+b' fisherman'	3143
+b' fishing'	6727
+b' fit'	1875
+b' fitness'	9230
+b' fits'	6163
+b' five'	4210
+b' fix'	1074
+b' fixed'	2023
+b' fixes'	9683
+b' fixing'	4327
+b' fl'	623
+b' flag'	2719
+b' flags'	6148
+b' flame'	4779
+b' flames'	7312
+b' flap'	5445
+b' flapped'	5009
+b' flapping'	7190
+b' flaps'	8494
+b' flas'	8331
+b' flash'	3385
+b' flashes'	9537
+b' flashlight'	3711
+b' flashlights'	8785
+b' flashy'	9880
+b' flat'	5165
+b' flav'	5907
+b' flavor'	7006
+b' flavors'	7274
+b' fle'	2490
+b' flea'	3810
+b' fleas'	8470
+b' flew'	824
+b' flex'	3498
+b' flexible'	3499
+b' flick'	9075
+b' flies'	4883
+b' flip'	7045
+b' flipp'	8909
+b' flipped'	8548
+b' flippers'	8910
+b' flipping'	8547
+b' flips'	7351
+b' flo'	1202
+b' float'	3418
+b' floated'	4702
+b' floating'	5402
+b' flood'	4811
+b' floor'	1325
+b' floppy'	9422
+b' flour'	4681
+b' flow'	803
+b' flower'	1224
+b' flowers'	1047
+b' flowing'	6921
+b' flown'	6540
+b' flu'	8633
+b' flub'	9910
+b' fluffy'	3568
+b' flute'	3081
+b' flutter'	6338
+b' fluttered'	8623
+b' fluttering'	8474
+b' fly'	874
+b' flying'	1763
+b' fo'	831
+b' focus'	6346
+b' focused'	8542
+b' fog'	3338
+b' foggy'	7168
+b' fold'	2661
+b' folded'	5120
+b' folder'	2877
+b' folding'	5753
+b' follow'	1301
+b' followed'	1653
+b' followers'	6629
+b' following'	5076
+b' follows'	4789
+b' fond'	9704
+b' food'	788
+b' foods'	6355
+b' fool'	3204
+b' fooled'	9214
+b' foolish'	3240
+b' foot'	2138
+b' football'	4568
+b' footprint'	9369
+b' footprints'	9370
+b' footstep'	7983
+b' footsteps'	7984
+b' for'	387
+b' force'	7127
+b' fore'	883
+b' forehead'	6437
+b' foreshadow'	9152
+b' foreshadowed'	9153
+b' forest'	981
+b' forever'	1989
+b' forg'	1230
+b' forgave'	4065
+b' forget'	2203
+b' forgets'	5444
+b' forgi'	6487
+b' forgive'	2235
+b' forgiven'	6488
+b' forgiveness'	9923
+b' forgives'	8207
+b' forgiving'	5892
+b' forgot'	1575
+b' forgotten'	4704
+b' fork'	3048
+b' forks'	9345
+b' form'	7186
+b' fort'	5105
+b' forth'	3289
+b' forward'	3206
+b' fought'	4053
+b' found'	506
+b' fountain'	3719
+b' four'	3393
+b' fox'	1520
+b' foxes'	7007
+b' fr'	483
+b' frag'	3217
+b' fragile'	3262
+b' frame'	2884
+b' frames'	9222
+b' fre'	1679
+b' free'	1815
+b' freed'	7177
+b' freedom'	8523
+b' freely'	9495
+b' freez'	4386
+b' freeze'	4599
+b' freezer'	4466
+b' fresh'	4657
+b' fridge'	2912
+b' fried'	8209
+b' friend'	360
+b' friendly'	1363
+b' friends'	414
+b' friendsh'	3798
+b' friendship'	3799
+b' friendships'	7390
+b' fright'	2603
+b' frightened'	2604
+b' fro'	4358
+b' frog'	976
+b' frogs'	4232
+b' from'	575
+b' front'	2534
+b' frost'	6833
+b' frosting'	6834
+b' frown'	2986
+b' frowned'	4216
+b' frowning'	6499
+b' frowns'	8352
+b' froz'	4924
+b' froze'	6321
+b' frozen'	4925
+b' fruit'	1479
+b' fruits'	2754
+b' fruity'	9971
+b' frustrated'	2597
+b' fu'	6689
+b' fuel'	6533
+b' fulf'	7092
+b' fulfill'	7093
+b' fulfilled'	8857
+b' full'	1345
+b' fully'	9196
+b' fun'	444
+b' funn'	8680
+b' funny'	1143
+b' fur'	1715
+b' furious'	9671
+b' furn'	6054
+b' furnit'	6055
+b' furniture'	6056
+b' furry'	2666
+b' further'	5065
+b' fut'	6217
+b' future'	6218
+b' fuzzy'	7002
+b' g'	296
+b' gain'	4106
+b' gained'	5358
+b' game'	1094
+b' games'	1604
+b' gar'	3187
+b' garage'	3310
+b' garb'	8263
+b' garbage'	8264
+b' gard'	921
+b' garden'	922
+b' gardener'	6239
+b' gardening'	8295
+b' garland'	9441
+b' garlands'	9442
+b' gas'	2351
+b' gasp'	6101
+b' gasped'	3566
+b' gasps'	6996
+b' gate'	2833
+b' gather'	2457
+b' gathered'	4114
+b' gathering'	5262
+b' gave'	754
+b' gaz'	3985
+b' gaze'	6515
+b' gazed'	4908
+b' gazing'	7227
+b' gear'	3829
+b' gears'	7295
+b' gem'	3762
+b' gems'	8448
+b' gen'	2689
+b' gener'	2730
+b' generosity'	9655
+b' generous'	2767
+b' generously'	8748
+b' gent'	1541
+b' gentle'	1901
+b' gently'	2413
+b' gest'	9395
+b' gestured'	9396
+b' get'	645
+b' gets'	4029
+b' getting'	1929
+b' ghost'	2587
+b' ghosts'	6016
+b' gi'	1672
+b' giant'	2071
+b' giants'	7674
+b' gif'	1552
+b' gift'	1678
+b' gifted'	3575
+b' gifts'	5421
+b' gigg'	2688
+b' giggle'	4495
+b' giggled'	3831
+b' giggles'	8137
+b' giggling'	5817
+b' gir'	464
+b' giraff'	6386
+b' giraffe'	3691
+b' giraffes'	6387
+b' girl'	469
+b' girls'	5251
+b' give'	885
+b' given'	4806
+b' gives'	2440
+b' giving'	3326
+b' gl'	905
+b' glad'	1421
+b' gladly'	9862
+b' glared'	7794
+b' glass'	2274
+b' glasses'	5439
+b' gle'	8441
+b' glee'	8442
+b' glided'	8681
+b' glim'	7752
+b' glimmer'	8649
+b' glisten'	8471
+b' glistening'	8472
+b' glitter'	5476
+b' gloomy'	3054
+b' glove'	2929
+b' gloves'	5094
+b' glow'	2313
+b' glowed'	6614
+b' glowing'	3320
+b' glows'	9832
+b' glue'	2700
+b' glued'	7760
+b' go'	490
+b' goal'	4532
+b' goals'	6458
+b' goat'	3440
+b' gobbled'	7426
+b' goes'	2697
+b' going'	1164
+b' gold'	2525
+b' golden'	5572
+b' golf'	4008
+b' gon'	8104
+b' gone'	1318
+b' gonna'	8105
+b' goo'	7288
+b' good'	560
+b' goodby'	6591
+b' goodbye'	1397
+b' goodbyes'	6592
+b' goodies'	9125
+b' goodness'	8200
+b' goodnight'	6370
+b' goose'	3195
+b' gor'	3033
+b' gorilla'	3057
+b' got'	652
+b' gotten'	5599
+b' gr'	895
+b' gra'	780
+b' grab'	1243
+b' grabbed'	1506
+b' grabbing'	7497
+b' grabs'	4174
+b' grace'	3877
+b' graceful'	4259
+b' gracefully'	6290
+b' gracious'	8229
+b' grad'	8638
+b' gradually'	8639
+b' gran'	5974
+b' grand'	3214
+b' grandad'	9484
+b' granddaughter'	8088
+b' grandf'	5705
+b' grandfather'	5706
+b' grandm'	5958
+b' grandma'	2260
+b' grandmother'	5959
+b' grandp'	7237
+b' grandpa'	4832
+b' grandpare'	7238
+b' grandparent'	7930
+b' grant'	4962
+b' granted'	5975
+b' grape'	4277
+b' grapes'	4081
+b' grass'	1257
+b' grassy'	6345
+b' grat'	9787
+b' grate'	2311
+b' grateful'	2329
+b' gratitude'	9788
+b' gray'	1997
+b' grazing'	8205
+b' gre'	717
+b' grease'	9330
+b' great'	962
+b' greate'	8457
+b' greater'	8744
+b' greatest'	8458
+b' greed'	8203
+b' greedy'	4539
+b' green'	1124
+b' greens'	8071
+b' greet'	6400
+b' greeting'	9356
+b' grew'	2038
+b' grey'	5876
+b' grill'	3945
+b' grin'	5121
+b' grinned'	5347
+b' grip'	6622
+b' gro'	4424
+b' groan'	7013
+b' groaned'	7464
+b' grocer'	4786
+b' groceries'	7738
+b' grocery'	5052
+b' groom'	8163
+b' gross'	6964
+b' ground'	910
+b' group'	3832
+b' groups'	7667
+b' grow'	1560
+b' growing'	4420
+b' growl'	3974
+b' growled'	5264
+b' growling'	5932
+b' growls'	7111
+b' grown'	3864
+b' grumbled'	8671
+b' grumbling'	8694
+b' grumpy'	2184
+b' gu'	1587
+b' guard'	3548
+b' guardian'	8839
+b' gue'	5394
+b' guess'	2471
+b' guessed'	4683
+b' guesses'	6378
+b' guessing'	9077
+b' guest'	5395
+b' guests'	6159
+b' guide'	7226
+b' guided'	7616
+b' guil'	2962
+b' guilt'	7438
+b' guilty'	3065
+b' guit'	2600
+b' guitar'	2601
+b' guitars'	9154
+b' gulp'	8528
+b' gulps'	9836
+b' gum'	3491
+b' gun'	2828
+b' gust'	5769
+b' guy'	4927
+b' guys'	5595
+b' gym'	3058
+b' h'	268
+b' ha'	295
+b' had'	365
+b' hadn'	5194
+b' hair'	1251
+b' haircut'	3582
+b' haircuts'	9147
+b' haircutter'	9296
+b' haird'	7454
+b' hairdress'	7455
+b' hairdresser'	7456
+b' hairy'	2695
+b' half'	3368
+b' halfway'	9930
+b' hall'	5182
+b' hallway'	6492
+b' halves'	8230
+b' ham'	3590
+b' hammer'	4214
+b' hammered'	7477
+b' hamster'	7717
+b' hamsters'	9492
+b' hand'	795
+b' handed'	4077
+b' handful'	5434
+b' handing'	9589
+b' handle'	3412
+b' hands'	1098
+b' handsome'	6830
+b' hang'	2734
+b' hanger'	4243
+b' hanging'	3878
+b' hangs'	9641
+b' happ'	353
+b' happen'	1829
+b' happened'	828
+b' happening'	3679
+b' happens'	5277
+b' happier'	3899
+b' happiest'	5343
+b' happily'	968
+b' happiness'	3295
+b' happy'	376
+b' har'	2578
+b' harbor'	4221
+b' hard'	857
+b' harder'	3513
+b' hardest'	9721
+b' hardly'	5557
+b' harm'	2698
+b' harming'	8946
+b' harmless'	2979
+b' harn'	8124
+b' harness'	8125
+b' harsh'	3324
+b' harshly'	9193
+b' has'	1118
+b' hat'	967
+b' hate'	3915
+b' hated'	8086
+b' hats'	2434
+b' have'	498
+b' having'	1071
+b' haw'	6208
+b' hawk'	6508
+b' hay'	2584
+b' he'	285
+b' hea'	7338
+b' head'	1111
+b' headache'	8667
+b' headed'	6171
+b' heading'	6965
+b' heads'	4097
+b' heal'	3517
+b' healed'	6635
+b' health'	6959
+b' healthier'	9197
+b' healthy'	2061
+b' hear'	1056
+b' heard'	846
+b' hearing'	7578
+b' hears'	3049
+b' heart'	1857
+b' heartbroken'	9373
+b' hearts'	4750
+b' heat'	3859
+b' heater'	8915
+b' heating'	9829
+b' heav'	8733
+b' heaven'	7339
+b' heavy'	1502
+b' hedge'	4181
+b' hedgeh'	7527
+b' hedgehog'	7528
+b' heel'	5970
+b' heels'	8660
+b' heights'	8570
+b' hel'	424
+b' held'	1599
+b' helic'	3257
+b' helicop'	3258
+b' helicopter'	3259
+b' helicopters'	7944
+b' hello'	2401
+b' helm'	3966
+b' helmet'	3967
+b' helmets'	7419
+b' help'	427
+b' helped'	979
+b' helper'	3881
+b' helpers'	5967
+b' helpful'	2281
+b' helping'	1333
+b' helpless'	3561
+b' helps'	3123
+b' hen'	4126
+b' her'	333
+b' herb'	3666
+b' herbiv'	9278
+b' herbivore'	9279
+b' herbs'	8919
+b' here'	1242
+b' hero'	2483
+b' heroes'	5841
+b' hers'	5060
+b' herself'	1906
+b' hes'	5556
+b' hesit'	6789
+b' hesitated'	7638
+b' hesitation'	6713
+b' hi'	5708
+b' hid'	1298
+b' hidden'	2517
+b' hide'	1403
+b' hider'	7639
+b' hides'	6350
+b' hiding'	2045
+b' hig'	799
+b' high'	892
+b' higher'	1806
+b' highest'	4562
+b' hill'	1263
+b' hills'	4812
+b' him'	473
+b' himself'	1595
+b' hint'	7893
+b' hipp'	3503
+b' hippo'	3504
+b' his'	339
+b' hiss'	8060
+b' hissed'	5860
+b' hisses'	9726
+b' hissing'	7384
+b' hist'	6496
+b' history'	6497
+b' hit'	1711
+b' hits'	5592
+b' hitting'	6204
+b' hive'	3075
+b' ho'	726
+b' hoc'	3857
+b' hockey'	3858
+b' hol'	4626
+b' hold'	1374
+b' holding'	1963
+b' holds'	4288
+b' hole'	1155
+b' holes'	4112
+b' holid'	4713
+b' holiday'	4714
+b' holidays'	8287
+b' hom'	3105
+b' home'	584
+b' homes'	3145
+b' homework'	6852
+b' hon'	5570
+b' hone'	2553
+b' honest'	2554
+b' honesty'	7429
+b' honey'	2148
+b' honk'	7875
+b' honked'	7545
+b' honor'	7680
+b' hoo'	8482
+b' hood'	7653
+b' hook'	4720
+b' hooks'	8864
+b' hoop'	2749
+b' hoops'	9223
+b' hooves'	8483
+b' hop'	1292
+b' hope'	2324
+b' hoped'	1958
+b' hopeful'	7747
+b' hopes'	4884
+b' hoping'	4602
+b' hopped'	1549
+b' hopper'	9696
+b' hopping'	2977
+b' hor'	2302
+b' horiz'	8567
+b' horizon'	8568
+b' horn'	2953
+b' horns'	6491
+b' horrible'	8966
+b' hors'	5383
+b' horse'	2374
+b' horses'	5384
+b' hose'	2924
+b' hosp'	4697
+b' hospit'	4698
+b' hospital'	4699
+b' host'	7457
+b' hot'	1335
+b' hotel'	4033
+b' hotter'	7277
+b' hour'	8001
+b' hours'	3983
+b' hous'	4000
+b' house'	629
+b' houses'	4001
+b' how'	770
+b' however'	7598
+b' huff'	8716
+b' hug'	700
+b' huge'	2306
+b' hugged'	928
+b' hugging'	6979
+b' hugs'	2149
+b' hul'	9912
+b' hula'	9913
+b' hum'	5730
+b' human'	6397
+b' humans'	9378
+b' humble'	2874
+b' humm'	8939
+b' hummed'	9714
+b' humming'	8940
+b' hun'	1269
+b' hund'	8775
+b' hundred'	8776
+b' hung'	4774
+b' hungry'	1316
+b' hunt'	2797
+b' hunter'	3189
+b' hunters'	7566
+b' hur'	2779
+b' hurric'	4225
+b' hurricane'	4294
+b' hurried'	6201
+b' hurry'	4088
+b' hurrying'	9211
+b' hurt'	860
+b' hurtful'	9377
+b' hurting'	4797
+b' hurts'	3383
+b' hus'	5619
+b' husb'	5620
+b' husband'	5621
+b' hut'	3782
+b' ice'	1221
+b' icing'	7810
+b' icy'	3019
+b' ide'	810
+b' idea'	815
+b' ideas'	5341
+b' if'	836
+b' ig'	4560
+b' igloo'	4561
+b' ign'	2073
+b' ignor'	2356
+b' ignorance'	9366
+b' ignorant'	2886
+b' ignore'	4367
+b' ignored'	4276
+b' ignores'	9551
+b' ill'	8166
+b' im'	914
+b' imag'	2557
+b' image'	4473
+b' imagination'	4794
+b' imaginations'	8485
+b' imagine'	4153
+b' imagined'	4585
+b' imagining'	7306
+b' immediately'	4793
+b' imp'	1055
+b' impat'	4185
+b' impatient'	4186
+b' impo'	6949
+b' impol'	9915
+b' impolite'	9916
+b' import'	1218
+b' importance'	5632
+b' important'	1234
+b' impossible'	6950
+b' impr'	3130
+b' impress'	3254
+b' impressed'	3946
+b' impressive'	3329
+b' improve'	3439
+b' improved'	6058
+b' in'	314
+b' inc'	1987
+b' inch'	5218
+b' inched'	8954
+b' inches'	8851
+b' incl'	4418
+b' includ'	6041
+b' include'	5039
+b' included'	6313
+b' incre'	3962
+b' increase'	4633
+b' increased'	5685
+b' incred'	2733
+b' incredible'	2775
+b' ind'	2881
+b' inde'	7047
+b' indeed'	7048
+b' independ'	3022
+b' independent'	3023
+b' inf'	4692
+b' infant'	4894
+b' infect'	9272
+b' infection'	9273
+b' inform'	9207
+b' information'	9208
+b' ing'	4769
+b' ingred'	4770
+b' ingredient'	4771
+b' ingredients'	4772
+b' inj'	8344
+b' injured'	8345
+b' ink'	4319
+b' ins'	4198
+b' inse'	4312
+b' insect'	4462
+b' insects'	8984
+b' insepar'	8897
+b' inseparable'	8898
+b' inside'	746
+b' insist'	6352
+b' insisted'	4664
+b' insists'	8201
+b' insp'	7388
+b' inspired'	7389
+b' inst'	4861
+b' instantly'	9243
+b' instead'	2400
+b' instr'	5130
+b' instruc'	9131
+b' instruct'	7030
+b' instructed'	9132
+b' instructions'	7031
+b' instrument'	8514
+b' instruments'	6545
+b' int'	660
+b' inte'	2008
+b' intell'	4067
+b' intellig'	4068
+b' intelligent'	4069
+b' intently'	8089
+b' intere'	2024
+b' interest'	2025
+b' interested'	7914
+b' interesting'	2054
+b' into'	704
+b' intr'	6931
+b' intrig'	7382
+b' intrigued'	7383
+b' introd'	4291
+b' introduc'	8502
+b' introduce'	4528
+b' introduced'	8503
+b' introduction'	9802
+b' inv'	2082
+b' inve'	5627
+b' invent'	9138
+b' invented'	9139
+b' invest'	5628
+b' investig'	5629
+b' investigate'	5630
+b' invis'	9668
+b' invisible'	9669
+b' invitation'	5160
+b' invite'	4093
+b' invited'	3062
+b' invites'	7534
+b' inviting'	5710
+b' iron'	4307
+b' ironing'	8150
+b' is'	435
+b' island'	2970
+b' isn'	5831
+b' it'	309
+b' itch'	4045
+b' itches'	7896
+b' itchy'	6104
+b' item'	5281
+b' items'	6222
+b' its'	820
+b' itself'	3787
+b' j'	450
+b' jacket'	4219
+b' jackets'	6336
+b' jail'	4203
+b' jam'	3918
+b' jammed'	9995
+b' jar'	1755
+b' jaws'	8174
+b' jay'	9095
+b' jazz'	4635
+b' je'	2004
+b' jeal'	2620
+b' jealous'	2621
+b' jeep'	3263
+b' jeeps'	9736
+b' jelly'	2283
+b' jellyfish'	2680
+b' jet'	3753
+b' jew'	2405
+b' jewel'	2406
+b' jewelry'	4369
+b' jewels'	5726
+b' jing'	9482
+b' jingling'	9483
+b' jo'	1193
+b' job'	1489
+b' jobs'	7805
+b' jog'	2659
+b' jogged'	5115
+b' jogging'	5480
+b' join'	1514
+b' joined'	3268
+b' joining'	8068
+b' joins'	6053
+b' joke'	2452
+b' joked'	7141
+b' jokes'	4502
+b' joking'	6019
+b' jolly'	3055
+b' jour'	1960
+b' journ'	4223
+b' journal'	4224
+b' journey'	2221
+b' journeys'	7568
+b' joy'	1972
+b' joyful'	8047
+b' ju'	1632
+b' judge'	2957
+b' jug'	2541
+b' juice'	1776
+b' juicy'	3849
+b' jump'	733
+b' jumped'	972
+b' jumping'	2357
+b' jumps'	3826
+b' jung'	2652
+b' jungle'	2653
+b' junk'	3432
+b' just'	802
+b' justice'	8932
+b' k'	394
+b' kang'	4616
+b' kangar'	4617
+b' kangaroo'	4618
+b' kay'	5333
+b' kayak'	5334
+b' ke'	728
+b' keep'	1057
+b' keeper'	5223
+b' keeping'	4335
+b' keeps'	5530
+b' kept'	1112
+b' ker'	9463
+b' kernel'	9464
+b' kernels'	9465
+b' key'	1568
+b' keyboard'	8829
+b' keyho'	7933
+b' keyhole'	7934
+b' keys'	6717
+b' kick'	2548
+b' kicked'	2801
+b' kicking'	5351
+b' kicks'	5824
+b' kid'	978
+b' kids'	1024
+b' kind'	777
+b' kindess'	9705
+b' kindly'	4957
+b' kindness'	3725
+b' kinds'	4211
+b' king'	1743
+b' kingdom'	4248
+b' kings'	8783
+b' kiss'	1994
+b' kissed'	3276
+b' kisses'	5385
+b' kissing'	8718
+b' kit'	1149
+b' kitc'	1175
+b' kitchen'	1176
+b' kite'	1685
+b' kites'	5546
+b' kitten'	1947
+b' kitty'	7858
+b' kn'	479
+b' kne'	4004
+b' knee'	2617
+b' kneel'	4404
+b' kneeled'	5344
+b' knees'	6505
+b' knelt'	5411
+b' knew'	653
+b' knife'	3077
+b' knight'	2984
+b' knights'	5853
+b' knit'	8336
+b' knive'	7981
+b' knives'	7982
+b' knob'	3549
+b' knock'	3682
+b' knocked'	2529
+b' knocking'	6779
+b' knocks'	5639
+b' knot'	4918
+b' knots'	6884
+b' know'	647
+b' knowing'	2830
+b' knowled'	6285
+b' knowledge'	6286
+b' known'	6142
+b' knows'	3343
+b' l'	276
+b' la'	533
+b' lab'	2717
+b' label'	3319
+b' labels'	8945
+b' lad'	2582
+b' ladder'	2602
+b' lady'	1199
+b' ladyb'	7342
+b' ladybug'	7343
+b' laid'	4893
+b' lake'	1725
+b' lamb'	6207
+b' lamp'	4486
+b' land'	1505
+b' landed'	2105
+b' landing'	7582
+b' lands'	4752
+b' landsc'	5790
+b' landscape'	5791
+b' landsl'	9091
+b' landslide'	9092
+b' lang'	3505
+b' langu'	3506
+b' language'	3563
+b' languages'	9715
+b' lap'	6144
+b' lar'	8339
+b' large'	2593
+b' larger'	8340
+b' laser'	5369
+b' last'	2410
+b' late'	2017
+b' later'	2321
+b' laug'	611
+b' laugh'	1289
+b' laughed'	710
+b' laughing'	1837
+b' laughs'	3156
+b' laught'	5088
+b' laughter'	5089
+b' launch'	7879
+b' laund'	4046
+b' laundry'	4047
+b' lava'	9703
+b' law'	2154
+b' lawn'	3330
+b' lawy'	3980
+b' lawyer'	4121
+b' lawyers'	8931
+b' lay'	2096
+b' laying'	5514
+b' laz'	9045
+b' lazily'	9046
+b' lazy'	2751
+b' le'	486
+b' lead'	3010
+b' leader'	7790
+b' leading'	6482
+b' leads'	9583
+b' leaf'	1555
+b' leag'	9423
+b' league'	9424
+b' leak'	4380
+b' leaks'	8439
+b' lean'	3457
+b' leaned'	4572
+b' leaning'	5908
+b' leans'	8399
+b' leap'	7059
+b' leaping'	8267
+b' lear'	4845
+b' learn'	620
+b' learned'	709
+b' learner'	9756
+b' learning'	3149
+b' learns'	5934
+b' learnt'	4846
+b' leash'	3371
+b' least'	7207
+b' leather'	5304
+b' leave'	1065
+b' leaves'	1312
+b' leaving'	3588
+b' lec'	4434
+b' lecture'	4435
+b' lectures'	8063
+b' led'	3695
+b' left'	1511
+b' leg'	1820
+b' legs'	2392
+b' lemon'	2350
+b' lemonade'	4980
+b' lemons'	6087
+b' lemony'	9209
+b' len'	8889
+b' lend'	3758
+b' lending'	7010
+b' leng'	8890
+b' length'	8891
+b' lent'	7501
+b' leop'	2664
+b' leopard'	2665
+b' less'	1427
+b' lesson'	1536
+b' lessons'	7292
+b' let'	856
+b' lets'	5485
+b' lett'	5731
+b' letter'	1823
+b' letters'	4138
+b' letting'	5128
+b' lettuce'	5732
+b' levers'	9868
+b' li'	369
+b' libr'	3949
+b' library'	4024
+b' lic'	5298
+b' license'	5299
+b' lick'	4382
+b' licked'	3280
+b' licking'	7613
+b' licks'	4815
+b' lid'	4011
+b' lie'	4027
+b' lied'	5538
+b' lies'	7401
+b' life'	2079
+b' lifegu'	6150
+b' lifeguard'	6151
+b' lift'	2305
+b' lifted'	3166
+b' lifting'	7403
+b' lifts'	8481
+b' light'	1431
+b' lighter'	7735
+b' lighting'	9614
+b' lightning'	5119
+b' lights'	3952
+b' like'	523
+b' liked'	525
+b' likely'	9982
+b' likes'	1630
+b' liking'	9260
+b' lily'	4565
+b' lime'	4368
+b' limes'	5021
+b' line'	2364
+b' lined'	5269
+b' lines'	5401
+b' lion'	1447
+b' lions'	4117
+b' lip'	3893
+b' lips'	5265
+b' liqu'	6308
+b' liquid'	6309
+b' list'	798
+b' listen'	992
+b' listened'	1341
+b' listener'	9200
+b' listening'	4271
+b' listens'	7294
+b' lit'	3462
+b' litt'	9803
+b' litte'	9804
+b' litter'	9548
+b' little'	389
+b' live'	1943
+b' lived'	619
+b' lively'	3314
+b' lives'	4966
+b' living'	1746
+b' liz'	2643
+b' lizard'	2780
+b' lizards'	6711
+b' lo'	437
+b' load'	3833
+b' loaded'	6433
+b' loading'	9048
+b' loc'	8003
+b' local'	8004
+b' lock'	2349
+b' locked'	3230
+b' log'	3016
+b' logs'	5571
+b' loll'	3508
+b' lollip'	3509
+b' lollipop'	3510
+b' lollipops'	7222
+b' lon'	1682
+b' lonely'	1683
+b' long'	734
+b' longer'	2363
+b' loo'	434
+b' look'	678
+b' looked'	504
+b' looking'	1146
+b' lookout'	9597
+b' looks'	1407
+b' loop'	5359
+b' loops'	8337
+b' loose'	6663
+b' los'	8353
+b' lose'	3068
+b' loser'	9560
+b' losers'	8354
+b' loses'	5390
+b' losing'	8796
+b' lost'	1063
+b' lot'	655
+b' lotion'	3207
+b' lots'	854
+b' loud'	936
+b' louder'	3473
+b' loudest'	6782
+b' loudly'	3197
+b' love'	877
+b' loved'	501
+b' lovely'	2196
+b' loves'	2631
+b' loving'	5865
+b' low'	3266
+b' lower'	7889
+b' lowered'	7440
+b' loy'	3290
+b' loyal'	3291
+b' lu'	6297
+b' luck'	4578
+b' luckier'	9417
+b' luckily'	9922
+b' lucky'	2499
+b' lugg'	5123
+b' luggage'	5124
+b' lumber'	5650
+b' lump'	6984
+b' lunch'	1928
+b' lunchtime'	7595
+b' lung'	4926
+b' lungs'	7202
+b' lux'	6298
+b' luxu'	6299
+b' luxury'	6300
+b' lying'	3428
+b' m'	283
+b' ma'	925
+b' mach'	2968
+b' machine'	3151
+b' machines'	6732
+b' mad'	1891
+b' made'	580
+b' mag'	937
+b' magaz'	5215
+b' magazine'	5216
+b' magic'	999
+b' magical'	2307
+b' magician'	8950
+b' magn'	2925
+b' magnet'	2926
+b' magnets'	5534
+b' mail'	1717
+b' mailbox'	3547
+b' mailed'	6224
+b' mailing'	6870
+b' mailman'	4304
+b' main'	7644
+b' make'	536
+b' maker'	6875
+b' makes'	1644
+b' makeup'	3212
+b' making'	1173
+b' mall'	4396
+b' mama'	5311
+b' man'	512
+b' manage'	4970
+b' managed'	3347
+b' mane'	5765
+b' many'	679
+b' map'	3301
+b' mar'	1701
+b' marble'	5642
+b' march'	3332
+b' marched'	4305
+b' marching'	6829
+b' marie'	9429
+b' mark'	1959
+b' marked'	6176
+b' marker'	6952
+b' markers'	9217
+b' market'	2794
+b' marketplace'	7993
+b' marks'	4737
+b' marriage'	4921
+b' married'	5156
+b' marry'	3369
+b' marve'	9934
+b' marvell'	9935
+b' marvellous'	9936
+b' mask'	2930
+b' masks'	6199
+b' mass'	4461
+b' massage'	4725
+b' massages'	7796
+b' master'	5027
+b' masterp'	7964
+b' masterpiece'	7965
+b' mat'	1821
+b' match'	2806
+b' matched'	5776
+b' matches'	5212
+b' matching'	6335
+b' mater'	7825
+b' materi'	7826
+b' material'	8790
+b' math'	3494
+b' matt'	2815
+b' matter'	2526
+b' mattered'	8997
+b' matters'	6576
+b' mattress'	2816
+b' mattresses'	9161
+b' may'	3746
+b' maybe'	2433
+b' mayor'	7784
+b' maze'	4049
+b' me'	510
+b' meadow'	3226
+b' meal'	4017
+b' meals'	8617
+b' mean'	1103
+b' meaning'	6632
+b' means'	3678
+b' meant'	3436
+b' meas'	4587
+b' measure'	2626
+b' measured'	5363
+b' measuring'	5866
+b' meat'	3591
+b' mechan'	3916
+b' mechanic'	3917
+b' med'	2032
+b' medal'	3995
+b' medic'	2388
+b' medicine'	2389
+b' meet'	2246
+b' meeting'	4880
+b' meetings'	8706
+b' mel'	3299
+b' melon'	3766
+b' melt'	3912
+b' melted'	5700
+b' melting'	5521
+b' mem'	3865
+b' memb'	7279
+b' members'	7280
+b' memories'	5962
+b' memory'	4389
+b' men'	4061
+b' mend'	9907
+b' mention'	4280
+b' mentioned'	5665
+b' mentioning'	9244
+b' menu'	4571
+b' meow'	5131
+b' meowed'	4525
+b' meowing'	8865
+b' meows'	7556
+b' merry'	5464
+b' mes'	7368
+b' mesmer'	7369
+b' mesmerised'	8968
+b' mesmerized'	9130
+b' mess'	1153
+b' message'	3973
+b' messages'	8752
+b' messed'	7130
+b' messes'	6427
+b' messy'	2250
+b' met'	994
+b' metal'	4281
+b' metall'	9918
+b' metallic'	9919
+b' mic'	2861
+b' mice'	5354
+b' micr'	3487
+b' micro'	4978
+b' microph'	3488
+b' microphone'	3489
+b' microscope'	4979
+b' microw'	8525
+b' microwave'	8526
+b' middle'	3269
+b' might'	1540
+b' mighty'	2741
+b' mil'	2103
+b' mild'	3692
+b' mile'	6414
+b' miles'	6415
+b' milk'	2104
+b' mill'	3404
+b' min'	2255
+b' mind'	2189
+b' minded'	6654
+b' mindful'	8346
+b' minding'	6593
+b' minds'	6623
+b' mine'	1826
+b' miner'	4941
+b' mineral'	5029
+b' minerals'	9112
+b' mint'	4838
+b' minty'	7950
+b' minut'	3850
+b' minute'	4581
+b' minutes'	3851
+b' mir'	8414
+b' miracle'	9642
+b' mirr'	2369
+b' mirror'	2370
+b' mis'	3381
+b' misch'	7019
+b' mischie'	7020
+b' mischievous'	7021
+b' mischievously'	8396
+b' miser'	3731
+b' miserable'	3732
+b' miss'	1467
+b' missed'	2256
+b' misses'	5693
+b' missile'	3528
+b' missing'	3955
+b' mission'	5537
+b' mist'	2035
+b' mistake'	2286
+b' mistakes'	3931
+b' mister'	5139
+b' misty'	8310
+b' mitten'	3848
+b' mittens'	6860
+b' mix'	1735
+b' mixed'	3331
+b' mixer'	4655
+b' mixing'	5558
+b' mo'	739
+b' moan'	8308
+b' mod'	2654
+b' model'	3372
+b' models'	7449
+b' moder'	3026
+b' modern'	3027
+b' modest'	4379
+b' mole'	2869
+b' mom'	383
+b' moment'	1412
+b' moments'	5250
+b' momma'	6879
+b' mommies'	6613
+b' mommy'	1090
+b' moms'	2940
+b' mon'	1121
+b' money'	1974
+b' monkey'	1622
+b' monkeys'	4951
+b' monster'	1605
+b' monsters'	5939
+b' month'	6823
+b' months'	7218
+b' moo'	6940
+b' mood'	6013
+b' mooed'	9058
+b' moon'	2083
+b' moonlight'	7572
+b' mop'	3093
+b' mopped'	9939
+b' moral'	1201
+b' more'	682
+b' morn'	1751
+b' morning'	1752
+b' mos'	4430
+b' mosqu'	4431
+b' mosquit'	4432
+b' mosquito'	4433
+b' most'	2175
+b' mot'	3615
+b' mother'	1848
+b' mothers'	9984
+b' motion'	5544
+b' motor'	4239
+b' motorcy'	5326
+b' motorcycle'	5327
+b' mountain'	2706
+b' mountains'	6127
+b' mouse'	1267
+b' mout'	1499
+b' mouth'	1500
+b' mouths'	5435
+b' mov'	3007
+b' move'	1188
+b' moved'	1863
+b' movements'	9372
+b' moves'	4778
+b' movie'	3265
+b' movies'	6237
+b' moving'	2746
+b' mow'	9047
+b' mower'	9259
+b' much'	767
+b' mud'	1894
+b' muddy'	5361
+b' muff'	3797
+b' muffin'	4356
+b' muffins'	5664
+b' mug'	3313
+b' mugs'	8979
+b' mule'	2987
+b' mum'	1461
+b' mumbled'	9194
+b' mummy'	4749
+b' mun'	9881
+b' munch'	7510
+b' munches'	9882
+b' munching'	9397
+b' mus'	1531
+b' muscle'	6184
+b' muscles'	5597
+b' muse'	3243
+b' museum'	3244
+b' mush'	8368
+b' mushroom'	3264
+b' mushy'	8369
+b' music'	1602
+b' musician'	3792
+b' must'	1360
+b' mustache'	4835
+b' mustered'	7417
+b' mustn'	8552
+b' my'	622
+b' myself'	5000
+b' myster'	2428
+b' mysterious'	2916
+b' mystery'	4362
+b' n'	288
+b' nail'	3724
+b' nails'	5781
+b' nam'	397
+b' name'	1442
+b' named'	403
+b' names'	5046
+b' nap'	1674
+b' napkin'	3178
+b' napkins'	8190
+b' napping'	5267
+b' naps'	8496
+b' nast'	6638
+b' nasty'	6639
+b' nation'	4178
+b' nature'	4167
+b' naught'	2141
+b' naughty'	2142
+b' navy'	5894
+b' ne'	396
+b' near'	823
+b' nearby'	2437
+b' neare'	7852
+b' nearest'	7853
+b' nearly'	7476
+b' neat'	3905
+b' neatly'	6816
+b' neck'	2087
+b' neckl'	3492
+b' necklace'	3493
+b' necklaces'	8838
+b' nect'	7011
+b' nectar'	7012
+b' need'	765
+b' needed'	1319
+b' needle'	3532
+b' needles'	8322
+b' needs'	3727
+b' neigh'	2843
+b' neighb'	4659
+b' neighbor'	3535
+b' neighborhood'	5848
+b' neighbors'	6645
+b' neighbour'	5420
+b' neighbourhood'	6125
+b' neighbours'	7969
+b' neither'	6625
+b' ner'	2948
+b' nervous'	2992
+b' nervously'	7057
+b' nest'	1451
+b' nests'	8377
+b' net'	2241
+b' network'	3527
+b' never'	858
+b' new'	540
+b' newf'	6065
+b' newfound'	6066
+b' news'	5398
+b' newsp'	2629
+b' newspaper'	2707
+b' newspapers'	7797
+b' next'	946
+b' ni'	7718
+b' nibbled'	8585
+b' nice'	724
+b' nicely'	3775
+b' nicer'	5491
+b' niece'	7174
+b' night'	1275
+b' nightf'	9672
+b' nightfall'	9673
+b' nightm'	4729
+b' nightmare'	4730
+b' nightmares'	8359
+b' nights'	8324
+b' nine'	5846
+b' nip'	9914
+b' no'	554
+b' nobody'	4330
+b' nod'	3406
+b' nodd'	7272
+b' nodded'	1077
+b' nodding'	7273
+b' nods'	3466
+b' noise'	1110
+b' noises'	2209
+b' noisy'	2650
+b' none'	5500
+b' nood'	9955
+b' noodles'	9956
+b' noon'	6672
+b' normal'	2712
+b' nose'	1921
+b' noses'	6444
+b' nosy'	3552
+b' not'	367
+b' note'	2301
+b' noteb'	5071
+b' notebook'	5072
+b' notes'	8847
+b' nothing'	2615
+b' notice'	3706
+b' noticed'	1519
+b' noticing'	6785
+b' novel'	5108
+b' now'	995
+b' nowhere'	5414
+b' nu'	8435
+b' num'	1759
+b' number'	2186
+b' numbered'	9536
+b' numbers'	2978
+b' numbr'	9699
+b' numbring'	9700
+b' nur'	4124
+b' nurse'	4183
+b' nut'	2080
+b' nutri'	9858
+b' nutrients'	9859
+b' nuts'	3475
+b' nuzz'	8436
+b' nuzzled'	9670
+b' o'	331
+b' oak'	4120
+b' oars'	9455
+b' oas'	4693
+b' oasis'	4694
+b' oat'	5329
+b' oatme'	8845
+b' oatmeal'	8846
+b' oats'	5610
+b' ob'	2308
+b' obe'	5482
+b' obed'	2287
+b' obedient'	2288
+b' obey'	5483
+b' obeyed'	7970
+b' object'	3118
+b' objects'	5867
+b' obser'	3639
+b' observe'	4411
+b' observed'	5499
+b' observing'	7802
+b' obst'	9947
+b' obstacle'	9948
+b' oc'	7282
+b' occ'	7283
+b' occas'	7284
+b' occasions'	7840
+b' oce'	3734
+b' ocean'	3735
+b' oct'	3378
+b' octop'	3379
+b' octopus'	3380
+b' odd'	9141
+b' of'	372
+b' off'	939
+b' offer'	4944
+b' offered'	4334
+b' offering'	7352
+b' office'	4328
+b' officer'	5951
+b' often'	3778
+b' oh'	5125
+b' oil'	4055
+b' ok'	3419
+b' okay'	1115
+b' old'	796
+b' older'	4066
+b' olive'	4735
+b' olives'	5449
+b' on'	354
+b' once'	3937
+b' one'	716
+b' ones'	2954
+b' onion'	3948
+b' only'	1390
+b' onto'	2385
+b' onward'	8754
+b' onwards'	5407
+b' oo'	9839
+b' oohed'	9840
+b' op'	675
+b' open'	1003
+b' opened'	890
+b' opening'	6187
+b' opens'	3572
+b' oper'	4478
+b' opera'	5192
+b' operation'	4479
+b' opin'	4591
+b' opinion'	4871
+b' opinions'	7779
+b' opp'	8246
+b' oppos'	8247
+b' opposite'	8248
+b' or'	766
+b' orange'	1689
+b' oranges'	4670
+b' orch'	8936
+b' orchard'	8937
+b' ord'	2614
+b' order'	3886
+b' ordered'	5376
+b' ordering'	9419
+b' orders'	8427
+b' ordinary'	2965
+b' organ'	2278
+b' organize'	3637
+b' organized'	3444
+b' organizing'	5348
+b' original'	2975
+b' orn'	3199
+b' ornament'	3200
+b' ornaments'	5807
+b' orph'	7754
+b' orphan'	7755
+b' orphanage'	7756
+b' ost'	6259
+b' ostri'	6260
+b' ostrich'	6261
+b' ot'	3808
+b' other'	557
+b' others'	1134
+b' otter'	3809
+b' otters'	7811
+b' ou'	8073
+b' ouch'	6353
+b' ouches'	8074
+b' our'	1180
+b' ours'	5488
+b' ourselves'	4822
+b' out'	487
+b' outcome'	8557
+b' outdo'	5666
+b' outdoors'	5852
+b' outf'	6726
+b' outfits'	7055
+b' outside'	708
+b' outsm'	8355
+b' outsmar'	9561
+b' outsmarted'	9562
+b' oven'	2340
+b' over'	843
+b' overcome'	7973
+b' overjoy'	6917
+b' overjoyed'	6918
+b' ow'	3748
+b' owl'	1398
+b' owls'	6332
+b' own'	1152
+b' owned'	6062
+b' owner'	1774
+b' owners'	7296
+b' owns'	8670
+b' oxygen'	3984
+b' oy'	2933
+b' oyster'	3407
+b' oysters'	5465
+b' p'	279
+b' pa'	1035
+b' pace'	8899
+b' pack'	2325
+b' package'	3337
+b' packages'	6812
+b' packed'	4337
+b' packet'	7758
+b' packing'	7980
+b' pad'	6196
+b' padd'	7927
+b' paddle'	8908
+b' paddled'	9033
+b' pads'	9695
+b' page'	4156
+b' pages'	4419
+b' paid'	4825
+b' pain'	1070
+b' paint'	1452
+b' paintbrush'	7819
+b' painted'	3043
+b' painter'	3317
+b' painting'	3570
+b' paintings'	7041
+b' paints'	5695
+b' pair'	4162
+b' pairs'	7712
+b' paj'	7105
+b' pajam'	7106
+b' pajamas'	7107
+b' pal'	3021
+b' palace'	3124
+b' pale'	3749
+b' palm'	5641
+b' palms'	9120
+b' pan'	2345
+b' panc'	7587
+b' pancake'	8350
+b' pancakes'	8351
+b' pand'	3804
+b' panda'	4043
+b' pandas'	7145
+b' pang'	8930
+b' panic'	4897
+b' panicked'	7622
+b' panicking'	8644
+b' pans'	5018
+b' pant'	3080
+b' panting'	9245
+b' pants'	3167
+b' paper'	1358
+b' papers'	4160
+b' par'	998
+b' parade'	4169
+b' paramed'	7373
+b' paramedic'	7374
+b' paramedics'	7375
+b' pare'	1583
+b' parent'	4267
+b' parents'	1666
+b' park'	518
+b' parked'	6305
+b' parrot'	3699
+b' part'	2088
+b' parted'	7558
+b' partic'	5960
+b' particular'	5961
+b' particularly'	7726
+b' parties'	5969
+b' partners'	9035
+b' parts'	5357
+b' party'	1229
+b' pass'	2709
+b' passage'	9287
+b' passageways'	9288
+b' passed'	3468
+b' passing'	6588
+b' passport'	5014
+b' past'	2089
+b' pasta'	3184
+b' pastel'	5688
+b' pastry'	4039
+b' pat'	1768
+b' patch'	5077
+b' patched'	9685
+b' patches'	7851
+b' path'	2164
+b' paths'	7124
+b' patience'	6014
+b' patient'	2070
+b' patiently'	6089
+b' patted'	7123
+b' patter'	3106
+b' pattern'	3107
+b' patterns'	5114
+b' pause'	7183
+b' paused'	4536
+b' paw'	1884
+b' pawed'	8569
+b' paws'	2920
+b' pay'	2623
+b' paying'	5759
+b' payment'	9794
+b' payo'	9490
+b' payoff'	9491
+b' pays'	8361
+b' pe'	718
+b' peace'	2185
+b' peaceful'	2527
+b' peacefully'	8707
+b' peach'	3928
+b' peaches'	7685
+b' peanut'	3925
+b' peanuts'	5196
+b' pear'	2634
+b' pearl'	5588
+b' pearls'	7325
+b' pears'	5663
+b' peas'	5532
+b' pebble'	3769
+b' pebbles'	4564
+b' pec'	6408
+b' peck'	8597
+b' pecked'	7038
+b' pecul'	8687
+b' peculiar'	8688
+b' ped'	4885
+b' pedal'	6633
+b' pedaled'	9663
+b' pedaling'	8404
+b' pedals'	5446
+b' pee'	3898
+b' peek'	4553
+b' peeked'	4354
+b' peeking'	6382
+b' peel'	6099
+b' peels'	8117
+b' peered'	7208
+b' pen'	1524
+b' penc'	3000
+b' pencil'	3001
+b' pencils'	5440
+b' pend'	8083
+b' pendant'	8084
+b' pengu'	3853
+b' penguin'	3854
+b' penny'	4706
+b' pens'	9750
+b' people'	886
+b' pepper'	2658
+b' peppers'	6281
+b' per'	1328
+b' perched'	6141
+b' perf'	1413
+b' perfect'	1722
+b' perfectly'	5564
+b' perfor'	6246
+b' perform'	2888
+b' performan'	6247
+b' performance'	6248
+b' performed'	8173
+b' performer'	6265
+b' performing'	7133
+b' perfume'	4242
+b' perh'	9007
+b' perhap'	9008
+b' perhaps'	9009
+b' perm'	4302
+b' permiss'	7285
+b' permission'	7286
+b' permit'	4801
+b' permitt'	8867
+b' permitted'	8868
+b' perple'	9979
+b' perplex'	9980
+b' perplexed'	9981
+b' pers'	1886
+b' perse'	9563
+b' persever'	9564
+b' persevered'	9565
+b' persim'	9618
+b' persimmon'	9619
+b' persist'	3271
+b' persistence'	7719
+b' persistent'	3424
+b' person'	2344
+b' personal'	9809
+b' personality'	9810
+b' pest'	9592
+b' pet'	1741
+b' petal'	7829
+b' petals'	4477
+b' pets'	8165
+b' petted'	5678
+b' ph'	1781
+b' phone'	2328
+b' phot'	4802
+b' photo'	3438
+b' photos'	4982
+b' phra'	8019
+b' phrase'	8020
+b' piano'	3813
+b' pic'	690
+b' pick'	1255
+b' pickax'	9712
+b' pickaxe'	9713
+b' picked'	933
+b' picking'	3969
+b' picks'	2537
+b' picnic'	2718
+b' picnics'	7562
+b' picture'	1006
+b' pictures'	1554
+b' pie'	1119
+b' piece'	1303
+b' pieces'	1705
+b' pies'	4613
+b' pig'	1553
+b' pigeon'	2282
+b' pigeons'	7287
+b' pigs'	5203
+b' pile'	2068
+b' piled'	7112
+b' piles'	5442
+b' pill'	1825
+b' pillow'	2074
+b' pillows'	7663
+b' pills'	6530
+b' pilot'	3765
+b' pin'	2371
+b' pinch'	4060
+b' pinched'	5746
+b' pinching'	7677
+b' pine'	4238
+b' pink'	1379
+b' pinned'	9620
+b' pins'	6844
+b' pipe'	5448
+b' pir'	3855
+b' pirate'	4470
+b' pirates'	5714
+b' pist'	3454
+b' pistol'	3455
+b' pit'	2764
+b' pitch'	4388
+b' pizza'	2134
+b' pl'	316
+b' place'	948
+b' placed'	4855
+b' places'	2552
+b' placing'	8683
+b' plain'	6913
+b' plan'	1522
+b' plane'	2065
+b' planes'	5233
+b' planet'	5519
+b' planets'	6652
+b' plank'	9585
+b' planks'	9586
+b' planned'	5388
+b' planning'	8076
+b' plans'	7320
+b' plant'	1627
+b' planted'	5091
+b' planting'	8504
+b' plants'	2501
+b' plastic'	4475
+b' plat'	8126
+b' plate'	2657
+b' plates'	6626
+b' platform'	8127
+b' play'	327
+b' playd'	8010
+b' playdate'	8011
+b' played'	480
+b' player'	4559
+b' players'	6791
+b' playful'	3248
+b' playground'	3756
+b' playing'	581
+b' plays'	5560
+b' playtime'	4870
+b' ple'	5978
+b' pleaded'	7255
+b' please'	1310
+b' pleased'	4517
+b' pleasure'	7716
+b' plent'	6161
+b' plenty'	6162
+b' plo'	9972
+b' plopped'	9973
+b' plucked'	7828
+b' plug'	9299
+b' plugged'	8420
+b' plum'	7307
+b' plums'	8894
+b' plun'	7773
+b' plunged'	8700
+b' po'	691
+b' pocket'	2116
+b' pockets'	7567
+b' poem'	3220
+b' poems'	4245
+b' poin'	1748
+b' point'	4002
+b' pointed'	2361
+b' pointing'	3676
+b' points'	5501
+b' pointy'	6430
+b' poison'	4439
+b' poke'	3776
+b' poked'	4073
+b' pokes'	7793
+b' poking'	5451
+b' pol'	1702
+b' pole'	4163
+b' poles'	7530
+b' police'	2681
+b' policeman'	6529
+b' polish'	4429
+b' polished'	7485
+b' polishing'	6703
+b' polit'	7095
+b' polite'	2776
+b' politely'	7815
+b' politic'	9527
+b' politician'	9528
+b' politicians'	9529
+b' poll'	7986
+b' pollen'	8154
+b' pollin'	7987
+b' pollinate'	9126
+b' pollinating'	9692
+b' pond'	1150
+b' pony'	4440
+b' pool'	2226
+b' poop'	8695
+b' poor'	2289
+b' pop'	2039
+b' popcorn'	3260
+b' popped'	3890
+b' poppy'	4747
+b' pops'	5598
+b' popsicle'	8967
+b' popsicles'	7903
+b' popular'	3312
+b' por'	4402
+b' porch'	4403
+b' port'	4227
+b' pos'	8989
+b' pose'	8685
+b' poss'	7078
+b' possess'	7079
+b' possession'	7863
+b' possessions'	9475
+b' possible'	5973
+b' post'	4020
+b' postc'	6894
+b' postcard'	9042
+b' postcards'	7931
+b' poster'	9084
+b' posts'	6245
+b' pot'	1435
+b' potato'	2359
+b' potatoes'	4809
+b' pots'	6114
+b' pouch'	8593
+b' pound'	7924
+b' pounds'	7925
+b' pour'	2215
+b' poured'	2972
+b' pouring'	5833
+b' pout'	8814
+b' pouted'	8815
+b' pover'	9473
+b' poverty'	9474
+b' pow'	2810
+b' powder'	2959
+b' power'	1892
+b' powerful'	2192
+b' powers'	7052
+b' pr'	606
+b' pra'	5024
+b' pract'	2352
+b' practice'	3873
+b' practiced'	3518
+b' practicing'	6200
+b' practised'	6306
+b' praised'	5025
+b' pray'	2822
+b' prayed'	4260
+b' prayers'	6835
+b' praying'	8245
+b' pre'	1700
+b' precious'	5404
+b' prep'	4134
+b' prepar'	8087
+b' prepare'	4755
+b' prepared'	5857
+b' preparing'	9247
+b' pres'	2967
+b' present'	3011
+b' presented'	7460
+b' presents'	5454
+b' press'	4904
+b' pressed'	3970
+b' presses'	7088
+b' pret'	668
+b' pretend'	1428
+b' pretended'	2464
+b' pretending'	4761
+b' pretends'	6379
+b' prett'	5070
+b' prettier'	5526
+b' prettiest'	7024
+b' pretty'	747
+b' prevent'	4407
+b' pri'	3046
+b' price'	4095
+b' prices'	8713
+b' prick'	8665
+b' prickly'	8666
+b' pride'	5342
+b' prin'	1365
+b' prince'	2762
+b' princess'	2092
+b' princesses'	8023
+b' print'	2542
+b' printed'	4833
+b' printer'	5787
+b' prints'	5906
+b' prize'	4751
+b' prized'	8077
+b' pro'	2796
+b' prob'	2044
+b' probab'	7668
+b' probably'	7669
+b' proble'	2076
+b' problem'	2077
+b' problems'	4048
+b' proceed'	7977
+b' proceeded'	7978
+b' process'	6587
+b' project'	5452
+b' prom'	1315
+b' promise'	2060
+b' promised'	1651
+b' promises'	6475
+b' promising'	8916
+b' prop'	5849
+b' proper'	5850
+b' properly'	6795
+b' prot'	2462
+b' protect'	2655
+b' protected'	6348
+b' protecting'	6124
+b' protection'	8194
+b' protects'	9295
+b' protein'	7867
+b' proud'	889
+b' prouder'	9108
+b' proudly'	4325
+b' prov'	3651
+b' prove'	7157
+b' proved'	8947
+b' provide'	4351
+b' provided'	5457
+b' prun'	2732
+b' prune'	4854
+b' prunes'	3388
+b' pruning'	7420
+b' pry'	8607
+b' pu'	1437
+b' puck'	8349
+b' pucker'	9848
+b' puckered'	9555
+b' pudd'	1813
+b' pudding'	6929
+b' puddle'	2027
+b' puddles'	4133
+b' puffy'	9303
+b' pull'	1160
+b' pulled'	1518
+b' pulling'	5569
+b' pulls'	5005
+b' pump'	3157
+b' pumpkin'	3429
+b' pumpkins'	6435
+b' pun'	3914
+b' punish'	5084
+b' punished'	5069
+b' punishment'	8874
+b' pup'	5583
+b' pupil'	6763
+b' pupils'	8371
+b' pupp'	7614
+b' puppies'	7615
+b' puppy'	2005
+b' pur'	1724
+b' purch'	8243
+b' purchas'	8244
+b' purchases'	9402
+b' purp'	6715
+b' purple'	2195
+b' purpose'	6716
+b' purr'	7370
+b' purred'	5736
+b' purrs'	7204
+b' purse'	3581
+b' pus'	3667
+b' push'	1932
+b' pushed'	1406
+b' pushes'	4378
+b' pushing'	5305
+b' put'	576
+b' puts'	2297
+b' putting'	4592
+b' puzz'	2028
+b' puzzle'	2242
+b' puzzles'	4641
+b' qu'	955
+b' quack'	5276
+b' quacked'	5737
+b' quacking'	7233
+b' quacks'	8969
+b' quar'	3617
+b' quarrel'	3618
+b' quarreling'	6407
+b' quarrels'	9351
+b' que'	1634
+b' queen'	2059
+b' queens'	7142
+b' quest'	2513
+b' question'	3387
+b' questions'	3903
+b' quick'	1566
+b' quickly'	1656
+b' quiet'	1579
+b' quieter'	8711
+b' quietly'	4905
+b' quit'	3035
+b' quite'	5199
+b' quiz'	3876
+b' r'	334
+b' ra'	1457
+b' rabbit'	1027
+b' rabbits'	4716
+b' race'	1317
+b' raced'	3342
+b' racer'	8257
+b' races'	7548
+b' racing'	5028
+b' racket'	9975
+b' rad'	2475
+b' radio'	2985
+b' radish'	4932
+b' radishes'	6864
+b' raft'	3177
+b' rag'	3838
+b' rags'	8998
+b' rail'	4284
+b' rails'	7928
+b' rain'	1068
+b' rainbow'	2295
+b' rainbows'	6655
+b' rainco'	9325
+b' raincoat'	9326
+b' raind'	6240
+b' raindr'	6241
+b' raindrops'	6242
+b' rained'	4715
+b' raining'	5652
+b' rains'	7552
+b' rainy'	7437
+b' raise'	4826
+b' raised'	4827
+b' rake'	3480
+b' raked'	7604
+b' raking'	6770
+b' ran'	592
+b' ranch'	4991
+b' rang'	5380
+b' ranger'	5996
+b' rare'	2787
+b' rarely'	9428
+b' rat'	2507
+b' rather'	6274
+b' rats'	8053
+b' ratt'	9766
+b' rattled'	9767
+b' raven'	3335
+b' rays'	7816
+b' raz'	4741
+b' razor'	4742
+b' re'	454
+b' reach'	1423
+b' reached'	1372
+b' reaches'	4634
+b' reaching'	5912
+b' read'	1338
+b' reader'	9011
+b' readily'	9280
+b' reading'	4102
+b' reads'	5843
+b' ready'	1381
+b' real'	1122
+b' realised'	3599
+b' reality'	7404
+b' realize'	6027
+b' realized'	1742
+b' realizes'	6706
+b' realizing'	7493
+b' really'	1684
+b' reapp'	7574
+b' reappeared'	8325
+b' reason'	8167
+b' reass'	7788
+b' rec'	2338
+b' rece'	4076
+b' recei'	5701
+b' receive'	4754
+b' received'	5702
+b' recipe'	9082
+b' reck'	7611
+b' reckless'	7612
+b' recog'	4661
+b' recogn'	4662
+b' recognize'	5484
+b' recognized'	5823
+b' recom'	5157
+b' recomm'	5158
+b' recommend'	5159
+b' recommended'	7425
+b' recor'	7393
+b' record'	3282
+b' recorded'	5506
+b' recorder'	7394
+b' recording'	5496
+b' recover'	9323
+b' recovered'	9324
+b' red'	663
+b' redd'	9352
+b' reddest'	9353
+b' ree'	6191
+b' reeds'	7861
+b' reef'	6192
+b' ref'	3811
+b' refere'	8802
+b' referee'	8803
+b' reflect'	6520
+b' reflection'	6521
+b' refr'	5605
+b' refre'	6730
+b' refreshed'	7686
+b' refreshing'	8284
+b' refriger'	5606
+b' refrigerator'	5607
+b' refus'	8328
+b' refuse'	6145
+b' refused'	3874
+b' refusing'	9523
+b' reg'	2575
+b' register'	9791
+b' regret'	4350
+b' regretted'	7682
+b' regular'	3355
+b' reind'	4928
+b' reindeer'	4929
+b' rejo'	8799
+b' rejoiced'	8800
+b' rel'	1619
+b' relax'	2871
+b' relaxed'	5230
+b' rele'	9541
+b' releas'	9542
+b' release'	6369
+b' released'	5522
+b' releasing'	9543
+b' reli'	2892
+b' reliable'	2893
+b' relie'	7553
+b' relief'	7554
+b' relieved'	2633
+b' reluctantly'	7256
+b' rely'	9021
+b' rem'	1005
+b' remain'	4293
+b' remained'	5255
+b' remaining'	8850
+b' remem'	9002
+b' remember'	1183
+b' remembered'	1498
+b' remembering'	7129
+b' remembers'	9003
+b' remind'	2750
+b' reminded'	3840
+b' reminder'	6797
+b' reminding'	6769
+b' reminds'	7524
+b' remorse'	9826
+b' remorseful'	9827
+b' remove'	4154
+b' removed'	5042
+b' ren'	8333
+b' renew'	8334
+b' renewed'	8335
+b' rep'	3696
+b' repa'	9162
+b' repair'	4023
+b' repaired'	9163
+b' repairs'	8709
+b' repe'	3687
+b' repeat'	4014
+b' repeated'	6426
+b' repeating'	9575
+b' repeats'	6814
+b' repl'	1375
+b' replace'	4989
+b' replaced'	6978
+b' replacing'	8250
+b' replied'	1433
+b' reply'	7424
+b' request'	5213
+b' requested'	6498
+b' res'	2086
+b' resc'	3018
+b' rescue'	3523
+b' rescued'	5239
+b' reserve'	9659
+b' resist'	4336
+b' resisted'	8317
+b' resp'	5173
+b' respect'	2870
+b' respected'	6806
+b' respectful'	4656
+b' respon'	5901
+b' respond'	6721
+b' responded'	7525
+b' respons'	7518
+b' response'	6686
+b' responsible'	7519
+b' rest'	1272
+b' restaur'	4118
+b' restaurant'	4119
+b' rested'	6611
+b' resting'	5668
+b' restless'	4082
+b' restore'	4326
+b' restored'	6181
+b' restoring'	8135
+b' result'	5285
+b' results'	8182
+b' resum'	8437
+b' resumed'	8438
+b' return'	2210
+b' returned'	3109
+b' returning'	7446
+b' reun'	8624
+b' reunited'	8625
+b' reve'	4513
+b' reveal'	4514
+b' revealed'	5498
+b' rever'	7580
+b' reverse'	4598
+b' reversed'	7581
+b' reward'	3897
+b' rewarded'	6509
+b' rewards'	8397
+b' rh'	2778
+b' rhino'	3158
+b' rhinocer'	3159
+b' rhinoceros'	3160
+b' rhythm'	5367
+b' ri'	1352
+b' rib'	7866
+b' ribb'	4359
+b' ribbit'	8887
+b' ribbon'	4360
+b' ribbons'	7400
+b' rice'	5980
+b' rich'	2508
+b' rid'	7004
+b' ridden'	9291
+b' riddle'	8986
+b' ride'	1606
+b' rider'	7246
+b' riding'	4104
+b' right'	1177
+b' ring'	2753
+b' ringing'	4647
+b' rings'	6170
+b' rip'	5528
+b' ripe'	9988
+b' ripped'	6029
+b' rise'	3761
+b' rises'	8283
+b' rising'	6800
+b' risk'	6223
+b' risks'	6820
+b' risky'	8911
+b' river'	1794
+b' riverb'	8758
+b' riverbank'	8759
+b' rivers'	6847
+b' ro'	477
+b' road'	1734
+b' roads'	5356
+b' roamed'	7441
+b' roar'	3297
+b' roared'	4150
+b' roaring'	5752
+b' roars'	7800
+b' rob'	2183
+b' robb'	8760
+b' robber'	7814
+b' robbers'	8761
+b' robin'	7240
+b' robot'	2270
+b' rock'	745
+b' rocked'	9071
+b' rocket'	1951
+b' rockets'	6213
+b' rocking'	6050
+b' rocks'	1749
+b' rod'	2292
+b' rode'	3539
+b' role'	7988
+b' roll'	1388
+b' rolled'	1844
+b' rolling'	3947
+b' rolls'	8070
+b' roof'	2966
+b' roofs'	9037
+b' room'	699
+b' rooms'	5272
+b' root'	3560
+b' roots'	6424
+b' rope'	1887
+b' ropes'	5274
+b' rose'	2341
+b' roses'	6462
+b' rot'	4074
+b' rotten'	8043
+b' rotting'	5720
+b' rough'	2386
+b' round'	1570
+b' rounded'	9833
+b' rout'	8195
+b' routines'	8196
+b' row'	4708
+b' rowing'	6881
+b' ru'	2683
+b' rub'	2127
+b' rubb'	9697
+b' rubbed'	3940
+b' rubber'	3333
+b' rubbish'	9698
+b' rubed'	9546
+b' rubies'	9393
+b' rubs'	8869
+b' rucks'	6889
+b' rucksack'	6890
+b' rude'	2055
+b' ruff'	8188
+b' rug'	2728
+b' ruin'	6705
+b' ruined'	3512
+b' ruining'	7589
+b' rul'	4938
+b' ruled'	7956
+b' ruler'	5310
+b' rules'	5075
+b' ruling'	9094
+b' rum'	6986
+b' rumble'	6011
+b' rumbled'	9151
+b' rumm'	6987
+b' rummaged'	6988
+b' run'	741
+b' runner'	9254
+b' running'	1422
+b' runny'	9905
+b' runs'	1831
+b' rush'	4425
+b' rushed'	3643
+b' rust'	9127
+b' rustling'	9128
+b' rusty'	5889
+b' s'	260
+b' sa'	291
+b' sac'	9364
+b' sack'	2224
+b' sacred'	9365
+b' sad'	495
+b' sadder'	7200
+b' sadly'	4582
+b' sadness'	6334
+b' saf'	2748
+b' safari'	5780
+b' safe'	876
+b' safekeep'	8269
+b' safekeeping'	8270
+b' safely'	3645
+b' safer'	7817
+b' safet'	5286
+b' safety'	5287
+b' said'	324
+b' sail'	1792
+b' sailbo'	9920
+b' sailboat'	9921
+b' sailed'	3047
+b' sailing'	5515
+b' sailor'	3041
+b' sailors'	6219
+b' sails'	7881
+b' sal'	2213
+b' salad'	2824
+b' sale'	7301
+b' salon'	8146
+b' salt'	3965
+b' salty'	7723
+b' same'	1897
+b' san'	6598
+b' sand'	1096
+b' sandbox'	4207
+b' sandc'	3923
+b' sandcast'	3924
+b' sandcastle'	3987
+b' sandcastles'	9864
+b' sandpit'	6756
+b' sandw'	2047
+b' sandwic'	3751
+b' sandwich'	2479
+b' sandwiches'	3752
+b' sang'	1805
+b' sank'	6599
+b' sat'	1082
+b' satis'	7749
+b' satisf'	8642
+b' sauce'	3069
+b' saus'	2522
+b' sausage'	2809
+b' sausages'	5296
+b' sav'	6001
+b' savanna'	6557
+b' save'	2144
+b' saved'	2232
+b' saves'	9327
+b' saving'	4021
+b' savor'	8980
+b' saw'	382
+b' say'	562
+b' saying'	3630
+b' says'	657
+b' sc'	511
+b' scal'	9493
+b' scale'	4125
+b' scales'	6146
+b' scaly'	9494
+b' scar'	2368
+b' scare'	2673
+b' scarecrow'	7746
+b' scared'	618
+b' scares'	8061
+b' scarf'	2559
+b' scarier'	9414
+b' scaring'	6168
+b' scarves'	7503
+b' scary'	1438
+b' scatter'	3222
+b' scattered'	4842
+b' scattering'	5667
+b' scen'	8133
+b' scenery'	8134
+b' scent'	9405
+b' sch'	1980
+b' school'	1981
+b' science'	8286
+b' scissors'	2770
+b' scold'	4810
+b' scolded'	5174
+b' scolds'	8924
+b' scoop'	4577
+b' scooped'	5977
+b' scooping'	7997
+b' scoops'	9590
+b' scoot'	3612
+b' scooter'	4050
+b' scooters'	5979
+b' score'	4625
+b' scr'	3196
+b' scra'	6714
+b' scram'	7640
+b' scramb'	9263
+b' scrambled'	7641
+b' scrambling'	9264
+b' scraped'	7513
+b' scratch'	4669
+b' scratched'	5677
+b' scratches'	7637
+b' scratching'	8290
+b' scre'	1559
+b' scream'	3078
+b' screamed'	2496
+b' screaming'	5397
+b' screams'	5768
+b' scree'	9452
+b' screech'	9453
+b' screen'	3644
+b' screw'	3446
+b' screwd'	6467
+b' screwdri'	6468
+b' screwdriver'	6469
+b' screws'	6167
+b' scri'	8115
+b' scribble'	9265
+b' scrub'	5847
+b' scrubb'	8974
+b' scrubbed'	6320
+b' scrubbing'	8975
+b' scur'	5838
+b' scurried'	6618
+b' scurry'	7557
+b' scurrying'	8305
+b' se'	460
+b' sea'	1611
+b' seag'	4916
+b' seagull'	4917
+b' seagulls'	8323
+b' seal'	2607
+b' sear'	1909
+b' search'	2509
+b' searched'	3032
+b' searching'	3896
+b' season'	4606
+b' seasons'	6339
+b' seat'	1942
+b' seats'	4748
+b' seawe'	8278
+b' seaweed'	8279
+b' sec'	1855
+b' seco'	5259
+b' second'	5260
+b' secret'	1872
+b' secrets'	7281
+b' secure'	8778
+b' see'	548
+b' seed'	2117
+b' seeds'	3127
+b' seeing'	5244
+b' seek'	2223
+b' seeker'	8455
+b' seeking'	7922
+b' seem'	4010
+b' seemed'	2376
+b' seems'	5945
+b' seen'	1617
+b' sees'	1386
+b' seesaw'	7496
+b' sel'	2333
+b' self'	8012
+b' selfish'	2360
+b' sell'	2572
+b' selling'	4768
+b' send'	3942
+b' sending'	7046
+b' sens'	7344
+b' sensation'	7967
+b' sense'	5686
+b' sent'	4346
+b' separ'	4218
+b' separate'	4428
+b' separated'	7921
+b' ser'	2111
+b' serious'	3152
+b' serve'	3827
+b' served'	4717
+b' serving'	8072
+b' set'	1463
+b' sets'	8024
+b' sett'	3482
+b' setted'	9871
+b' setting'	5389
+b' settle'	4278
+b' settled'	5150
+b' settling'	9444
+b' setup'	9489
+b' seven'	5832
+b' sever'	7576
+b' several'	7577
+b' sew'	5045
+b' sewed'	7439
+b' sewing'	7737
+b' sh'	392
+b' shade'	3583
+b' shades'	9129
+b' shadow'	4173
+b' shadows'	5713
+b' shady'	7058
+b' shake'	2000
+b' shakes'	4263
+b' shaking'	4090
+b' shall'	7774
+b' shame'	8771
+b' shamp'	4376
+b' shampoo'	4377
+b' shap'	2208
+b' shape'	3086
+b' shaped'	8885
+b' shapes'	2234
+b' shar'	1291
+b' share'	862
+b' shared'	1144
+b' sharing'	1726
+b' shark'	3396
+b' sharks'	9629
+b' sharp'	1816
+b' sharped'	8651
+b' shatter'	8591
+b' shatters'	9952
+b' she'	391
+b' shed'	5944
+b' sheep'	2391
+b' sheet'	3681
+b' shelf'	2069
+b' shell'	2013
+b' shells'	2865
+b' shelter'	4460
+b' shelves'	6357
+b' shh'	8391
+b' shield'	4596
+b' shin'	1697
+b' shine'	3556
+b' shined'	5187
+b' shines'	7196
+b' shinier'	7624
+b' shining'	1827
+b' shiny'	931
+b' ship'	2999
+b' shirt'	2093
+b' shirts'	6710
+b' shiver'	3325
+b' shivered'	7150
+b' shivering'	4621
+b' sho'	1344
+b' shock'	7070
+b' shocked'	3729
+b' shoe'	3649
+b' shoes'	2030
+b' shone'	4939
+b' shook'	1940
+b' shoot'	3201
+b' shooter'	9001
+b' shooting'	6608
+b' shoots'	8654
+b' shop'	1561
+b' shopkeeper'	3690
+b' shopped'	9401
+b' shopper'	9963
+b' shopping'	5252
+b' shops'	7699
+b' shor'	6456
+b' shore'	3198
+b' short'	3589
+b' shortcut'	9189
+b' shortcuts'	9190
+b' shorter'	6457
+b' shorts'	8770
+b' shot'	5863
+b' shots'	9883
+b' should'	942
+b' shoulder'	5176
+b' shoulders'	5744
+b' shouldn'	4760
+b' shout'	1320
+b' shouted'	1476
+b' shouting'	5885
+b' shouts'	4401
+b' shovel'	3795
+b' shovels'	5718
+b' show'	697
+b' showed'	993
+b' shower'	4645
+b' showing'	3252
+b' shown'	6135
+b' shows'	3543
+b' shr'	1956
+b' shrank'	7511
+b' shrimp'	2907
+b' shrink'	4007
+b' shrinking'	7975
+b' shrug'	6731
+b' shrugged'	4586
+b' shrunk'	8168
+b' shut'	3522
+b' shy'	1917
+b' si'	7937
+b' sib'	7347
+b' sibl'	7348
+b' siblings'	7349
+b' sick'	2404
+b' sickness'	7022
+b' side'	1761
+b' sides'	6704
+b' sidew'	5097
+b' sidewalk'	5098
+b' sideways'	8662
+b' sigh'	5406
+b' sighed'	3146
+b' sighs'	5905
+b' sight'	3580
+b' sights'	5419
+b' sign'	1681
+b' signing'	9581
+b' signs'	6438
+b' sil'	3277
+b' silence'	5145
+b' silent'	7392
+b' sill'	7792
+b' silly'	1680
+b' silver'	4145
+b' sim'	5455
+b' simp'	7766
+b' simple'	5456
+b' simply'	7767
+b' since'	5033
+b' sincere'	8522
+b' sing'	1123
+b' singer'	6504
+b' singers'	9991
+b' singing'	1885
+b' single'	5874
+b' sings'	5926
+b' sink'	3009
+b' sinking'	7822
+b' sinks'	7350
+b' sip'	5318
+b' sipping'	8769
+b' sips'	9830
+b' sir'	5148
+b' siren'	7938
+b' sister'	1603
+b' sisters'	4784
+b' sit'	1370
+b' sits'	4672
+b' sitting'	1797
+b' situ'	5774
+b' situation'	6854
+b' situations'	7120
+b' six'	4781
+b' sixty'	8608
+b' size'	4195
+b' sizes'	5279
+b' sizz'	8703
+b' sk'	749
+b' skate'	9310
+b' skated'	9312
+b' skates'	9311
+b' skating'	9313
+b' ske'	3743
+b' skele'	3784
+b' skeleton'	3785
+b' skid'	9768
+b' skidded'	9769
+b' skill'	4728
+b' skilled'	8467
+b' skills'	5563
+b' skin'	3395
+b' skip'	3356
+b' skipped'	3861
+b' skipping'	5001
+b' skirt'	3927
+b' skirts'	8972
+b' skull'	3609
+b' sky'	819
+b' sl'	748
+b' slam'	6619
+b' slammed'	6620
+b' slap'	5243
+b' slapped'	5540
+b' slapping'	9856
+b' sle'	3283
+b' sled'	9018
+b' sleek'	8820
+b' sleep'	1283
+b' sleeping'	3433
+b' sleeps'	8877
+b' sleepy'	2481
+b' slept'	3394
+b' slice'	5694
+b' slices'	8907
+b' slid'	2161
+b' slide'	1030
+b' slides'	3718
+b' sliding'	4413
+b' slim'	6020
+b' slimy'	6021
+b' slip'	4172
+b' slipped'	3154
+b' slipper'	4679
+b' slippery'	4680
+b' slipping'	6735
+b' slips'	6372
+b' slither'	6138
+b' slithered'	7509
+b' slow'	1424
+b' slowed'	6189
+b' slower'	7391
+b' slowly'	1955
+b' slug'	6262
+b' sm'	406
+b' small'	563
+b' smaller'	3114
+b' smallest'	6486
+b' smar'	6401
+b' smart'	1691
+b' smarter'	6402
+b' smartest'	8215
+b' smash'	7673
+b' smashed'	6687
+b' smell'	1382
+b' smelled'	2556
+b' smelling'	7505
+b' smells'	4546
+b' smelly'	2229
+b' smile'	935
+b' smiled'	555
+b' smiles'	1778
+b' smiley'	6283
+b' smiling'	2599
+b' smilingly'	9249
+b' smo'	2115
+b' smoke'	4372
+b' smooth'	2455
+b' smoother'	8991
+b' smoothness'	9477
+b' sn'	834
+b' snack'	1620
+b' snacks'	2520
+b' snail'	4144
+b' snake'	2098
+b' snakes'	7707
+b' snap'	4390
+b' snapped'	5166
+b' snapping'	8825
+b' snappy'	9909
+b' snar'	8786
+b' snatched'	6759
+b' snatches'	7979
+b' sne'	3545
+b' sneak'	5261
+b' sneaked'	5410
+b' sneakers'	9680
+b' sneaks'	9582
+b' sneaky'	5163
+b' snee'	3373
+b' sneeze'	4385
+b' sneezed'	4907
+b' sneezing'	8756
+b' sniff'	3496
+b' sniffed'	4443
+b' sniffing'	9059
+b' sniffled'	8136
+b' sniffling'	9595
+b' sniffs'	7170
+b' snoo'	9478
+b' snoozing'	9479
+b' snoring'	8449
+b' snort'	9772
+b' snorted'	7239
+b' snorts'	9773
+b' snow'	1486
+b' snowball'	5763
+b' snowballs'	8365
+b' snowed'	9394
+b' snowman'	2049
+b' snowmen'	6724
+b' snuck'	7772
+b' snug'	7083
+b' snugg'	5137
+b' snuggled'	5138
+b' snuggly'	7564
+b' so'	390
+b' soak'	4848
+b' soaked'	6015
+b' soaking'	6905
+b' soap'	2474
+b' soar'	3465
+b' soared'	5447
+b' soaring'	7101
+b' soars'	9109
+b' sobbed'	7625
+b' sobbing'	9286
+b' soc'	5562
+b' soccer'	5749
+b' sock'	2168
+b' socks'	4920
+b' sofa'	3986
+b' soft'	1013
+b' softened'	9093
+b' softer'	5933
+b' softest'	8252
+b' softly'	4604
+b' softness'	8313
+b' soil'	5675
+b' sol'	2598
+b' sold'	2720
+b' soldi'	5331
+b' soldier'	3759
+b' soldiers'	5332
+b' sole'	9931
+b' solut'	7480
+b' solution'	7481
+b' solve'	3234
+b' solved'	4882
+b' solving'	8818
+b' some'	609
+b' somebody'	6095
+b' somed'	5241
+b' someday'	5242
+b' someone'	1692
+b' somet'	559
+b' something'	588
+b' sometime'	9667
+b' sometimes'	1478
+b' somewhere'	4408
+b' son'	3641
+b' song'	1254
+b' songs'	2354
+b' soon'	1048
+b' soot'	8326
+b' soothing'	8327
+b' soothingly'	9520
+b' sor'	730
+b' sore'	5856
+b' sorrow'	9195
+b' sorry'	764
+b' sort'	2411
+b' sorted'	4493
+b' sorting'	4236
+b' sorts'	5561
+b' sound'	1206
+b' sounded'	4108
+b' sounds'	2245
+b' soup'	1949
+b' sour'	2656
+b' source'	7905
+b' soy'	9954
+b' sp'	505
+b' space'	3227
+b' spaces'	7486
+b' spaceship'	8274
+b' spade'	4058
+b' spades'	8348
+b' spag'	3002
+b' spaghe'	3003
+b' spaghet'	3004
+b' spaghett'	3005
+b' spaghetti'	3006
+b' spark'	2280
+b' sparkl'	9630
+b' sparkle'	5767
+b' sparkled'	5551
+b' sparklers'	9631
+b' sparkles'	6955
+b' sparkling'	6699
+b' sparkly'	3830
+b' sparks'	9079
+b' spat'	6694
+b' spe'	2451
+b' speak'	3961
+b' speaking'	7757
+b' spear'	3422
+b' speci'	821
+b' special'	822
+b' sped'	9558
+b' speed'	3351
+b' speeding'	8795
+b' speeds'	8888
+b' spell'	4522
+b' spelling'	8018
+b' spend'	3350
+b' spending'	5238
+b' spent'	3067
+b' spice'	6553
+b' spices'	6554
+b' spicy'	2465
+b' spider'	2239
+b' spiders'	6656
+b' spies'	9994
+b' spik'	7220
+b' spike'	5368
+b' spikes'	5902
+b' spiky'	7221
+b' spill'	2729
+b' spilled'	3180
+b' spilling'	7474
+b' spills'	7044
+b' spin'	2206
+b' spinach'	8862
+b' spinning'	4037
+b' spins'	6284
+b' spirit'	2991
+b' spit'	5232
+b' spits'	7063
+b' spl'	1501
+b' splas'	2346
+b' splash'	2222
+b' splashed'	2949
+b' splasher'	8808
+b' splashes'	5552
+b' splashing'	4898
+b' splat'	9525
+b' split'	3587
+b' splitting'	9236
+b' spo'	1995
+b' spoil'	4140
+b' spoiled'	2963
+b' spoilt'	9749
+b' spoke'	3793
+b' spong'	7906
+b' sponge'	7907
+b' spoon'	1918
+b' spoonful'	8844
+b' spoons'	5954
+b' sport'	3988
+b' sports'	6790
+b' spot'	1558
+b' spots'	4352
+b' spotted'	3224
+b' spout'	7132
+b' spr'	1698
+b' sprang'	8389
+b' spray'	2561
+b' sprayed'	5393
+b' spraying'	6809
+b' sprays'	9501
+b' spre'	3044
+b' spread'	3045
+b' spreading'	6473
+b' spring'	2491
+b' springing'	7629
+b' springs'	9039
+b' sprink'	5229
+b' sprinkle'	7953
+b' sprinkled'	8871
+b' sprinkles'	5890
+b' spun'	3794
+b' squ'	988
+b' square'	2595
+b' squares'	8347
+b' squash'	2811
+b' squaw'	8855
+b' squawked'	8856
+b' sque'	2941
+b' squeak'	7115
+b' squeaked'	6653
+b' squeaky'	9256
+b' squeal'	7008
+b' squealed'	7730
+b' squee'	4594
+b' squeeze'	4686
+b' squeezed'	4821
+b' squeezing'	8008
+b' squigg'	9266
+b' squiggles'	9267
+b' squirrel'	1133
+b' squirrels'	4107
+b' squished'	7555
+b' squishing'	9468
+b' squishy'	6944
+b' st'	342
+b' stable'	3750
+b' stack'	3359
+b' stacked'	9813
+b' stacking'	7091
+b' stad'	5293
+b' stadi'	5294
+b' stadium'	5295
+b' staff'	3409
+b' stage'	3025
+b' stain'	5568
+b' stains'	7071
+b' stair'	5051
+b' staircase'	9675
+b' stairs'	3483
+b' stairy'	9679
+b' stall'	7911
+b' stamp'	2679
+b' stamped'	7590
+b' stamps'	5899
+b' stand'	1856
+b' standing'	3074
+b' stands'	6798
+b' star'	514
+b' stare'	6775
+b' stared'	3598
+b' starfish'	7765
+b' staring'	6983
+b' stars'	2463
+b' start'	1871
+b' started'	551
+b' starting'	5118
+b' startled'	6038
+b' starts'	4700
+b' stat'	3400
+b' station'	3490
+b' statue'	3443
+b' statues'	9363
+b' stay'	1018
+b' stayed'	1539
+b' staying'	6464
+b' stays'	6594
+b' ste'	1247
+b' steady'	6781
+b' steak'	2563
+b' steal'	2261
+b' stealing'	4952
+b' steam'	5058
+b' steel'	4022
+b' steep'	5938
+b' stem'	6939
+b' step'	2412
+b' stepped'	2135
+b' stepping'	7386
+b' steps'	4412
+b' ster'	5903
+b' stern'	5904
+b' sternly'	6688
+b' steth'	8745
+b' stetho'	8746
+b' stethoscope'	8747
+b' stew'	6564
+b' stick'	947
+b' sticker'	4610
+b' stickers'	3675
+b' sticking'	5136
+b' sticks'	2482
+b' sticky'	4202
+b' stiff'	8686
+b' still'	959
+b' sting'	4858
+b' stingers'	9684
+b' stinging'	8289
+b' stings'	7066
+b' stir'	2669
+b' stirr'	4775
+b' stirred'	4266
+b' stirring'	4776
+b' stit'	6670
+b' stitch'	4983
+b' stitches'	6671
+b' sto'	983
+b' stole'	6039
+b' stom'	4016
+b' stomach'	4265
+b' stomachs'	7405
+b' stomp'	8995
+b' stomped'	8085
+b' stone'	1767
+b' stones'	3229
+b' stood'	2771
+b' stool'	6836
+b' stop'	1280
+b' stopped'	1042
+b' stopping'	6293
+b' stops'	4919
+b' stor'	842
+b' store'	1059
+b' stored'	8749
+b' storekeeper'	8719
+b' stories'	2147
+b' storm'	2033
+b' stormed'	9346
+b' stormy'	8403
+b' story'	1004
+b' stove'	2943
+b' str'	772
+b' stra'	5516
+b' straight'	5517
+b' strang'	5370
+b' strange'	1874
+b' stranger'	4608
+b' strangers'	5371
+b' straw'	2468
+b' strawberries'	4414
+b' strawberry'	3102
+b' stray'	9872
+b' stre'	1786
+b' stream'	3938
+b' street'	2145
+b' streets'	6997
+b' streng'	4914
+b' strengt'	8928
+b' strength'	5096
+b' strengthen'	8929
+b' stret'	2610
+b' stretch'	3411
+b' stretched'	4247
+b' stretches'	8238
+b' stretching'	5338
+b' stri'	2800
+b' strike'	4339
+b' string'	1998
+b' strings'	5539
+b' strip'	4469
+b' stripe'	9371
+b' stripes'	5379
+b' stro'	4545
+b' stroke'	7736
+b' stroked'	6102
+b' stroking'	8596
+b' stroll'	5924
+b' strolled'	7487
+b' stroller'	7943
+b' strolling'	9458
+b' strong'	963
+b' stronger'	3327
+b' strongest'	6674
+b' struc'	4639
+b' struck'	7094
+b' structure'	4640
+b' strugg'	4453
+b' struggle'	6425
+b' struggled'	6451
+b' struggling'	5719
+b' strum'	8515
+b' strut'	9911
+b' stubb'	3115
+b' stubborn'	3116
+b' stuck'	1434
+b' stud'	3791
+b' students'	5524
+b' studied'	4637
+b' studio'	9137
+b' study'	2531
+b' studying'	4943
+b' stuff'	2837
+b' stuffed'	5898
+b' stumble'	6991
+b' stumbled'	4668
+b' stun'	7077
+b' stung'	5928
+b' stunned'	9460
+b' stunning'	7743
+b' stupid'	2252
+b' sty'	3944
+b' style'	4201
+b' styles'	7089
+b' su'	2365
+b' sub'	3657
+b' subway'	3658
+b' suc'	2200
+b' succeed'	3741
+b' succeeded'	5747
+b' succeeding'	9847
+b' succeeds'	9358
+b' success'	2805
+b' successes'	8689
+b' successful'	3474
+b' such'	2393
+b' sucked'	9517
+b' sudden'	4255
+b' suddenly'	2129
+b' suff'	4551
+b' suffer'	4996
+b' suffered'	6702
+b' suffering'	8314
+b' sug'	2320
+b' sugar'	3036
+b' suggest'	3772
+b' suggested'	4492
+b' suggestions'	9290
+b' suit'	2492
+b' suitcase'	9309
+b' suits'	8545
+b' summer'	4316
+b' sun'	614
+b' sunf'	2785
+b' sunflower'	2855
+b' sunflowers'	7479
+b' sung'	3328
+b' sungl'	3365
+b' sunglass'	3366
+b' sunglasses'	3367
+b' sunlight'	7502
+b' sunny'	1141
+b' sunr'	5633
+b' sunrise'	5634
+b' sunsc'	6512
+b' sunscreen'	6513
+b' sunset'	3656
+b' sunshine'	2783
+b' sup'	4240
+b' super'	4241
+b' superher'	4731
+b' superhero'	4732
+b' superheroes'	7565
+b' superpow'	9866
+b' superpowers'	9867
+b' supp'	2399
+b' supper'	9081
+b' supplies'	6966
+b' supply'	4660
+b' support'	3420
+b' supported'	6506
+b' suppos'	5670
+b' supposed'	5671
+b' sur'	744
+b' sure'	1460
+b' surf'	5068
+b' surface'	8914
+b' surfboard'	7158
+b' surfing'	9732
+b' surpr'	755
+b' surprise'	1304
+b' surprised'	899
+b' surprises'	4512
+b' surprising'	8312
+b' surprisingly'	9485
+b' surrender'	4086
+b' surround'	6036
+b' surrounded'	7506
+b' surroundings'	6928
+b' sus'	8275
+b' susp'	8276
+b' suspic'	8277
+b' suspicious'	9728
+b' suspiciously'	9436
+b' sw'	608
+b' swall'	8217
+b' swallowed'	9368
+b' swam'	1484
+b' swamp'	4395
+b' swan'	2606
+b' swap'	6825
+b' swat'	9053
+b' sway'	6358
+b' swayed'	7453
+b' swaying'	8513
+b' swe'	3450
+b' sweat'	5916
+b' sweater'	4234
+b' sweaty'	6120
+b' sweep'	6470
+b' sweeping'	8386
+b' sweet'	1264
+b' sweeter'	9951
+b' sweetest'	8837
+b' sweetheart'	4329
+b' sweetie'	4338
+b' sweeties'	5816
+b' sweetly'	8189
+b' sweets'	6012
+b' swell'	9341
+b' swep'	6947
+b' swept'	6948
+b' swim'	1336
+b' swimm'	2555
+b' swimmer'	6880
+b' swimming'	2667
+b' swims'	5766
+b' swimsuits'	8826
+b' swing'	1178
+b' swinging'	3274
+b' swings'	1930
+b' swit'	5372
+b' switch'	3701
+b' switched'	6323
+b' switches'	6801
+b' swo'	6115
+b' swollen'	6116
+b' swoop'	6347
+b' swooped'	6977
+b' sword'	2791
+b' swords'	9480
+b' swung'	3801
+b' sy'	6085
+b' sym'	3584
+b' symbo'	3585
+b' symbol'	3586
+b' sync'	9242
+b' syrup'	6452
+b' t'	258
+b' ta'	786
+b' tab'	9202
+b' tabby'	9203
+b' table'	1187
+b' tables'	6091
+b' tablet'	7189
+b' tag'	3664
+b' tagged'	9628
+b' tail'	1246
+b' tails'	6445
+b' take'	752
+b' takea'	9359
+b' takeaway'	9360
+b' taken'	3053
+b' takes'	2319
+b' taking'	1961
+b' tal'	872
+b' talent'	6047
+b' talented'	6936
+b' talents'	6156
+b' talk'	1223
+b' talked'	1707
+b' talking'	1721
+b' talks'	6295
+b' tall'	1212
+b' taller'	3511
+b' tallest'	6450
+b' tang'	7547
+b' tangled'	8297
+b' tangy'	9990
+b' tank'	3176
+b' tanks'	7897
+b' tap'	5795
+b' tape'	2938
+b' tapped'	7136
+b' tar'	8882
+b' target'	8883
+b' task'	3435
+b' tasks'	7187
+b' tast'	1277
+b' taste'	2334
+b' tasted'	2798
+b' tastes'	5275
+b' tastier'	9846
+b' tasting'	6828
+b' tasty'	1809
+b' taught'	3153
+b' tax'	4823
+b' taxi'	4824
+b' te'	870
+b' tea'	2827
+b' teac'	2003
+b' teach'	2091
+b' teacher'	2078
+b' teaches'	6180
+b' teaching'	4896
+b' team'	3842
+b' teamwork'	6951
+b' teapot'	7310
+b' tear'	2591
+b' tearing'	7151
+b' tears'	3822
+b' teas'	3097
+b' tease'	3647
+b' teased'	5741
+b' teasing'	5087
+b' teasp'	3720
+b' teaspoon'	3721
+b' teaspoons'	7620
+b' teddy'	2298
+b' teeth'	3287
+b' tele'	3363
+b' teleph'	5257
+b' telephone'	5258
+b' telev'	3971
+b' television'	3972
+b' tell'	1339
+b' telling'	4013
+b' tells'	3845
+b' tem'	3447
+b' temper'	7771
+b' temperature'	8696
+b' temple'	3665
+b' tempt'	9623
+b' tempting'	9624
+b' ten'	3576
+b' tend'	8699
+b' tent'	2460
+b' tentacles'	9437
+b' tents'	8531
+b' ter'	3278
+b' terrible'	3354
+b' terrier'	9347
+b' test'	2494
+b' tested'	6975
+b' testing'	8509
+b' tests'	8952
+b' tex'	4971
+b' texture'	4972
+b' th'	310
+b' than'	768
+b' thank'	1493
+b' thanked'	913
+b' thankful'	3188
+b' thanks'	4405
+b' that'	380
+b' thaw'	9171
+b' thawing'	9172
+b' the'	263
+b' theat'	6857
+b' theater'	4472
+b' theatre'	6858
+b' their'	474
+b' theirs'	5308
+b' them'	492
+b' themselves'	4051
+b' then'	637
+b' there'	399
+b' therm'	3835
+b' thermomet'	3836
+b' thermometer'	3837
+b' these'	2839
+b' they'	363
+b' thick'	3017
+b' thie'	2887
+b' thief'	3038
+b' thieves'	7229
+b' thin'	2174
+b' thing'	1326
+b' things'	632
+b' think'	1131
+b' thinking'	3578
+b' thinks'	1926
+b' thinner'	8772
+b' third'	7396
+b' thirsty'	3232
+b' this'	731
+b' those'	4052
+b' though'	2198
+b' thought'	578
+b' thoughtful'	2687
+b' thoughtfulness'	9115
+b' thoughts'	8181
+b' thr'	1162
+b' thre'	1046
+b' thread'	4877
+b' threat'	5509
+b' three'	1527
+b' threw'	1481
+b' thrill'	5533
+b' thrilled'	5745
+b' thro'	8538
+b' throat'	8539
+b' through'	1515
+b' throw'	1772
+b' throwing'	5164
+b' thrown'	9552
+b' throws'	4215
+b' thrust'	9792
+b' thu'	4078
+b' thud'	6028
+b' thumb'	4580
+b' thunder'	4079
+b' thunderst'	9632
+b' thunderstorm'	9633
+b' ti'	9647
+b' tiara'	9648
+b' tick'	3361
+b' ticket'	4042
+b' tickets'	8793
+b' tickle'	6327
+b' tickled'	6657
+b' ticks'	9782
+b' tid'	2766
+b' tide'	3976
+b' tidied'	8423
+b' tidy'	2813
+b' tie'	2275
+b' tied'	3122
+b' ties'	8120
+b' tiger'	2316
+b' tight'	1699
+b' tighter'	6648
+b' tightly'	4756
+b' tilt'	9785
+b' tilts'	9786
+b' tim'	6628
+b' time'	395
+b' timer'	6943
+b' times'	3162
+b' tink'	9937
+b' tinker'	9938
+b' tiny'	1361
+b' tip'	3425
+b' tipped'	6605
+b' tippy'	8860
+b' tips'	8231
+b' tiptoed'	7592
+b' tire'	3225
+b' tired'	1099
+b' tiredness'	8544
+b' tires'	6909
+b' tiss'	5982
+b' tissue'	5983
+b' to'	266
+b' toad'	6676
+b' toast'	4283
+b' tock'	9783
+b' tocks'	9784
+b' today'	1663
+b' todd'	6483
+b' toddler'	6484
+b' toe'	3738
+b' toes'	4977
+b' together'	455
+b' toile'	3620
+b' toilet'	3621
+b' toilets'	7649
+b' told'	740
+b' tom'	2019
+b' tomato'	3382
+b' tomatoes'	5061
+b' tomor'	2544
+b' tomorrow'	2545
+b' tong'	4494
+b' tongue'	4658
+b' tongues'	8316
+b' tonight'	4853
+b' too'	422
+b' took'	607
+b' tool'	2470
+b' toolbox'	7028
+b' tools'	4168
+b' tooth'	3619
+b' top'	1245
+b' tops'	7363
+b' tor'	3448
+b' tore'	5074
+b' torn'	3449
+b' tornado'	4739
+b' toss'	6398
+b' tossed'	7806
+b' tosses'	9774
+b' tossing'	7484
+b' tot'	8840
+b' totally'	8841
+b' touc'	1937
+b' touch'	1296
+b' touched'	1975
+b' touches'	7018
+b' touching'	6026
+b' toug'	2721
+b' tough'	2759
+b' tour'	4373
+b' tourn'	9753
+b' tournament'	9754
+b' tow'	758
+b' toward'	7360
+b' towards'	2095
+b' towel'	2304
+b' towels'	6514
+b' tower'	1664
+b' towered'	9681
+b' towers'	3410
+b' town'	974
+b' towns'	7213
+b' toy'	445
+b' toys'	603
+b' tr'	793
+b' tra'	1045
+b' track'	3790
+b' tracks'	4956
+b' tractor'	6000
+b' trade'	4909
+b' traded'	5553
+b' trading'	7504
+b' traffic'	4650
+b' trail'	3816
+b' train'	1415
+b' trains'	3526
+b' tramp'	9061
+b' trampol'	9062
+b' trampoline'	9063
+b' trans'	7353
+b' transform'	7354
+b' transformed'	7972
+b' trap'	3703
+b' trapped'	5518
+b' trash'	3662
+b' trave'	5284
+b' travel'	2964
+b' traveled'	6709
+b' traveler'	9086
+b' traveling'	7627
+b' travell'	6123
+b' travelled'	8180
+b' travelling'	6862
+b' travels'	7156
+b' tray'	3689
+b' tre'	462
+b' treas'	9686
+b' treasure'	1895
+b' treasured'	9687
+b' treasures'	5134
+b' treat'	1376
+b' treated'	8540
+b' treats'	1971
+b' tree'	499
+b' treehouse'	7253
+b' trees'	1331
+b' treet'	8281
+b' treetops'	8282
+b' trem'	4508
+b' tremb'	5657
+b' tremble'	4509
+b' trembling'	5658
+b' tri'	1228
+b' triang'	9553
+b' triangle'	3034
+b' triangles'	9554
+b' trick'	2546
+b' tricked'	6197
+b' tricks'	3742
+b' tricky'	6391
+b' tried'	651
+b' tries'	2438
+b' trip'	2212
+b' tripped'	3904
+b' trips'	5409
+b' triump'	9305
+b' triumph'	9306
+b' triumphant'	9307
+b' troph'	4455
+b' trophy'	4456
+b' trou'	1881
+b' troub'	7231
+b' trouble'	2489
+b' troubled'	3012
+b' troubles'	7232
+b' tru'	6817
+b' truck'	1195
+b' trucks'	5925
+b' true'	2803
+b' truly'	6818
+b' trump'	4298
+b' trumpet'	4299
+b' trumpets'	7605
+b' trunk'	4258
+b' trust'	2682
+b' trusted'	4696
+b' trusting'	7722
+b' trut'	3398
+b' truth'	3399
+b' try'	813
+b' trying'	1401
+b' tu'	5015
+b' tub'	3872
+b' tube'	5016
+b' tubes'	5417
+b' tuck'	8271
+b' tucked'	4960
+b' tug'	4857
+b' tugged'	6697
+b' tugging'	8722
+b' tul'	9155
+b' tulip'	9156
+b' tum'	8299
+b' tumbled'	8723
+b' tumbling'	7635
+b' tummies'	8300
+b' tummy'	3779
+b' tun'	3150
+b' tuna'	5882
+b' tune'	6855
+b' tunnel'	3389
+b' tunnels'	7833
+b' turkey'	3557
+b' turn'	901
+b' turned'	1369
+b' turning'	6356
+b' turns'	1495
+b' turtle'	1996
+b' tus'	9741
+b' tusks'	9742
+b' tut'	4488
+b' tutor'	4489
+b' tw'	827
+b' tweet'	7974
+b' tweets'	9117
+b' twice'	7355
+b' twig'	3467
+b' twigs'	5646
+b' twin'	5468
+b' twink'	5249
+b' twinkle'	7387
+b' twinkled'	7529
+b' twinkling'	6472
+b' twins'	1993
+b' twir'	4563
+b' twirl'	6522
+b' twirled'	5968
+b' twirling'	6446
+b' twis'	6969
+b' twist'	2946
+b' twisted'	4366
+b' twists'	6106
+b' twisty'	6970
+b' twit'	8356
+b' twitched'	8357
+b' two'	1051
+b' ty'	6173
+b' type'	6804
+b' types'	8329
+b' u'	321
+b' udd'	9158
+b' udders'	9159
+b' ugly'	1979
+b' umb'	2917
+b' umbre'	2918
+b' umbrella'	2919
+b' un'	681
+b' unable'	8057
+b' uncle'	2628
+b' uncom'	2875
+b' uncomfortable'	2876
+b' uncover'	8131
+b' uncovered'	9284
+b' und'	7080
+b' under'	774
+b' underground'	5317
+b' undern'	9055
+b' underneath'	9056
+b' underst'	1491
+b' understand'	1730
+b' understanding'	4844
+b' understands'	8259
+b' understood'	2781
+b' undo'	8306
+b' unex'	943
+b' unexpected'	944
+b' unf'	7214
+b' unfam'	8630
+b' unfamil'	8631
+b' unfamiliar'	8632
+b' unhappy'	5062
+b' uni'	2756
+b' unic'	5049
+b' unicorn'	5050
+b' unif'	4547
+b' uniform'	4548
+b' unique'	2757
+b' unite'	3747
+b' united'	5704
+b' uniting'	9376
+b' univer'	3052
+b' universe'	4417
+b' university'	4040
+b' unk'	2293
+b' unkind'	9367
+b' unkn'	2310
+b' unknow'	9643
+b' unknown'	2326
+b' unl'	2950
+b' unless'	8833
+b' unlock'	3501
+b' unlocked'	5180
+b' unlocks'	8302
+b' unpa'	6972
+b' unpack'	3685
+b' unpacked'	6973
+b' unro'	9798
+b' unroll'	9799
+b' uns'	5956
+b' unsc'	8406
+b' unscre'	8407
+b' unscrew'	8408
+b' unscrewed'	9638
+b' unsure'	6188
+b' unt'	961
+b' untangle'	7839
+b' untie'	8762
+b' until'	973
+b' untw'	7416
+b' untwist'	8062
+b' unus'	2908
+b' unusual'	2909
+b' unw'	7397
+b' unwra'	7398
+b' unwrap'	8121
+b' unwrapped'	9188
+b' unwraps'	9275
+b' unz'	8797
+b' unzip'	8798
+b' up'	362
+b' upd'	9660
+b' updates'	9661
+b' upon'	436
+b' upset'	2172
+b' upstairs'	4427
+b' ur'	3236
+b' urge'	4510
+b' urged'	4615
+b' urging'	7848
+b' us'	825
+b' use'	1109
+b' used'	1161
+b' useful'	3121
+b' uses'	8626
+b' using'	2895
+b' usual'	6390
+b' usually'	7026
+b' v'	723
+b' vac'	6209
+b' vacation'	6210
+b' val'	2265
+b' valley'	4182
+b' valu'	3168
+b' valuable'	3205
+b' value'	3796
+b' valued'	5963
+b' values'	9691
+b' van'	2649
+b' vanilla'	6118
+b' vanish'	5415
+b' vanished'	4969
+b' vase'	3672
+b' ve'	1652
+b' veget'	2330
+b' vegetable'	2331
+b' vegetables'	2627
+b' vegg'	8645
+b' veggies'	8646
+b' veh'	4371
+b' vehicle'	4542
+b' vehicles'	8647
+b' veil'	5079
+b' velv'	5535
+b' velvet'	5536
+b' vend'	4205
+b' vendor'	4206
+b' vent'	6134
+b' venture'	8789
+b' ventured'	6708
+b' very'	379
+b' vest'	5278
+b' vet'	6059
+b' veter'	4628
+b' veterin'	4629
+b' veterinarian'	4630
+b' vi'	3507
+b' vial'	8443
+b' vibr'	6764
+b' vibrant'	7121
+b' vict'	6367
+b' victory'	6669
+b' vide'	3286
+b' video'	3558
+b' videos'	6315
+b' vie'	3357
+b' view'	3358
+b' views'	9928
+b' vill'	1977
+b' villag'	5416
+b' village'	2108
+b' villager'	7912
+b' villagers'	5919
+b' villian'	8992
+b' vine'	4204
+b' vineg'	9513
+b' vinegar'	9514
+b' vines'	5580
+b' viol'	3870
+b' violin'	3930
+b' vis'	1842
+b' visit'	1908
+b' visited'	5283
+b' visiting'	6967
+b' visitor'	7421
+b' visitors'	8249
+b' vo'	1197
+b' voice'	1285
+b' voices'	5750
+b' voila'	9688
+b' vol'	7108
+b' volc'	3402
+b' volcan'	3403
+b' volcano'	3445
+b' volcanos'	9701
+b' volunt'	7109
+b' volunte'	8342
+b' volunteer'	8341
+b' volunteers'	8343
+b' vroom'	4422
+b' w'	261
+b' wa'	271
+b' wack'	9860
+b' wacky'	9861
+b' wadd'	8574
+b' waddling'	9932
+b' waded'	7775
+b' waff'	2763
+b' waffle'	3141
+b' waffles'	5330
+b' wag'	1391
+b' wagged'	1710
+b' wagging'	5531
+b' wagon'	2995
+b' wags'	4342
+b' waist'	6103
+b' wait'	1128
+b' waited'	1609
+b' waiting'	2500
+b' waits'	5146
+b' wake'	2686
+b' wakes'	6385
+b' waking'	8664
+b' wal'	586
+b' walk'	949
+b' walked'	791
+b' walking'	1281
+b' walks'	3538
+b' wall'	1456
+b' wallet'	4317
+b' walls'	3459
+b' wand'	3231
+b' wander'	3478
+b' wandered'	4588
+b' wanna'	9050
+b' want'	364
+b' wanted'	407
+b' wants'	1639
+b' war'	2081
+b' warb'	9234
+b' warbly'	9235
+b' ward'	4556
+b' wardrobe'	4557
+b' warm'	1036
+b' warmer'	6108
+b' warmest'	9775
+b' warmth'	6129
+b' warn'	4161
+b' warned'	4631
+b' warning'	4590
+b' warnings'	6326
+b' warns'	9943
+b' warri'	8411
+b' warrior'	8412
+b' was'	281
+b' wash'	2053
+b' washed'	3126
+b' washes'	8199
+b' washing'	4537
+b' wasn'	2219
+b' wast'	7606
+b' waste'	7607
+b' wasted'	6771
+b' wasting'	7345
+b' wat'	794
+b' watch'	1028
+b' watched'	1233
+b' watches'	5172
+b' watching'	2342
+b' water'	707
+b' watered'	5002
+b' watering'	6436
+b' waterm'	8729
+b' watermelon'	8730
+b' wave'	2435
+b' waved'	1550
+b' waves'	3486
+b' waving'	5302
+b' wax'	8153
+b' way'	927
+b' ways'	3542
+b' we'	366
+b' weak'	2521
+b' weaker'	9051
+b' wealthy'	3514
+b' weap'	3805
+b' weapon'	3806
+b' weapons'	8476
+b' wear'	1429
+b' wearing'	2632
+b' wears'	6061
+b' weather'	5078
+b' weave'	9338
+b' weaving'	9339
+b' web'	4503
+b' webs'	7102
+b' wed'	5679
+b' wedd'	5680
+b' wedding'	5681
+b' wee'	6404
+b' weed'	7869
+b' weeds'	7318
+b' week'	3739
+b' weeke'	6405
+b' weekend'	6406
+b' weekends'	8208
+b' weeks'	5875
+b' weep'	4290
+b' weeping'	5513
+b' weigh'	3434
+b' weighed'	6432
+b' weighs'	6693
+b' weight'	4122
+b' weights'	9427
+b' weird'	2844
+b' welc'	1753
+b' welcome'	1822
+b' welcomed'	5722
+b' well'	1624
+b' went'	429
+b' wept'	6333
+b' were'	411
+b' weren'	6692
+b' west'	4607
+b' wet'	1430
+b' wh'	426
+b' whale'	4071
+b' whales'	9060
+b' what'	579
+b' whatever'	6337
+b' whe'	1869
+b' wheat'	3553
+b' wheee'	9187
+b' wheel'	2214
+b' wheelchair'	9210
+b' wheeled'	9440
+b' wheels'	3472
+b' when'	630
+b' whenever'	3640
+b' where'	1085
+b' wherever'	6147
+b' whether'	9755
+b' which'	3131
+b' whil'	9466
+b' while'	1002
+b' whilst'	9467
+b' whin'	9779
+b' whine'	8044
+b' whines'	7744
+b' whinn'	9780
+b' whinnied'	9781
+b' whip'	3082
+b' whipped'	8075
+b' whips'	9877
+b' whipsled'	9878
+b' whiskers'	8100
+b' whisp'	2932
+b' whisper'	5217
+b' whispered'	3574
+b' whispering'	9850
+b' whispers'	7654
+b' whist'	1808
+b' whistle'	2062
+b' whistled'	5133
+b' whistles'	5339
+b' whistling'	5648
+b' white'	1546
+b' who'	646
+b' whoever'	7968
+b' whole'	2322
+b' whoo'	7159
+b' whoop'	9746
+b' whooped'	9747
+b' whoosh'	7160
+b' whose'	7648
+b' why'	1537
+b' wicked'	7711
+b' wid'	7178
+b' wide'	2427
+b' widened'	7179
+b' wider'	7827
+b' wife'	3304
+b' wigg'	4605
+b' wiggle'	5152
+b' wiggled'	6853
+b' wild'	1976
+b' will'	621
+b' willing'	7904
+b' win'	1543
+b' wind'	859
+b' window'	1393
+b' windows'	4087
+b' winds'	8977
+b' windy'	6679
+b' wine'	3982
+b' wing'	2913
+b' wings'	2110
+b' wink'	5829
+b' winked'	7809
+b' winner'	6077
+b' winners'	9559
+b' winning'	4872
+b' wins'	5946
+b' winter'	4083
+b' wip'	2672
+b' wipe'	4355
+b' wiped'	3760
+b' wipes'	6403
+b' wire'	3993
+b' wires'	6466
+b' wis'	2379
+b' wisdom'	4783
+b' wise'	1419
+b' wisely'	7185
+b' wiser'	6910
+b' wisest'	8731
+b' wish'	1740
+b' wished'	1585
+b' wishes'	3209
+b' wishing'	6086
+b' witch'	2727
+b' with'	330
+b' within'	9017
+b' without'	1694
+b' wiz'	5724
+b' wizard'	5725
+b' wo'	1037
+b' wob'	5350
+b' wobb'	6294
+b' wobble'	9874
+b' wobbled'	7251
+b' wobbling'	8021
+b' wobbly'	6919
+b' woke'	1905
+b' woken'	7684
+b' wolf'	2443
+b' wom'	2130
+b' woman'	2131
+b' won'	1706
+b' wonder'	1387
+b' wondered'	2336
+b' wonderful'	2064
+b' wondering'	5374
+b' wonders'	4968
+b' wood'	1359
+b' woodcut'	7315
+b' woodcutter'	7316
+b' wooden'	5493
+b' woods'	1567
+b' woof'	5775
+b' wool'	3242
+b' wor'	568
+b' word'	3471
+b' words'	1793
+b' wore'	1883
+b' work'	1107
+b' worked'	1185
+b' worker'	5322
+b' workers'	5392
+b' working'	2247
+b' workout'	9233
+b' works'	5559
+b' worksh'	6757
+b' workshop'	6758
+b' world'	1528
+b' worm'	2057
+b' worms'	4529
+b' worried'	1773
+b' worries'	7336
+b' worry'	1346
+b' worrying'	6078
+b' worse'	4891
+b' worst'	8039
+b' worth'	5208
+b' would'	524
+b' wouldn'	2856
+b' wound'	5786
+b' wounds'	6501
+b' wow'	6518
+b' wr'	1262
+b' wra'	2007
+b' wrap'	2402
+b' wrapped'	4130
+b' wrapper'	8118
+b' wrapping'	6945
+b' wraps'	8119
+b' wre'	5319
+b' wreck'	5320
+b' wrigg'	7871
+b' wriggled'	7872
+b' wrink'	9901
+b' wrinkly'	9902
+b' wrist'	6995
+b' wrists'	9967
+b' write'	2784
+b' writes'	7399
+b' writing'	4888
+b' wrong'	1608
+b' wrote'	3684
+b' x'	4666
+b' y'	332
+b' yach'	2641
+b' yacht'	2642
+b' yard'	1213
+b' yarn'	3360
+b' yaw'	4212
+b' yawn'	5851
+b' yawned'	5178
+b' yawning'	7633
+b' yay'	9101
+b' year'	1638
+b' years'	1985
+b' yell'	1088
+b' yelled'	2616
+b' yelling'	6107
+b' yellow'	1258
+b' yells'	6690
+b' yelp'	7865
+b' yelped'	9028
+b' yes'	1758
+b' yesterday'	5855
+b' yet'	3573
+b' yield'	3954
+b' yielded'	8812
+b' yielding'	8777
+b' yog'	2724
+b' yoga'	4392
+b' yogurt'	3500
+b' yogurts'	9853
+b' you'	350
+b' young'	2066
+b' younger'	7212
+b' your'	625
+b' yours'	2947
+b' yourself'	2637
+b' yourselves'	8465
+b' youth'	6883
+b' yucky'	4519
+b' yum'	7777
+b' yummy'	1023
+b' z'	1120
+b' zeb'	3595
+b' zebra'	3596
+b' zebras'	8240
+b' zero'	4465
+b' zigzag'	5003
+b' zip'	2390
+b' zipped'	5352
+b' zipper'	4244
+b' zips'	6677
+b' zoo'	2191
+b' zookeeper'	4504
+b' zoom'	2169
+b' zoomed'	5211
+b' zooming'	5784
+b' zooms'	7531
+b' \xe2\x80'	4636
+b' \xe2\x80\x93'	4906
+b' \xe2\x80\x94'	8543
+b' \xe2\x80\x9c'	1145
+b'!'	33
+b'!"'	415
+b'!",'	5116
+b'!".'	4398
+b"!'"	5828
+b'!?\xe2\x80\x9d'	9600
+b'!\xe2\x80\x9d'	1946
+b'!\xe2\x80\x9d.'	6956
+b'"'	34
+b'"!'	8656
+b'",'	5141
+b'".'	1533
+b'#'	35
+b'$'	36
+b'%'	37
+b'&'	38
+b"'"	39
+b'\'".'	9576
+b"'."	5594
+b'\'."'	8234
+b'\'?"'	9099
+b"'d"	3895
+b"'ll"	2018
+b"'m"	893
+b"'re"	1410
+b"'s"	385
+b"'t"	489
+b"'ve"	4301
+b'('	40
+b')'	41
+b'*'	42
+b'+'	43
+b','	44
+b',"'	634
+b",'"	7371
+b',\xe2\x80\x9d'	4264
+b'-'	45
+b'--'	9863
+b'.'	46
+b'."'	400
+b".'"	4505
+b'.\'"'	6449
+b".''"	8366
+b'..'	4533
+b'...'	6443
+b'..."'	5879
+b'.\xe2\x80\x9d'	1686
+b'/'	47
+b'0'	48
+b'1'	49
+b'2'	50
+b'3'	51
+b'4'	52
+b'5'	53
+b'6'	54
+b'7'	55
+b'8'	56
+b'9'	57
+b':'	58
+b';'	59
+b'<'	60
+b'<|endoftext|>'	256
+b'='	61
+b'=='	4397
+b'===='	5624
+b'========'	7327
+b'>'	62
+b'?'	63
+b'?!'	9674
+b'?!"'	8566
+b'?"'	481
+b'?",'	9111
+b'?".'	3773
+b"?'"	5827
+b"?''"	9584
+b'?\xe2\x80\x9d'	2277
+b'?\xe2\x80\x9d.'	8212
+b'@'	64
+b'A'	65
+b'AN'	7704
+b'AT'	6805
+b'Abby'	8958
+b'Abigail'	8957
+b'Achoo'	5739
+b'Adam'	6510
+b'After'	1210
+b'Afterwards'	6659
+b'Ah'	8805
+b'Ahh'	7803
+b'Aid'	9010
+b'Al'	4113
+b'Albert'	6528
+b'Alex'	9949
+b'Alice'	5170
+b'All'	5066
+b'Almost'	9865
+b'Alright'	8551
+b'Always'	8251
+b'Alya'	7725
+b'Amanda'	8589
+b'Amy'	1646
+b'And'	2512
+b'Andy'	6737
+b'Ang'	9122
+b'Angel'	9123
+b'Ann'	5081
+b'Anna'	1286
+b'Anne'	9337
+b'Annie'	7666
+b'Ant'	8191
+b'Are'	2586
+b'Arrr'	9421
+b'Arthur'	8094
+b'As'	904
+b'At'	1253
+b'Auntie'	7116
+b'Ava'	9379
+b'B'	66
+b'Ba'	8780
+b'Baa'	8781
+b'Baby'	6738
+b'Back'	8372
+b'Bad'	6328
+b'Bally'	7600
+b'Barry'	7037
+b'Be'	2190
+b'Bear'	6136
+b'Because'	4331
+b'Beep'	8013
+b'Before'	4796
+b'Behind'	6989
+b'Believe'	8332
+b'Bella'	4766
+b'Ben'	1092
+b'Benny'	5881
+b'Bes'	9770
+b'Besides'	9771
+b'Bessie'	9300
+b'Bet'	6351
+b'Betsy'	8426
+b'Betty'	6980
+b'Big'	6319
+b'Bill'	7262
+b'Billy'	3020
+b'Binky'	7647
+b'Bird'	5168
+b'Birds'	9269
+b'Birdy'	7551
+b'Bl'	5349
+b'Bless'	8225
+b'Blue'	5489
+b'Bob'	1544
+b'Bobbie'	9603
+b'Bobby'	4724
+b'Bobo'	3713
+b'Bolly'	7544
+b'Boo'	5647
+b'Books'	9924
+b'Bop'	8668
+b'Both'	7991
+b'Bow'	7365
+b'Boy'	8773
+b'Boys'	7167
+b'Br'	7309
+b'Brad'	9025
+b'Brett'	7823
+b'Brian'	6924
+b'Bring'	7835
+b'Brown'	8943
+b'Brownie'	8944
+b'Brrr'	8807
+b'Bu'	5437
+b'Buddy'	5307
+b'Bug'	7689
+b'But'	787
+b'Buzz'	6164
+b'Buzzy'	7321
+b'By'	7357
+b'Bye'	4072
+b'C'	67
+b'Can'	789
+b'Car'	8330
+b'Care'	9164
+b'Careful'	9165
+b'Cari'	8965
+b'Carl'	9959
+b'Cat'	6957
+b'Catch'	7864
+b'Cause'	9340
+b'Ch'	4507
+b'Charlie'	6152
+b'Che'	9089
+b'Cheap'	9090
+b'Chick'	8505
+b'Chirpy'	7697
+b'Chloe'	7372
+b'Chris'	7845
+b'Cindy'	7515
+b'Cl'	6325
+b'Claire'	6395
+b'Clara'	7514
+b'Click'	9176
+b'Close'	9725
+b'Co'	8835
+b'Coco'	8836
+b'Come'	2533
+b'Count'	8609
+b'Cra'	8260
+b'Crabs'	8261
+b'Curious'	9738
+b'D'	68
+b'Dad'	2375
+b'Daddy'	4199
+b'Daisy'	4374
+b'Dan'	9329
+b'Danny'	7619
+b'Dark'	9459
+b'Darrin'	7450
+b'Dave'	5589
+b'Davey'	7621
+b'David'	7500
+b'Days'	8027
+b'Deal'	6700
+b'Dear'	7146
+b'Despite'	8791
+b'Dezi'	7942
+b'Did'	4306
+b'Dino'	8610
+b'Do'	1720
+b'Dog'	5364
+b'Doggy'	6314
+b'Dolly'	7236
+b'Don'	1279
+b'Down'	8035
+b'Drink'	7880
+b'Duck'	8145
+b'Ducky'	6182
+b'During'	6117
+b'Dusty'	9204
+b'E'	69
+b'Each'	8151
+b'Eat'	7191
+b'Ed'	9044
+b'Eddie'	7472
+b'Elephant'	8398
+b'Ella'	4684
+b'Ellie'	7134
+b'Elly'	8598
+b'Elsa'	8985
+b'Em'	4070
+b'Emily'	5340
+b'Emma'	4981
+b'Enc'	9676
+b'Encou'	9677
+b'Encouraged'	9678
+b'Even'	7546
+b'Eventually'	5263
+b'Every'	3073
+b'Everyday'	9385
+b'Everyone'	5031
+b'Ew'	6741
+b'Ex'	5494
+b'Exc'	5868
+b'Exce'	9134
+b'Excell'	9135
+b'Excellent'	9136
+b'Excited'	9212
+b'Excitedly'	9213
+b'Excuse'	6070
+b'Exercise'	9231
+b'F'	70
+b'Fido'	9322
+b'Fin'	1899
+b'Finally'	2171
+b'Fine'	7406
+b'Finn'	8884
+b'Finny'	6747
+b'First'	7027
+b'Fish'	9875
+b'Fix'	8170
+b'Fluffy'	3255
+b'Fo'	5754
+b'Fog'	9778
+b'Follow'	6157
+b'For'	7036
+b'Fore'	9486
+b'Foreshadow'	9487
+b'Foreshadowing'	9488
+b'Fountain'	9834
+b'Four'	7724
+b'Fox'	8863
+b'Fr'	8473
+b'Frank'	6749
+b'Fred'	4994
+b'Freddy'	6511
+b'Freeze'	8584
+b'Fro'	6993
+b'Froggy'	7436
+b'From'	1670
+b'Frustrated'	9759
+b'Fun'	9268
+b'G'	71
+b'Gary'	9904
+b'Gather'	8556
+b'Get'	8737
+b'Gigi'	6579
+b'Give'	3253
+b'Go'	3071
+b'Goal'	8948
+b'Gold'	9521
+b'Goldy'	9522
+b'Good'	2150
+b'Goodbye'	6044
+b'Got'	8102
+b'Gra'	4009
+b'Grab'	9711
+b'Grace'	6916
+b'Gracie'	9150
+b'Grandma'	4442
+b'Gre'	5878
+b'Great'	6080
+b'Green'	9318
+b'Greeny'	9319
+b'Gu'	6616
+b'Guess'	6617
+b'Gulp'	9472
+b'H'	72
+b'HAT'	7874
+b'Ha'	4600
+b'Hair'	8582
+b'Hairy'	9944
+b'Happy'	5502
+b'Harmony'	7916
+b'Harsh'	9823
+b'Have'	6112
+b'He'	1014
+b'Hearing'	7341
+b'Hell'	1167
+b'Hello'	1168
+b'Help'	2497
+b'Her'	1483
+b'Herb'	8913
+b'Here'	2842
+b'Hey'	2067
+b'Hi'	1108
+b'Hippy'	8658
+b'His'	1744
+b'Ho'	7468
+b'Hold'	6111
+b'Honey'	7313
+b'Hooray'	8159
+b'Hopper'	9664
+b'How'	2814
+b'However'	7422
+b'Hurry'	9591
+b'I'	73
+b'IN'	8675
+b'ING'	8676
+b'If'	3272
+b'Ign'	8107
+b'Ignor'	8108
+b'Ignorant'	8109
+b'Im'	9611
+b'Immediately'	9612
+b'In'	1446
+b'Increase'	9821
+b'Inside'	2989
+b'Instead'	8033
+b'Is'	3661
+b'Isabella'	6555
+b'It'	1026
+b'J'	74
+b'Jack'	1904
+b'Jacky'	7261
+b'Jacob'	7999
+b'Jake'	6304
+b'James'	6691
+b'Jamie'	9438
+b'Jane'	3169
+b'Janie'	7217
+b'Jazz'	5659
+b'Jen'	7890
+b'Jenny'	4595
+b'Jerry'	6221
+b'Jess'	7818
+b'Jessie'	7122
+b'Jill'	4177
+b'Jim'	3571
+b'Jimmy'	4132
+b'Jo'	7731
+b'Joe'	4217
+b'Joey'	5964
+b'John'	1569
+b'Johnny'	5495
+b'Johny'	7171
+b'Jojo'	9989
+b'Jolly'	8763
+b'Jordan'	9041
+b'Josh'	9072
+b'Joshua'	9073
+b'Joy'	8239
+b'Julie'	8524
+b'Jump'	7042
+b'June'	8787
+b'Just'	1833
+b'K'	75
+b'Kanga'	9986
+b'Kate'	7701
+b'Katie'	7161
+b'Ke'	7783
+b'Keep'	8715
+b'Kelly'	9068
+b'Kids'	9038
+b'Kiki'	7075
+b'Kim'	7407
+b'Kirsty'	7832
+b'Kitty'	2165
+b'L'	76
+b'Larry'	8028
+b'Later'	2162
+b'Leave'	7032
+b'Lena'	6478
+b'Leo'	4762
+b'Let'	934
+b'Lets'	9285
+b'Liam'	9271
+b'Like'	7702
+b'Lila'	1992
+b'Lilly'	8025
+b'Lily'	667
+b'Lina'	6570
+b'Linda'	9745
+b'Lion'	9497
+b'Lisa'	4343
+b'Listen'	8806
+b'Little'	3710
+b'Liz'	8367
+b'Lizzie'	9049
+b'Lizzy'	6253
+b'Lola'	9080
+b'Loo'	9354
+b'Look'	1116
+b'Looking'	9355
+b'Looks'	8157
+b'Love'	8417
+b'Luckily'	7745
+b'Lucy'	1565
+b'Lulu'	7913
+b'Luna'	6606
+b'Lung'	9828
+b'M'	77
+b'Mabel'	8801
+b'Mach'	9022
+b'Machine'	9023
+b'Maggie'	6043
+b'Malerious'	8172
+b'Mama'	3113
+b'Mandy'	7254
+b'Mar'	6596
+b'Maria'	8123
+b'Marie'	7971
+b'Mark'	4712
+b'Marriage'	9706
+b'Marry'	9762
+b'Mary'	4454
+b'Max'	1311
+b'May'	5235
+b'Maya'	8956
+b'Maybe'	1865
+b'Me'	3677
+b'Meg'	7276
+b'Meow'	6302
+b'Mia'	1472
+b'Michael'	8674
+b'Mila'	7507
+b'Milly'	6526
+b'Mimi'	4110
+b'Mina'	9800
+b'Mind'	9304
+b'Mine'	7049
+b'Mint'	7428
+b'Miss'	7769
+b'Mittens'	7260
+b'Mmm'	6582
+b'Mo'	9350
+b'Molly'	2848
+b'Mom'	812
+b'Mommy'	1804
+b'Momo'	5151
+b'Moral'	5387
+b'Mother'	9545
+b'Mr'	3694
+b'Mrs'	7194
+b'Mum'	2915
+b'Mummy'	3460
+b'My'	2535
+b'N'	78
+b'NO'	9884
+b'Nate'	9031
+b'Near'	7761
+b'Next'	4332
+b'Nick'	7366
+b'No'	996
+b'Nobody'	9104
+b'Noelle'	7857
+b'Not'	4409
+b'Nothing'	7634
+b'Now'	2262
+b'Nutty'	9144
+b'O'	79
+b'OK'	2143
+b'Oat'	7561
+b'Of'	2237
+b'Oh'	1466
+b'Ok'	5288
+b'Okay'	1557
+b'Ollie'	7265
+b'On'	329
+b'Once'	425
+b'One'	381
+b'Only'	8828
+b'Oops'	6183
+b'Open'	8358
+b'Or'	7201
+b'Other'	9776
+b'Ouch'	3879
+b'Our'	5822
+b'Out'	6140
+b'Outside'	8405
+b'Ow'	4025
+b'Oxygen'	7713
+b'P'	80
+b'Pam'	7076
+b'Pandy'	7206
+b'Paper'	9110
+b'Pat'	6723
+b'Paul'	6646
+b'Pe'	7414
+b'Penny'	8006
+b'People'	9526
+b'Pepper'	8059
+b'Per'	8468
+b'Percy'	9757
+b'Pete'	6543
+b'Peter'	5637
+b'Piano'	9906
+b'Pinky'	6198
+b'Pip'	7489
+b'Pipp'	7720
+b'Pippin'	7721
+b'Pl'	8192
+b'Play'	8193
+b'Please'	1919
+b'Polly'	7812
+b'Pop'	8819
+b'Poppy'	6981
+b'Poula'	7139
+b'Prin'	6423
+b'Princess'	8242
+b'Print'	7782
+b'Promise'	9349
+b'Push'	7469
+b'Put'	7478
+b'Q'	81
+b'Qu'	7470
+b'Quack'	7471
+b'R'	82
+b'RE'	8288
+b'Rabbit'	8233
+b'Rachel'	7860
+b'Re'	3999
+b'Ready'	4497
+b'Real'	9166
+b'Realizing'	9167
+b'Really'	6279
+b'Rel'	9331
+b'Relax'	9332
+b'Remember'	6760
+b'Remy'	5520
+b'Rex'	5872
+b'Rhythm'	9760
+b'Rib'	7180
+b'Ribbit'	7181
+b'Rise'	9145
+b'Ro'	5940
+b'Roar'	7539
+b'Rob'	5591
+b'Robby'	9724
+b'Robert'	7628
+b'Rocco'	9070
+b'Rock'	7482
+b'Rocky'	8179
+b'Rollie'	8912
+b'Rose'	7763
+b'Rover'	8572
+b'Ruby'	5547
+b'Ruff'	8187
+b'Rug'	8896
+b'Run'	7247
+b'S'	83
+b'SC'	9447
+b'SCRE'	9448
+b'SCREE'	9449
+b'SCREEC'	9450
+b'SCREECH'	9451
+b'Sadly'	8129
+b'Sally'	2381
+b'Sam'	1356
+b'Samantha'	9000
+b'Sammy'	5909
+b'Samuel'	7948
+b'Sandy'	5691
+b'Sara'	1293
+b'Sarah'	2939
+b'Seal'	8082
+b'Sean'	8590
+b'See'	4555
+b'Send'	9390
+b'Serve'	9361
+b'Seth'	8128
+b'Seven'	7376
+b'Sh'	4856
+b'Sharing'	6971
+b'She'	1389
+b'Shh'	8319
+b'Show'	9690
+b'Shrink'	9118
+b'Shut'	8095
+b'Sienna'	9173
+b'Silly'	6751
+b'Since'	9873
+b'Sit'	8964
+b'Six'	9729
+b'Sleep'	7963
+b'Slow'	7432
+b'Slowly'	8103
+b'Sn'	8318
+b'Snake'	9498
+b'Snap'	7651
+b'Snow'	9626
+b'Snowy'	9627
+b'So'	1332
+b'Sof'	6589
+b'Sofia'	6590
+b'Some'	7082
+b'Someone'	9964
+b'Somet'	6068
+b'Sometimes'	6069
+b'Soon'	2432
+b'Sophie'	5862
+b'Sorry'	3458
+b'Soy'	9953
+b'Sp'	5360
+b'Spidey'	8110
+b'Spike'	6926
+b'Spin'	9014
+b'Spirit'	9064
+b'Splash'	8478
+b'Spot'	1671
+b'Sque'	8917
+b'St'	2137
+b'Stand'	9160
+b'Stay'	5377
+b'Stealing'	9650
+b'Steve'	6595
+b'Steven'	9294
+b'Stop'	2540
+b'Stretching'	9524
+b'Su'	8739
+b'Suddenly'	1343
+b'Sue'	1402
+b'Summer'	8469
+b'Sun'	7138
+b'Sunshine'	9639
+b'Sur'	4954
+b'Sure'	2273
+b'Surpr'	5037
+b'Surprise'	5129
+b'Susie'	7532
+b'Sweet'	9634
+b'Sweetheart'	9635
+b'Sylvia'	7074
+b'T'	84
+b'TH'	8565
+b'Take'	6177
+b'Taking'	9462
+b'Tara'	8141
+b'Ted'	7781
+b'Teddy'	6729
+b'Terry'	8691
+b'Th'	641
+b'Thank'	837
+b'Thanks'	5181
+b'That'	1072
+b'The'	413
+b'Their'	3774
+b'Then'	1137
+b'There'	3700
+b'These'	5179
+b'They'	736
+b'This'	1564
+b'Thomas'	9333
+b'Those'	7642
+b'Though'	8653
+b'Three'	8938
+b'Tie'	7884
+b'Tim'	664
+b'Time'	5497
+b'Timmy'	3060
+b'Tina'	7359
+b'Tiny'	6954
+b'To'	2249
+b'Today'	5147
+b'Together'	2945
+b'Tom'	738
+b'Tommy'	2725
+b'Toto'	6961
+b'Toy'	9399
+b'Toys'	8765
+b'Trucky'	9831
+b'True'	5291
+b'Trust'	8321
+b'Turtle'	9102
+b'Tweet'	6093
+b'Tweety'	7016
+b'Twinkle'	9096
+b'U'	85
+b'Uh'	6376
+b'Un'	5772
+b'Uncle'	6840
+b'Under'	8878
+b'Unfortunately'	7110
+b'Up'	9192
+b'V'	86
+b'Valley'	9434
+b'Valleys'	9435
+b'Very'	6578
+b'Violet'	6719
+b'Vivi'	8219
+b'Vroom'	6051
+b'W'	87
+b'Wait'	3906
+b'Wake'	8612
+b'Want'	7630
+b'Watch'	5246
+b'We'	1207
+b'Wednesday'	9807
+b'Welcome'	5155
+b'Well'	4467
+b'Wet'	9942
+b'Wh'	775
+b'What'	1106
+b'Whee'	6092
+b'When'	1029
+b'Where'	3519
+b'Which'	7786
+b'While'	1902
+b'Whiskers'	5548
+b'Whist'	7960
+b'Whistling'	7961
+b'Who'	3416
+b'Why'	1314
+b'Wigg'	7361
+b'Wiggly'	7362
+b'Will'	4997
+b'Wisdom'	8712
+b'With'	5247
+b'Without'	9737
+b'Wo'	8962
+b'Woah'	8963
+b'Woof'	4193
+b'Work'	8635
+b'Would'	4986
+b'Wouldn'	8456
+b'Wow'	1284
+b'X'	88
+b'Y'	89
+b'Yay'	4468
+b'Ye'	8045
+b'Yeah'	8046
+b'Years'	9357
+b'Yes'	725
+b'Yield'	8475
+b'Yipp'	8450
+b'Yippee'	8451
+b'You'	538
+b'Your'	3953
+b'Yuck'	4889
+b'Yum'	5512
+b'Yummy'	6725
+b'Z'	90
+b'Zara'	6882
+b'Zip'	8628
+b'Zips'	9316
+b'Zoom'	6999
+b'Zoomy'	6495
+b'['	91
+b'\\'	92
+b']'	93
+b'^'	94
+b'_'	95
+b'`'	96
+b'a'	97
+b'ab'	570
+b'abbit'	1017
+b'abel'	6252
+b'abella'	5225
+b'able'	773
+b'aby'	5198
+b'ac'	1580
+b'ace'	702
+b'aced'	4500
+b'ach'	587
+b'ache'	4190
+b'ached'	1300
+b'achel'	6550
+b'aches'	4383
+b'acing'	7050
+b'ack'	447
+b'acked'	5424
+b'acket'	4164
+b'acle'	8415
+b'acles'	8280
+b'acob'	5834
+b'act'	6137
+b'acy'	6254
+b'ad'	374
+b'ade'	564
+b'aded'	4999
+b'ades'	7367
+b'ading'	6644
+b'adly'	6105
+b'ado'	3104
+b'adow'	2448
+b'ady'	878
+b'af'	1274
+b'aff'	3099
+b'affe'	2973
+b'ag'	545
+b'age'	906
+b'aged'	3190
+b'ages'	2910
+b'agg'	4347
+b'aggie'	4348
+b'ah'	6640
+b'aid'	3597
+b'aids'	6982
+b'ail'	1867
+b'ain'	484
+b'ained'	2573
+b'air'	1322
+b'airs'	2441
+b'aisy'	1497
+b'ait'	3846
+b'ak'	902
+b'ake'	419
+b'aked'	3998
+b'aker'	6389
+b'aking'	2793
+b'aky'	3603
+b'al'	420
+b'ale'	2897
+b'alerious'	6695
+b'ales'	5751
+b'alk'	2583
+b'all'	357
+b'alley'	4123
+b'ally'	659
+b'alm'	2290
+b'als'	3111
+b'althy'	1785
+b'am'	307
+b'ama'	1893
+b'amb'	5893
+b'ame'	453
+b'amed'	1738
+b'ament'	3165
+b'ames'	1494
+b'amie'	7067
+b'amp'	1791
+b'an'	302
+b'ana'	3997
+b'ance'	1760
+b'and'	779
+b'andy'	1459
+b'ane'	1021
+b'anes'	5687
+b'ang'	1578
+b'anga'	5796
+b'ange'	1135
+b'anged'	3211
+b'anger'	4531
+b'anges'	4196
+b'angle'	2834
+b'angrier'	9976
+b'anie'	5022
+b'ank'	635
+b'anna'	5466
+b'annah'	6867
+b'anny'	4643
+b'ans'	6914
+b'ant'	714
+b'antha'	7317
+b'antly'	5644
+b'anut'	3602
+b'any'	3051
+b'ap'	658
+b'apa'	4554
+b'ape'	1545
+b'aped'	5237
+b'aper'	1215
+b'apers'	3900
+b'app'	2001
+b'apped'	3370
+b'apping'	4620
+b'applaud'	7062
+b'apple'	7990
+b'appy'	3245
+b'ar'	290
+b'ara'	732
+b'ard'	471
+b'ards'	1673
+b'are'	513
+b'ared'	544
+b'arf'	7876
+b'arge'	2532
+b'ari'	4922
+b'arian'	4549
+b'aring'	4131
+b'ark'	476
+b'arl'	3674
+b'arlie'	4313
+b'arm'	1765
+b'armony'	6004
+b'arn'	598
+b'arney'	7909
+b'arrin'	6380
+b'arry'	3841
+b'ars'	7543
+b'arsh'	8512
+b'art'	1503
+b'ary'	989
+b'as'	650
+b'ase'	814
+b'ased'	1941
+b'aser'	5013
+b'ash'	1383
+b'ashed'	6381
+b'ask'	1507
+b'ason'	4437
+b'ass'	1625
+b'ast'	1803
+b'astic'	4314
+b'asure'	1573
+b'at'	298
+b'atch'	3076
+b'atched'	5054
+b'atches'	6604
+b'ate'	847
+b'ated'	1713
+b'ately'	3442
+b'atelyn'	6821
+b'ater'	1367
+b'aterpillar'	5682
+b'ates'	4213
+b'ath'	1154
+b'ather'	1440
+b'atie'	4831
+b'ating'	4197
+b'ation'	1510
+b'ations'	4619
+b'ato'	1845
+b'ator'	3059
+b'att'	7523
+b'attach'	9476
+b'atter'	1474
+b'attractive'	9418
+b'atty'	5601
+b'ature'	3964
+b'aught'	1718
+b'aughter'	2818
+b'aul'	3963
+b'aur'	2366
+b'ause'	705
+b'aut'	987
+b'av'	1362
+b'ave'	597
+b'avid'	5290
+b'aving'	3128
+b'avy'	1443
+b'aw'	2983
+b'awn'	6268
+b'aws'	5545
+b'ax'	491
+b'ay'	280
+b'aybe'	1235
+b'ayon'	2020
+b'ayons'	7898
+b'ays'	6630
+b'az'	1147
+b'azz'	2454
+b'b'	98
+b'ball'	2442
+b'bang'	8655
+b'bb'	2052
+b'bbed'	7152
+b'bbing'	7001
+b'bble'	3063
+b'bbled'	6664
+b'bbles'	2612
+b'bby'	3977
+b'be'	1113
+b'bed'	896
+b'beep'	8484
+b'beha'	9869
+b'behaved'	9870
+b'ber'	839
+b'berries'	3520
+b'berry'	2485
+b'bers'	2880
+b'bert'	5220
+b'bie'	6471
+b'big'	6562
+b'bigail'	6563
+b'bing'	6384
+b'bird'	8708
+b'bit'	1012
+b'ble'	1117
+b'bled'	2323
+b'bo'	1347
+b'board'	1900
+b'boards'	8171
+b'body'	3516
+b'boo'	5102
+b'boom'	6871
+b'boos'	8955
+b'bor'	2701
+b'bow'	2204
+b'box'	2558
+b'br'	1795
+b'bro'	8220
+b'broken'	8221
+b'brush'	7270
+b'bs'	7520
+b'but'	7009
+b'by'	957
+b'bye'	1349
+b'c'	99
+b'can'	8821
+b'case'	4349
+b'ccol'	4005
+b'ccoli'	4006
+b'ce'	337
+b'ced'	1287
+b'ceed'	3638
+b'cer'	1967
+b'cess'	1641
+b'ch'	398
+b'chair'	3843
+b'chan'	3860
+b'ched'	807
+b'ches'	2056
+b'ching'	6673
+b'choo'	5396
+b'chug'	9978
+b'cident'	3108
+b'cie'	5842
+b'cing'	1962
+b'cious'	5171
+b'ck'	347
+b'cked'	1295
+b'cket'	1838
+b'cl'	6856
+b'cle'	1631
+b'cles'	3593
+b'cloud'	8842
+b'co'	1309
+b'coa'	3909
+b'cod'	2416
+b'codile'	2417
+b'col'	2380
+b'colored'	8489
+b'com'	2549
+b'come'	4576
+b'corn'	2760
+b'cover'	7443
+b'cre'	8510
+b'cream'	3814
+b'creams'	8555
+b'crease'	8511
+b'crow'	7211
+b'ct'	986
+b'ctor'	1882
+b'cus'	5690
+b'cused'	7670
+b'cut'	3316
+b'cy'	1696
+b'd'	100
+b'dam'	5106
+b'daughter'	7427
+b'day'	1079
+b'dd'	602
+b'dded'	1060
+b'ddie'	6394
+b'ded'	6793
+b'den'	2502
+b'der'	1509
+b'dge'	3978
+b'dink'	8375
+b'dle'	3072
+b'do'	4878
+b'dom'	2685
+b'ds'	1601
+b'dy'	977
+b'e'	101
+b'ead'	1814
+b'eal'	4780
+b'ealing'	6318
+b'ean'	7198
+b'ear'	1083
+b'eared'	2090
+b'ears'	8206
+b'eath'	4942
+b'eave'	5362
+b'eb'	2675
+b'ec'	475
+b'ecause'	4075
+b'eci'	811
+b'ect'	1163
+b'ected'	4611
+b'ed'	264
+b'eddy'	2048
+b'edn'	4709
+b'ednesday'	4710
+b'eds'	5573
+b'edy'	4111
+b'ee'	1659
+b'eer'	4733
+b'eet'	1181
+b'eff'	5971
+b'effect'	9795
+b'effects'	9796
+b'ein'	7302
+b'ek'	2160
+b'el'	418
+b'elcome'	4975
+b'elieve'	7097
+b'ell'	535
+b'ella'	1727
+b'elle'	5998
+b'elly'	2133
+b'elon'	7169
+b'elp'	2449
+b'elt'	526
+b'ely'	1371
+b'em'	953
+b'ember'	1139
+b'emember'	4644
+b'ement'	3839
+b'emer'	9469
+b'emergen'	9470
+b'emergency'	9471
+b'emy'	2415
+b'en'	301
+b'ena'	5587
+b'ence'	1729
+b'end'	355
+b'ened'	582
+b'enny'	1834
+b'enry'	5993
+b'ens'	2187
+b'ense'	4436
+b'ent'	378
+b'enter'	6502
+b'ention'	3322
+b'ently'	6363
+b'ents'	4041
+b'eo'	1789
+b'eon'	2269
+b'eor'	6005
+b'eorge'	6006
+b'ep'	628
+b'epend'	2194
+b'er'	282
+b'era'	2927
+b'erc'	3079
+b'ercise'	8066
+b'ered'	1353
+b'ering'	7632
+b'erious'	5542
+b'erm'	8879
+b'ero'	3862
+b'erry'	2216
+b'ers'	703
+b'ert'	2181
+b'erve'	8210
+b'ery'	2285
+b'es'	375
+b'esday'	3208
+b'esp'	6837
+b'espite'	6838
+b'ess'	760
+b'essie'	4584
+b'est'	2031
+b'ester'	4523
+b'esterday'	4524
+b'et'	308
+b'etch'	5090
+b'ete'	4128
+b'eter'	2188
+b'eth'	2942
+b'ets'	7395
+b'etter'	790
+b'eve'	5345
+b'even'	6034
+b'ever'	2395
+b'ew'	615
+b'ex'	849
+b'exit'	7536
+b'ext'	3309
+b'ey'	1675
+b'ez'	5471
+b'eze'	3029
+b'ezi'	5472
+b'f'	102
+b'fa'	3920
+b'fe'	676
+b'fere'	1271
+b'ff'	800
+b'ffe'	2714
+b'ffee'	2715
+b'ffic'	4320
+b'fish'	1728
+b'five'	9276
+b'fore'	1053
+b'form'	6597
+b'fort'	1798
+b'fortable'	2121
+b'fortun'	5100
+b'fortunately'	5306
+b'freeze'	8817
+b'ft'	785
+b'fted'	2974
+b'fter'	672
+b'ful'	521
+b'fully'	1592
+b'fused'	2036
+b'g'	103
+b'gan'	1105
+b'gas'	9226
+b'ge'	778
+b'ged'	763
+b'gen'	2807
+b'ger'	1100
+b'ges'	4935
+b'gest'	2613
+b'get'	443
+b'gether'	448
+b'gg'	1521
+b'ggy'	4230
+b'ging'	3933
+b'giving'	6843
+b'gly'	1952
+b'gn'	7433
+b'go'	5280
+b'ground'	3092
+b'gry'	830
+b'gu'	3091
+b'guess'	7910
+b'gy'	1933
+b'h'	104
+b'ha'	5477
+b'happy'	4974
+b'harsh'	9822
+b'he'	257
+b'head'	3704
+b'heart'	4250
+b'hed'	482
+b'hee'	5529
+b'hello'	5717
+b'hen'	485
+b'her'	368
+b'here'	818
+b'hes'	954
+b'hest'	4056
+b'hew'	9054
+b'hh'	6532
+b'hi'	7808
+b'hind'	5527
+b'hing'	516
+b'hings'	8466
+b'ho'	7069
+b'hood'	4963
+b'hopped'	9443
+b'host'	2566
+b'house'	6859
+b'ht'	417
+b'hythm'	6202
+b'i'	105
+b'ia'	589
+b'iam'	5716
+b'ian'	2163
+b'iano'	3726
+b'iar'	5911
+b'ib'	5631
+b'ible'	1978
+b'ic'	466
+b'ica'	4931
+b'icate'	8600
+b'ice'	541
+b'iced'	1400
+b'icer'	4671
+b'ich'	1819
+b'icha'	6523
+b'ichael'	6524
+b'iciest'	8918
+b'icing'	5012
+b'ick'	626
+b'icked'	2618
+b'icking'	7219
+b'icle'	4231
+b'icles'	6827
+b'ict'	2840
+b'icy'	1589
+b'id'	294
+b'iddle'	3185
+b'ide'	423
+b'ided'	713
+b'idence'	7098
+b'ident'	2894
+b'ider'	2139
+b'iders'	6354
+b'ides'	4622
+b'idey'	5711
+b'idge'	1890
+b'iding'	3705
+b'ido'	5913
+b'ids'	5197
+b'ie'	583
+b'iece'	6278
+b'ied'	1236
+b'ield'	1462
+b'ien'	4860
+b'ience'	3626
+b'ienna'	6052
+b'ient'	1288
+b'ier'	2046
+b'ies'	982
+b'iest'	4399
+b'iet'	1577
+b'ieve'	5883
+b'ieved'	2547
+b'if'	610
+b'ife'	2173
+b'iff'	2495
+b'iful'	1007
+b'ig'	311
+b'iger'	2167
+b'igg'	1719
+b'iggy'	5469
+b'igh'	2042
+b'ighed'	2931
+b'ight'	530
+b'ights'	7709
+b'igi'	3569
+b'iginal'	2935
+b'ign'	1270
+b'igning'	7035
+b'igz'	3921
+b'igzag'	3922
+b'ik'	3495
+b'ike'	1473
+b'iki'	3714
+b'il'	313
+b'ila'	1227
+b'ild'	923
+b'ildren'	8693
+b'ile'	590
+b'iled'	542
+b'iling'	2010
+b'ill'	446
+b'illa'	2808
+b'illy'	1040
+b'ilot'	3668
+b'ilt'	3164
+b'ily'	358
+b'im'	292
+b'imal'	782
+b'ime'	393
+b'imed'	4406
+b'imes'	1204
+b'imi'	1594
+b'imits'	8853
+b'imp'	2713
+b'in'	270
+b'ina'	3015
+b'inal'	2872
+b'inary'	2898
+b'ination'	4030
+b'ince'	4859
+b'increase'	9820
+b'inct'	7882
+b'inctive'	8925
+b'inctively'	8926
+b'ind'	442
+b'inda'	6193
+b'indy'	7053
+b'ine'	832
+b'ined'	2021
+b'ines'	3663
+b'iness'	3088
+b'ing'	299
+b'ingly'	8424
+b'ings'	567
+b'ining'	5773
+b'ink'	743
+b'inking'	4663
+b'inkle'	7337
+b'inky'	3219
+b'inner'	8158
+b'ino'	2596
+b'ins'	1610
+b'int'	5707
+b'iny'	751
+b'io'	2574
+b'iolet'	5092
+b'ion'	817
+b'ions'	2358
+b'ious'	1225
+b'iously'	7065
+b'ip'	960
+b'ipe'	5204
+b'ipp'	2461
+b'ipped'	2112
+b'ipper'	3241
+b'ipping'	4179
+b'ippy'	3623
+b'ips'	5635
+b'ir'	305
+b'ird'	405
+b'ire'	1913
+b'ired'	1066
+b'irit'	2704
+b'irm'	5840
+b'iron'	4116
+b'irp'	2635
+b'irpy'	3179
+b'irr'	2128
+b'irrel'	1129
+b'irst'	1102
+b'irsty'	2971
+b'irt'	1859
+b'irth'	1990
+b'irthday'	1991
+b'is'	287
+b'isa'	1903
+b'isdom'	4567
+b'ise'	683
+b'ised'	771
+b'ises'	1864
+b'ish'	644
+b'ished'	1064
+b'ishes'	6525
+b'ishing'	5418
+b'ishy'	5375
+b'ising'	5200
+b'ision'	3712
+b'isk'	1889
+b'iskers'	1934
+b'ison'	4226
+b'isp'	2901
+b'iss'	1050
+b'issors'	2731
+b'ist'	640
+b'isted'	3193
+b'isten'	6186
+b'ister'	1535
+b'isy'	1334
+b'it'	273
+b'itation'	4703
+b'itch'	1690
+b'ite'	701
+b'ited'	654
+b'ites'	6060
+b'ith'	325
+b'ither'	3085
+b'ities'	4958
+b'iting'	2550
+b'ition'	6861
+b'its'	6431
+b'itt'	370
+b'itten'	1629
+b'ittens'	4487
+b'itter'	3042
+b'ittered'	8622
+b'itting'	1739
+b'ittle'	388
+b'itty'	903
+b'itude'	8493
+b'ity'	2238
+b'iv'	2568
+b'ive'	662
+b'iver'	1754
+b'iversity'	7537
+b'ivi'	4552
+b'iving'	4984
+b'ix'	1613
+b'iz'	916
+b'ize'	2335
+b'ized'	1487
+b'izes'	4813
+b'izing'	4949
+b'izz'	1927
+b'izza'	2006
+b'izzie'	6899
+b'izzy'	2218
+b'j'	106
+b'ject'	2777
+b'jest'	8026
+b'jo'	5458
+b'joy'	1142
+b'k'	107
+b'kay'	920
+b'ke'	344
+b'ked'	336
+b'keep'	2735
+b'keeper'	2802
+b'ken'	1250
+b'key'	1355
+b'kin'	2279
+b'king'	585
+b'kins'	5245
+b'ks'	8461
+b'ky'	5323
+b'l'	108
+b'la'	2710
+b'laire'	5080
+b'land'	2878
+b'lap'	8500
+b'laud'	4300
+b'lc'	1591
+b'ld'	341
+b'lder'	1832
+b'le'	303
+b'leaf'	6642
+b'lease'	1008
+b'leased'	3834
+b'lect'	6225
+b'led'	1240
+b'leep'	1171
+b'lend'	3497
+b'lephant'	5011
+b'ler'	6194
+b'les'	966
+b'less'	1596
+b'let'	2761
+b'lew'	750
+b'lex'	6214
+b'lf'	845
+b'lies'	4165
+b'light'	3405
+b'line'	8854
+b'ling'	2063
+b'live'	4566
+b'll'	293
+b'lla'	1790
+b'llen'	5721
+b'llie'	1880
+b'llo'	2264
+b'llow'	1261
+b'lly'	1209
+b'loe'	4270
+b'loin'	9496
+b'long'	6761
+b'longer'	9577
+b'loo'	3717
+b'looking'	5162
+b'low'	3800
+b'lower'	2037
+b'lowers'	5917
+b'ls'	4745
+b'lsa'	5221
+b'lter'	4384
+b'luffy'	1031
+b'lv'	4623
+b'lves'	2836
+b'ly'	461
+b'lya'	6811
+b'm'	109
+b'ma'	1217
+b'man'	1439
+b'mand'	6480
+b'manda'	7197
+b'mar'	8433
+b'marriage'	8434
+b'mates'	6885
+b'mb'	2577
+b'me'	1870
+b'med'	1973
+b'medi'	4690
+b'mediately'	4691
+b'men'	5004
+b'ment'	2430
+b'ments'	7499
+b'meow'	9246
+b'mer'	2668
+b'mered'	7029
+b'mies'	6035
+b'mm'	5820
+b'mon'	2284
+b'moo'	7886
+b'more'	867
+b'most'	3147
+b'my'	468
+b'n'	110
+b'na'	4423
+b'nap'	5953
+b'nc'	8081
+b'nce'	4829
+b'nd'	262
+b'nder'	665
+b'ndma'	1516
+b'nec'	9220
+b'necked'	9221
+b'ned'	2691
+b'nel'	3348
+b'ner'	1538
+b'ners'	6754
+b'ness'	2498
+b'ney'	1912
+b'ng'	1190
+b'nger'	3992
+b'nic'	2703
+b'night'	4256
+b'ning'	1194
+b'nn'	686
+b'nna'	727
+b'no'	5854
+b'normal'	9191
+b'not'	2227
+b'nt'	346
+b'nts'	1441
+b'ny'	617
+b'o'	111
+b'ob'	566
+b'obody'	6586
+b'oc'	3216
+b'occo'	6010
+b'ock'	1020
+b'ocked'	2276
+b'ody'	6282
+b'oe'	1477
+b'og'	776
+b'oh'	1087
+b'ohn'	1095
+b'ohny'	6794
+b'oin'	3635
+b'oke'	6527
+b'ol'	1945
+b'ola'	4746
+b'old'	2747
+b'olly'	1525
+b'om'	284
+b'omas'	6696
+b'ome'	430
+b'omed'	4149
+b'omet'	549
+b'omp'	7297
+b'on'	289
+b'ond'	2153
+b'one'	508
+b'ones'	2619
+b'oney'	1475
+b'ong'	519
+b'onghead'	7322
+b'ont'	2515
+b'ony'	3910
+b'oo'	335
+b'ood'	463
+b'oof'	2107
+b'ook'	604
+b'ookie'	6249
+b'ooks'	7708
+b'ool'	971
+b'oom'	1302
+b'oomy'	2296
+b'oon'	1000
+b'oop'	2199
+b'oose'	2211
+b'oot'	2955
+b'op'	520
+b'ope'	2879
+b'oph'	2253
+b'ophie'	4028
+b'ople'	863
+b'oppy'	2523
+b'ops'	4787
+b'or'	304
+b'oral'	1174
+b'oray'	7015
+b'ord'	1787
+b'ordan'	7323
+b'ords'	8311
+b'ore'	441
+b'ored'	5582
+b'ores'	3536
+b'ories'	5590
+b'original'	9570
+b'oring'	6685
+b'ork'	2384
+b'orm'	1471
+b'ormal'	2694
+b'orn'	985
+b'orry'	3181
+b'ors'	2120
+b'orse'	7176
+b'ort'	871
+b'orted'	4583
+b'ortun'	8677
+b'ortunately'	8678
+b'ory'	3715
+b'os'	1695
+b'ose'	2029
+b'osity'	6190
+b'ost'	1925
+b'ot'	300
+b'ote'	3636
+b'oth'	1877
+b'other'	502
+b'oto'	2648
+b'otton'	6373
+b'ou'	275
+b'ouch'	5142
+b'oud'	612
+b'oug'	497
+b'ough'	909
+b'ought'	547
+b'oula'	6477
+b'ould'	384
+b'oun'	1766
+b'ound'	401
+b'ount'	2094
+b'ountain'	2155
+b'oup'	1737
+b'our'	759
+b'ours'	3417
+b'ous'	670
+b'ouse'	571
+b'out'	416
+b'ove'	1676
+b'oved'	4155
+b'oving'	8684
+b'ow'	318
+b'owed'	3031
+b'ower'	1411
+b'owl'	1078
+b'own'	507
+b'oy'	969
+b'oys'	5436
+b'p'	112
+b'pa'	3533
+b'pack'	3275
+b'par'	3959
+b'pe'	1530
+b'pec'	873
+b'pect'	2444
+b'pected'	930
+b'ped'	3144
+b'pen'	7593
+b'per'	6839
+b'pes'	2903
+b'ph'	1655
+b'phant'	1948
+b'pill'	2425
+b'pillar'	2426
+b'pit'	6463
+b'pl'	829
+b'place'	4674
+b'plash'	5566
+b'ple'	1581
+b'please'	6368
+b'po'	8987
+b'poison'	8988
+b'port'	3300
+b'pot'	565
+b'pow'	8553
+b'pp'	326
+b'pped'	638
+b'pper'	1731
+b'ppers'	6018
+b'pping'	1780
+b'ppy'	1299
+b'pr'	721
+b'pring'	6903
+b'print'	8218
+b'pt'	1025
+b'put'	8873
+b'q'	113
+b'qu'	694
+b'que'	1220
+b'quest'	5103
+b'r'	114
+b'ra'	458
+b'ract'	1777
+b'ractive'	2693
+b'rag'	1618
+b'rage'	3135
+b'raged'	5188
+b'rank'	4127
+b'rated'	2518
+b'raw'	1001
+b'ray'	3311
+b'rays'	9121
+b're'	274
+b'ream'	3622
+b'rect'	5144
+b'red'	1399
+b'ree'	6519
+b'reen'	4995
+b'reeze'	6516
+b'rel'	1044
+b'ren'	1723
+b'render'	3939
+b'repe'	7118
+b'repeat'	7119
+b'request'	9694
+b'res'	8520
+b'ress'	2011
+b'ressed'	3894
+b'ret'	627
+b'retching'	8101
+b'rett'	6539
+b'retty'	7753
+b'return'	9066
+b'reverse'	7314
+b'ri'	320
+b'riage'	4646
+b'rian'	5355
+b'rible'	3279
+b'ric'	4032
+b'ried'	558
+b'riend'	359
+b'rier'	7488
+b'ries'	1657
+b'right'	5770
+b'rill'	3431
+b'rin'	3256
+b'ring'	5604
+b'rink'	6915
+b'rious'	7623
+b'rip'	6317
+b'ris'	5615
+b'rm'	851
+b'ro'	761
+b'rob'	2786
+b'robe'	2857
+b'rod'	4220
+b'rom'	805
+b'romise'	8202
+b'ron'	7244
+b'room'	1523
+b'ross'	2101
+b'rot'	1623
+b'round'	528
+b'row'	1643
+b'rr'	5433
+b'rrr'	7526
+b'rrrr'	8804
+b'rs'	5438
+b'rth'	6365
+b'rthur'	6366
+b'rucky'	7683
+b'rue'	2726
+b'rup'	6166
+b'rust'	7090
+b'ry'	440
+b's'	115
+b'saw'	8648
+b'sc'	1650
+b'scope'	4800
+b'se'	386
+b'sed'	5053
+b'seek'	6413
+b'self'	1069
+b'selves'	3140
+b'send'	8378
+b'ser'	3120
+b'ses'	4038
+b'set'	1866
+b'sh'	1417
+b'shadow'	8005
+b'shake'	9224
+b'shaped'	8740
+b'shar'	9578
+b'sharp'	9579
+b'she'	9140
+b'shed'	5201
+b'shine'	2560
+b'shing'	7535
+b'ship'	7064
+b'shoot'	9087
+b'shr'	8373
+b'shrinky'	8374
+b'side'	517
+b'sing'	5365
+b'sity'	3852
+b'sk'	9314
+b'skating'	9315
+b'slap'	9801
+b'sm'	6755
+b'snap'	6766
+b'so'	1081
+b'sol'	8619
+b'solut'	8620
+b'solutely'	8621
+b'sp'	1922
+b'spicy'	8983
+b'ss'	543
+b'ssed'	1590
+b'ssible'	5254
+b'st'	352
+b'staff'	9855
+b'stairs'	3702
+b'stead'	1840
+b'step'	6920
+b'ster'	1186
+b'sters'	4393
+b'stir'	9133
+b'stupid'	9761
+b'sy'	2156
+b't'	116
+b'take'	9228
+b'ted'	472
+b'ten'	2663
+b'ter'	439
+b'tery'	8679
+b'th'	1011
+b'thank'	5030
+b'the'	7128
+b'ther'	7163
+b'thing'	1208
+b'though'	6718
+b'thy'	1582
+b'time'	3646
+b'ting'	1248
+b'to'	2294
+b'toed'	7114
+b'toes'	8861
+b'ton'	1621
+b'touch'	9481
+b'ts'	8390
+b'ture'	952
+b'turn'	2197
+b'ty'	577
+b'u'	117
+b'ua'	7331
+b'ual'	2742
+b'ually'	2146
+b'ub'	1192
+b'ubb'	2774
+b'uby'	3671
+b'uc'	599
+b'uce'	2362
+b'uch'	656
+b'uck'	636
+b'ucked'	4589
+b'uckily'	7205
+b'ucks'	6549
+b'ucky'	1513
+b'uct'	5236
+b'uctantly'	6601
+b'uction'	8501
+b'ucy'	648
+b'ud'	1101
+b'udd'	711
+b'udden'	852
+b'uddenly'	866
+b'uddles'	4652
+b'uddy'	1496
+b'ude'	1907
+b'udge'	2889
+b'udy'	2467
+b'ue'	438
+b'ued'	1612
+b'uel'	4967
+b'ues'	7040
+b'uff'	891
+b'uffy'	997
+b'ug'	428
+b'ugg'	2823
+b'ugged'	4091
+b'ugging'	7787
+b'ught'	1205
+b'uick'	6023
+b'uit'	1159
+b'uits'	7290
+b'uke'	5764
+b'ul'	496
+b'ular'	2201
+b'ulb'	3170
+b'ule'	2944
+b'ulf'	6744
+b'ulie'	6799
+b'ulif'	2873
+b'ull'	742
+b'ully'	1572
+b'ulp'	5760
+b'ult'	2506
+b'ulu'	4059
+b'um'	488
+b'umb'	3686
+b'umber'	5353
+b'umble'	2585
+b'umbled'	4262
+b'umbling'	6787
+b'ume'	2480
+b'ument'	6946
+b'uments'	5927
+b'ummer'	3869
+b'ummy'	908
+b'ump'	666
+b'umpy'	2041
+b'un'	356
+b'una'	2414
+b'unch'	1812
+b'und'	3606
+b'une'	6251
+b'ung'	1879
+b'university'	8893
+b'unk'	2551
+b'unny'	1058
+b'unt'	1915
+b'untie'	5950
+b'until'	9594
+b'up'	1465
+b'upid'	2231
+b'ups'	5313
+b'ur'	456
+b'ure'	624
+b'ured'	4092
+b'uring'	3771
+b'urious'	8459
+b'urkey'	3453
+b'urn'	809
+b'urry'	8370
+b'urt'	769
+b'urther'	4976
+b'urtle'	1944
+b'us'	573
+b'use'	680
+b'used'	1810
+b'ush'	1022
+b'ushed'	1290
+b'ushroom'	2868
+b'usie'	3812
+b'ust'	613
+b'ustrated'	2571
+b'usty'	5381
+b'ut'	322
+b'ute'	2538
+b'utom'	2737
+b'utomob'	2738
+b'utomobile'	2739
+b'utter'	6074
+b'utty'	6927
+b'v'	118
+b'va'	5742
+b've'	351
+b'ved'	410
+b'vel'	1830
+b'ven'	762
+b'vent'	1052
+b'ventually'	2353
+b'ver'	319
+b'vers'	8554
+b'verse'	4282
+b'very'	349
+b'ves'	1850
+b'vin'	6998
+b'ving'	783
+b'vous'	2863
+b'vroom'	5873
+b'vrooms'	9416
+b'w'	119
+b'ward'	2251
+b'wards'	3847
+b'way'	478
+b'ways'	684
+b'we'	4673
+b'weet'	3296
+b'well'	8657
+b'wh'	6330
+b'what'	7155
+b'where'	1378
+b'who'	8037
+b'winkle'	7962
+b'woof'	7887
+b'work'	2418
+b'x'	120
+b'xt'	945
+b'xy'	3451
+b'xygen'	3452
+b'y'	121
+b'ye'	3736
+b'year'	4272
+b'years'	7696
+b'ying'	3352
+b'ylv'	5756
+b'ylvia'	5757
+b'ym'	2267
+b'you'	8779
+b'ysters'	8419
+b'yth'	4593
+b'ythm'	4685
+b'z'	122
+b'ze'	1770
+b'zed'	3546
+b'zie'	5800
+b'zing'	6048
+b'zy'	1259
+b'zz'	1593
+b'zzy'	3174
+b'{'	123
+b'|'	124
+b'}'	125
+b'~'	126
+b'\x7f'	127
+b'\x80'	128
+b'\x81'	129
+b'\x82'	130
+b'\x83'	131
+b'\x84'	132
+b'\x85'	133
+b'\x86'	134
+b'\x87'	135
+b'\x88'	136
+b'\x89'	137
+b'\x8a'	138
+b'\x8b'	139
+b'\x8c'	140
+b'\x8d'	141
+b'\x8e'	142
+b'\x8f'	143
+b'\x90'	144
+b'\x91'	145
+b'\x92'	146
+b'\x93'	147
+b'\x94'	148
+b'\x95'	149
+b'\x96'	150
+b'\x97'	151
+b'\x98'	152
+b'\x99'	153
+b'\x9a'	154
+b'\x9b'	155
+b'\x9c'	156
+b'\x9d'	157
+b'\x9e'	158
+b'\x9f'	159
+b'\xa0'	160
+b'\xa1'	161
+b'\xa2'	162
+b'\xa3'	163
+b'\xa4'	164
+b'\xa5'	165
+b'\xa6'	166
+b'\xa7'	167
+b'\xa8'	168
+b'\xa9'	169
+b'\xaa'	170
+b'\xab'	171
+b'\xac'	172
+b'\xad'	173
+b'\xae'	174
+b'\xaf'	175
+b'\xb0'	176
+b'\xb1'	177
+b'\xb2'	178
+b'\xb3'	179
+b'\xb4'	180
+b'\xb5'	181
+b'\xb6'	182
+b'\xb7'	183
+b'\xb8'	184
+b'\xb9'	185
+b'\xba'	186
+b'\xbb'	187
+b'\xbc'	188
+b'\xbd'	189
+b'\xbe'	190
+b'\xbf'	191
+b'\xc0'	192
+b'\xc1'	193
+b'\xc2'	194
+b'\xc3'	195
+b'\xc4'	196
+b'\xc5'	197
+b'\xc6'	198
+b'\xc7'	199
+b'\xc8'	200
+b'\xc9'	201
+b'\xca'	202
+b'\xcb'	203
+b'\xcc'	204
+b'\xcd'	205
+b'\xce'	206
+b'\xcf'	207
+b'\xd0'	208
+b'\xd1'	209
+b'\xd2'	210
+b'\xd3'	211
+b'\xd4'	212
+b'\xd5'	213
+b'\xd6'	214
+b'\xd7'	215
+b'\xd8'	216
+b'\xd9'	217
+b'\xda'	218
+b'\xdb'	219
+b'\xdc'	220
+b'\xdd'	221
+b'\xde'	222
+b'\xdf'	223
+b'\xe0'	224
+b'\xe1'	225
+b'\xe2'	226
+b'\xe2\x80'	692
+b'\xe2\x80\x94'	6941
+b'\xe2\x80\x99'	1327
+b'\xe2\x80\x9c'	1091
+b'\xe2\x80\x9d'	1089
+b'\xe2\x80\x9d,'	9157
+b'\xe2\x80\x9d.'	5636
+b'\xe3'	227
+b'\xe4'	228
+b'\xe5'	229
+b'\xe6'	230
+b'\xe7'	231
+b'\xe8'	232
+b'\xe9'	233
+b'\xea'	234
+b'\xeb'	235
+b'\xec'	236
+b'\xed'	237
+b'\xee'	238
+b'\xef'	239
+b'\xf0'	240
+b'\xf1'	241
+b'\xf2'	242
+b'\xf3'	243
+b'\xf4'	244
+b'\xf5'	245
+b'\xf6'	246
+b'\xf7'	247
+b'\xf8'	248
+b'\xf9'	249
+b'\xfa'	250
+b'\xfb'	251
+b'\xfc'	252
+b'\xfd'	253
+b'\xfe'	254
+b'\xff'	255
