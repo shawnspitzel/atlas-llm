@@ -8,7 +8,7 @@ def cross_entropy_loss(inputs: Tensor, targets: Tensor):
 
 def learning_rate_schedule(curr_iter, max_lr, min_lr, warm_iters, cos_iters):
     if curr_iter < warm_iters:
-        return max_lr * curr_iter / warm_iters
+        return max_lr * (curr_iter + 1) / warm_iters
     if curr_iter >= cos_iters:
         return min_lr
     progress = (curr_iter - warm_iters) / (cos_iters - warm_iters)

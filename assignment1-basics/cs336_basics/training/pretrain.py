@@ -5,7 +5,10 @@ import numpy as np
 import torch
 import cProfile
 import pstats
-from .loader import data_loading, load_checkpoint, save_checkpoint
+import sys
+import traceback
+from tqdm import tqdm
+from cs336_basics.training.loader import data_loading, load_checkpoint, save_checkpoint
 from cs336_basics.model.optimizer import AdamW, SGDOptimizer
 from cs336_basics.model.transformer import Transformer
 from cs336_basics.model.loss import cross_entropy_loss, gradient_clipping, learning_rate_schedule
@@ -13,30 +16,28 @@ from cs336_basics.utils.args import get_args_pretrain
 
 
 def get_checkpoint_dir(params):
-    base_dir = "checkpoints"
-    checkpoint_name = (
-        f"nl{params['num_layers']}_"
-        f"dm{params['d_model']}_"
-        f"bs{params['batch_size']}_"
-        f"lr{params['learning_rate']}_"
-        f"seed{params['seed']}"
-    )
+    if params.get("checkpoint_dir"):
+        checkpoint_dir = params["checkpoint_dir"]
+    else:
+        base_dir = "checkpoints"
+        checkpoint_name = (
+            f"nl{params['num_layers']}_"
+            f"dm{params['d_model']}_"
+            f"bs{params['batch_size']}_"
+            f"lr{params['learning_rate']}_"
+            f"seed{params['seed']}"
+        )
+        checkpoint_dir = osp.join(base_dir, checkpoint_name)
 
-    checkpoint_dir = osp.join(base_dir, checkpoint_name)
     os.makedirs(checkpoint_dir, exist_ok=True)
-
     return checkpoint_dir
 
 
 def pretrain(model, train_data: np.array, val_data: np.array, optimizer, params, iteration: int):
-    """
-    Single training iteration with evaluation
-    """
-
     model.train()
     inputs, targets = data_loading(train_data, params["batch_size"], params["context_length"], params["device"])
-    optimizer.zero_grad()
 
+    optimizer.zero_grad()
     logits = model(inputs)
     loss = cross_entropy_loss(logits, targets)
     loss.backward()
@@ -46,16 +47,17 @@ def pretrain(model, train_data: np.array, val_data: np.array, optimizer, params,
     lr = learning_rate_schedule(
         curr_iter=iteration,
         max_lr=params["learning_rate"],
-        min_lr=params["min_lr"], 
+        min_lr=params["min_lr"],
         warm_iters=params["warmup_iters"],
         cos_iters=params["cosine_iters"]
         )
-    optimizer.lr = lr
+    for param_group in optimizer.param_groups:
+        param_group['lr'] = lr
     optimizer.step()
 
     train_loss = loss.item()
     val_loss = None
-    
+
     if iteration % params["eval_interval"] == 0:
         model.eval()
         val_losses = []
@@ -72,18 +74,12 @@ def pretrain(model, train_data: np.array, val_data: np.array, optimizer, params,
                 val_loss_batch = cross_entropy_loss(val_logits, val_targets)
                 val_losses.append(val_loss_batch.item())
         val_loss = sum(val_losses) / len(val_losses)
+        model.train()
 
     return train_loss, val_loss
 
 
 def run(params):
-    """
-    Main training loop
-
-    Inputs:
-        params: dict of all hyperparameters from args/config
-    """
-
     torch.manual_seed(params["seed"])
     np.random.seed(params["seed"])
     if torch.cuda.is_available():
@@ -111,7 +107,7 @@ def run(params):
     train_data = np.memmap(params["train_data"], dtype=params["data_dtype"], mode='r')
     val_data = np.memmap(params["val_data"], dtype=params["data_dtype"], mode='r')
     
-    model = Transformer(
+    model = Transformer(    
             d_model=params['d_model'],
             num_heads=params['num_heads'],
             d_ff=params['d_ff'],
@@ -139,30 +135,52 @@ def run(params):
     if params["resume_from"]:
         resume_path = params["resume_from"]
         start_iter = load_checkpoint(resume_path, model, optimizer=optimizer, device=device)
-    for iter in range(start_iter, params["max_iters"]):
-        train_loss, val_loss = pretrain(
-            model=model, 
-            train_data=train_data, 
-            val_data=val_data,
-            optimizer=optimizer,
-            params=params,
-            iteration=iter
-            )
-        if iter % params["log_interval"] == 0 and wandb.run is not None:
-            wandb.log({"train/loss": train_loss, "lr": optimizer.lr, "iteration": iter})
 
-        if iter % params["eval_interval"] == 0 and val_loss is not None and wandb.run is not None:
-            wandb.log({"val/loss": val_loss, "iteration": iter})
-
-        if iter > 0 and iter % params["checkpoint_interval"] == 0:
-            checkpoint_path = osp.join(checkpoint_dir, f"checkpoint_iter_{iter}.pt")
-            save_checkpoint(
+    with tqdm(total=params["max_iters"], desc="Training", unit=" iters", initial=start_iter) as pbar:
+        for iter in range(start_iter, params["max_iters"]):
+            train_loss, val_loss = pretrain(
                 model=model,
+                train_data=train_data,
+                val_data=val_data,
                 optimizer=optimizer,
-                iteration=iter,
-                out=checkpoint_path
-            )
-            print(f"Saved checkpoint to {checkpoint_path}")
+                params=params,
+                iteration=iter
+                )
+            if wandb.run is not None:
+                try:
+                    log_dict = {
+                        "train/loss": train_loss,
+                        "lr": optimizer.param_groups[0]["lr"],
+                        "iteration": iter
+                    }
+                    if val_loss is not None:
+                        log_dict["val/loss"] = val_loss
+                    wandb.log(log_dict)
+                except Exception as e:
+                    print(f"Warning: Failed to log metrics to W&B: {e}")
+
+            if val_loss is not None:
+                pbar.set_postfix({
+                    'train_loss': f'{train_loss:.4f}',
+                    'val_loss': f'{val_loss:.4f}',
+                    'lr': f'{optimizer.param_groups[0]["lr"]:.2e}'
+                })
+            else:
+                pbar.set_postfix({
+                    'train_loss': f'{train_loss:.4f}',
+                    'lr': f'{optimizer.param_groups[0]["lr"]:.2e}'
+                })
+            pbar.update(1)
+
+            if iter > 0 and iter % params["checkpoint_interval"] == 0:
+                checkpoint_path = osp.join(checkpoint_dir, f"checkpoint_iter_{iter}.pt")
+                save_checkpoint(
+                    model=model,
+                    optimizer=optimizer,
+                    iteration=iter,
+                    out=checkpoint_path
+                )
+                pbar.write(f"Saved checkpoint to {checkpoint_path}")
 
     output_path = osp.join(checkpoint_dir, f"checkpoint_iter_{params['max_iters']}.pt")
     if params["max_iters"] % params["checkpoint_interval"] != 0:
@@ -176,34 +194,46 @@ def run(params):
     wandb.finish()
 
 if __name__ == "__main__":
+
     params = get_args_pretrain()
-    wandb.init(
-        project="AtlasLM-Pretrain",
-        name=f"Pretrain_layers_{params['num_layers']}_bs{params['batch_size']}_lr{params['learning_rate']}",
-        mode="online",
-        config=params,
-    )
 
-    config = wandb.config
-    params.update(dict(config))
+    if wandb.run is None:
+        wandb.init(
+            project="AtlasLM-Pretrain",
+            name=f"Pretrain_layers_{params['num_layers']}_bs{params['batch_size']}_lr{params['learning_rate']}",
+            config=params
+        )
+        wandb.define_metric("iteration")
+        wandb.define_metric("train/*", step_metric="iteration")
+        wandb.define_metric("val/*", step_metric="iteration")
 
-    if params.get("profile", False):
-        profiler = cProfile.Profile()
-        profiler.enable()
 
-        run(params)
+    params.update(dict(wandb.config))
 
-        profiler.disable()
-        profile_output = params["profile_output"]
+    try:
+        if params.get("profile", False):
+            profiler = cProfile.Profile()
+            profiler.enable()
 
-        os.makedirs(osp.dirname(profile_output), exist_ok=True)
-        profiler.dump_stats(profile_output)
-        
-        print(f"\nProfile stats saved to: {profile_output}")
+            run(params)
 
-        stats = pstats.Stats(profiler)
-        stats.strip_dirs()
-        stats.sort_stats('cumulative')
-        stats.print_stats(20)
-    else:
-        run(params)
+            profiler.disable()
+            profile_output = params["profile_output"]
+
+            os.makedirs(osp.dirname(profile_output), exist_ok=True)
+            profiler.dump_stats(profile_output)
+
+            print(f"\nProfile stats saved to: {profile_output}")
+
+            stats = pstats.Stats(profiler)
+            stats.strip_dirs()
+            stats.sort_stats('cumulative')
+            stats.print_stats(20)
+        else:
+            run(params)
+    except Exception as e:
+        traceback.print_exc()
+        sys.stdout.flush()
+        sys.stderr.flush()
+        wandb.finish(exit_code=1)
+        sys.exit(1)

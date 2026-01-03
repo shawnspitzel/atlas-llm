@@ -1,0 +1,51 @@
+{
+  "os": "macOS-13.4.1-arm64-arm-64bit",
+  "python": "CPython 3.12.7",
+  "startedAt": "2026-01-02T02:10:04.993883Z",
+  "args": [
+    "--train_data",
+    "assignment1-basics/cs336_basics/data/tokenized/tinystories/train/TinyStoriesV2-GPT4-train_tokens_.bin",
+    "--val_data",
+    "assignment1-basics/cs336_basics/data/tokenized/tinystories/val/TinyStoriesV2-GPT4-valid_val_tokens_.bin",
+    "--learning_rate",
+    "6e-4",
+    "--device",
+    "cpu",
+    "--compile",
+    "false",
+    "--max_iters",
+    "5"
+  ],
+  "program": "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/training/pretrain.py",
+  "codePath": "assignment1-basics/cs336_basics/training/pretrain.py",
+  "codePathLocal": "assignment1-basics/cs336_basics/training/pretrain.py",
+  "git": {
+    "remote": "https://github.com/shawnspitzel/cs326.git",
+    "commit": "80ef6b5f5cf4517963f3457b3dba22207843f68a"
+  },
+  "email": "shawnspitzel@gmail.com",
+  "root": "/Users/shawnspitzel/cs336/cs326",
+  "host": "Shawns-MacBook-Air.local",
+  "executable": "/Users/shawnspitzel/cs336/cs326/assignment1-basics/.venv/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "226774429696"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "apple": {
+    "name": "Apple M1",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 7,
+    "memoryGb": 8,
+    "swapTotalBytes": "10737418240",
+    "ramTotalBytes": "8589934592"
+  },
+  "writerId": "kg0cxknchvlarxc9kidzwfgt11ac1nzn"
+}

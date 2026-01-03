@@ -1,0 +1,9 @@
+Checkpoints will be saved to: checkpoints/nl12_dm768_bs64_lr0.001_seed42
+Warning: MPS requested but not available. Falling back to CPU.
+Traceback (most recent call last):
+  File "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/training/pretrain.py", line 221, in <module>
+    run(params)
+    ~~~^^^^^^^^
+  File "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/training/pretrain.py", line 101, in run
+    raise FileNotFoundError(f"{name} file not found: {path}")
+FileNotFoundError: train_data file not found: data/tokenized/tinystories/train/TinyStoriesV2-GPT4-train_tokens_.bin

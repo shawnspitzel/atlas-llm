@@ -1,0 +1,16 @@
+Checkpoints will be saved to: checkpoints/nl12_dm768_bs64_lr0.0003_seed42
+Warning: MPS requested but not available. Falling back to CPU.
+Training:   0% 0/100000 [00:00<?, ? iters/s]
+Traceback (most recent call last):
+  File "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/training/pretrain.py", line 221, in <module>
+    run(params)
+  File "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/training/pretrain.py", line 139, in run
+    train_loss, val_loss = pretrain(
+                           ^^^^^^^^^
+  File "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/training/pretrain.py", line 36, in pretrain
+    inputs, targets = data_loading(train_data, params["batch_size"], params["context_length"], params["device"])
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/training/loader.py", line 9, in data_loading
+    inputs = torch.empty((batch_size, context_length), dtype=torch.long, device=device)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: The MPS backend is supported on MacOS 14.0+. Current OS version can be queried using `sw_vers`

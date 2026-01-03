@@ -12,15 +12,14 @@ class SGDOptimizer(torch.optim.Optimizer):
         loss = None if closure is None else closure()
         for group in self.param_groups:
             lr = group["lr"]
-            30
-        for p in group["params"]:
-            if p.grad is None:
-                continue
-            state = self.state[p]
-            t = state.get("t", 0)
-            grad = p.grad.data
-            p.data -= lr / math.sqrt(t + 1) * grad
-            state["t"] = t + 1
+            for p in group["params"]:
+                if p.grad is None:
+                    continue
+                state = self.state[p]
+                t = state.get("t", 0)
+                grad = p.grad.data
+                p.data -= lr / math.sqrt(t + 1) * grad
+                state["t"] = t + 1
         return loss
     
 class AdamW(torch.optim.Optimizer):

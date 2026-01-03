@@ -36,20 +36,20 @@ def get_args_pretrain():
     parser.add_argument('--cosine_iters', type=int, default=100000)
 
     # data paths
-    parser.add_argument('--train_data', type=str, required=True)
-    parser.add_argument('--val_data', type=str, required=True)
+    parser.add_argument('--train_data', type=str)
+    parser.add_argument('--val_data', type=str)
     parser.add_argument('--data_dtype', type=str, default='uint16')
-    parser.add_argument('--checkpoint_dir', type=str, required=True)
+    parser.add_argument('--checkpoint_dir', type=str)
     parser.add_argument('--resume_from', type=str, default=None)
 
     # wandb
     parser.add_argument('--use_wandb', action='store_true')
-    parser.add_argument('--wandb_project', type=str, default='cs336-assignment1') # TODO: Implement this path
+    parser.add_argument('--wandb_project', type=str, default='cs336-assignment1')
     parser.add_argument('--wandb_run_name', type=str, default=None)
 
     # device setup
     parser.add_argument('--device', type=str, default='cuda', choices=['cuda', 'cpu', 'mps'])
-    parser.add_argument('--compile', action='store_true')
+    parser.add_argument('--compile', type=lambda x: str(x).lower() == 'true', default=False)
 
     # profiling
     parser.add_argument('--profile', action='store_true', help='Enable cProfile profiling')

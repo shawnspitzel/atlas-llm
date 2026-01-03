@@ -1,40 +1,47 @@
-program: training/pretrain.py
+program: assignment1-basics/cs336_basics/training/pretrain.py
+project: AtlasLM-Pretrain
 method: grid
 metric:
   name: val/loss
   goal: minimize
+
+command:
+  - ${env}
+  - ${interpreter}
+  - ${program}
+  - ${args}
 
 parameters:
   # Sweep parameter - learning rate
   learning_rate:
     values: [3.0e-4, 6.0e-4, 1.0e-3]
   d_model:
-    value: 768
+    value: 256
   num_heads:
-    value: 12
+    value: 4
   d_ff:
-    value: 3072
-  num_layers:
-    value: 12
-  vocab_size:
-    value: 50257
-  context_length:
     value: 1024
+  num_layers:
+    value: 4
+  vocab_size:
+    value: 100000
+  context_length:
+    value: 256
   theta:
     value: 10000.0
 
   batch_size:
-    value: 64
+    value: 8
   max_iters:
-    value: 100000
+    value: 1500
   eval_interval:
-    value: 500
+    value: 10
   eval_iters:
-    value: 100
+    value: 10
   log_interval:
-    value: 100
+    value: 10
   checkpoint_interval:
-    value: 1000
+    value: 50 
   seed:
     value: 42
 
@@ -56,19 +63,19 @@ parameters:
     value: 100000
 
   train_data:
-    value: data/tokenized/tinystories/train/ADD_TRAIN_DATA.bin
+    value: /Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/data/tokenized/tinystories/train/TinyStoriesV2-GPT4-train_tokens_.bin
   val_data:
-    value: data/tokenized/tinystories/val/ADD_VAL_DATA.bin
+    value: /Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/data/tokenized/tinystories/val/TinyStoriesV2-GPT4-valid_val_tokens_.bin
   data_dtype:
     value: uint16
 
   checkpoint_dir:
-    value: checkpoints/gpt2-small-tinystories
+    value: /Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/checkpoints/model/gpt4-small-tinystories
     
   resume_from:
     value: null
 
   device:
-    value: mps
+    value: cpu
   compile:
-    value: true
+    value: false

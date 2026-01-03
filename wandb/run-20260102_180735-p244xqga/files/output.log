@@ -1,0 +1,18 @@
+Checkpoints will be saved to: /Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/checkpoints/model/gpt4-small-tinystories
+Training:  15%|█████████▍                                                    | 229/1500 [1:08:03<6:17:41, 17.83s/ iters, train_loss=7.8674, lr=3.44e-05]
+Traceback (most recent call last):
+  File "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/training/pretrain.py", line 233, in <module>
+    run(params)
+  File "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/training/pretrain.py", line 141, in run
+    train_loss, val_loss = pretrain(
+                           ^^^^^^^^^
+  File "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/training/pretrain.py", line 43, in pretrain
+    loss.backward()
+  File "/Users/shawnspitzel/cs336/cs326/assignment1-basics/.venv/lib/python3.12/site-packages/torch/_tensor.py", line 625, in backward
+    torch.autograd.backward(
+  File "/Users/shawnspitzel/cs336/cs326/assignment1-basics/.venv/lib/python3.12/site-packages/torch/autograd/__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "/Users/shawnspitzel/cs336/cs326/assignment1-basics/.venv/lib/python3.12/site-packages/torch/autograd/graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
