@@ -6,6 +6,8 @@ import torch
 import torch.nn as nn
 import torch.distributed as dist
 
+from src.systems.optimizer_sharding import ShardedOptimizer
+
 
 
 def get_flashattention_autograd_function_pytorch() -> Type:
@@ -54,7 +56,7 @@ def get_ddp_individual_parameters(module: torch.nn.Module) -> torch.nn.Module:
     Returns:
         Instance of a DDP class.
     """
-    from src.training.distributed_pretrain import get_ddp_individual_parameters as impl
+    from src.systems.ddp import get_ddp_individual_parameters as impl
     return impl(module)
 
 
@@ -69,7 +71,7 @@ def ddp_individual_parameters_on_after_backward(ddp_model: torch.nn.Module, opti
         optimizer: torch.optim.Optimizer
             Optimizer being used with the DDP-wrapped model.
     """
-    from src.training.distributed_pretrain import ddp_individual_parameters_on_after_backward as impl
+    from src.systems.ddp import ddp_individual_parameters_on_after_backward as impl
     impl(ddp_model, optimizer)
 
 
@@ -138,4 +140,5 @@ def get_sharded_optimizer(params, optimizer_cls: Type[torch.optim.Optimizer], **
     Returns:
         Instance of sharded optimizer.
     """
-    raise NotImplementedError
+    optimizer = ShardedOptimizer(params, optimizer=optimizer_cls, **kwargs)
+    return optimizer

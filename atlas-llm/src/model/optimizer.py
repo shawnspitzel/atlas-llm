@@ -40,7 +40,7 @@ class AdamW(torch.optim.Optimizer):
                     "betas": betas}
         super().__init__(params, defaults)
     @torch.no_grad()
-    def step(self, closure: Optional[Callable] = None):
+    def step(self, closure = None):
         loss = None
         if closure is not None:
             with torch.enable_grad():
