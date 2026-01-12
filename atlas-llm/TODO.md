@@ -11,4 +11,4 @@
 - Implement Fully-Sharded Data Parallelism (FSDP)
     - More information at HuggingFace Ultra-Scale Playbook
 - Implement Tensor Parallelism
-- Quantize model to use F16 mixed-precision data types (torch.autocast())
+- Quantize model to use F8 mixed-precision data types (torch.autocast())
