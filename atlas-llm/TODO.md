@@ -1,4 +1,4 @@
-- **Implement optimizer state sharding** 🚧
+- ~~Implement optimizer state sharding~~
 - Profile current implementation
     - Naive Attention vs FlashAttention
     - Compile vs No-Compile
