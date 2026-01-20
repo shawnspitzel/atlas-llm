@@ -30,7 +30,6 @@ def load_model_checkpoint(checkpoint_dir: str) -> str:
         except Exception as e:
             print(f"Warning: Skipping corrupted checkpoint {checkpoint_file.name}: {e}\n")
             continue
-
     raise FileNotFoundError(f"No valid checkpoint files found in {checkpoint_dir}")
 
 
@@ -55,6 +54,9 @@ def load_config(config_path: str) -> dict:
 def load_model(checkpoint_path: str, config: dict, device: str = "cuda") -> Transformer:
     checkpoint = torch.load(checkpoint_path, map_location=device)
     state_dict = checkpoint["model"]
+
+    if any(k.startswith("_orig_mod.") for k in state_dict.keys()):
+        state_dict = {k.replace("_orig_mod.", ""): v for k, v in state_dict.items()}
 
     d_model = config['d_model']
     num_heads = config['num_heads']
@@ -163,7 +165,7 @@ def run(model, tokenizer, device, prompt, max_tokens=100, temperature=1.0, top_p
         stats.print_stats(20)
         print(s.getvalue())
     
-    profile_output = "/Users/shawnspitzel/cs336/atlas-llm/atlas-llm/src/benchmarks/inference_profile.stats"
+    profile_output = "src/observability/benchmarks/inference_profile.stats"
     profiler.dump_stats(profile_output)
     print(f"\nDetailed profiling stats saved to: {profile_output}")
     return result
@@ -171,14 +173,14 @@ def run(model, tokenizer, device, prompt, max_tokens=100, temperature=1.0, top_p
 
 def main():
 
-    CONFIG_PATH = "/Users/shawnspitzel/cs336/atlas-llm/atlas-llm/src/configs/pretrain.yaml"
-    CHECKPOINT_DIR = "/Users/shawnspitzel/cs336/atlas-llm/atlas-llm/src/checkpoints/model/gpt4-small-tinystories"
-    TOKENIZER_PATH = "/Users/shawnspitzel/cs336/atlas-llm/atlas-llm/src/tokenizer/cache/TinyStoriesV2-GPT4-train_v50257_st0_cache.pkl"
+    CONFIG_PATH = "src/configs/pretrain.yaml"
+    CHECKPOINT_DIR = "src/checkpoints/model/tiny-model"
+    TOKENIZER_PATH = "src/tokenizer/cache/owt_train_v50257_st0_cache.pkl"
     DEVICE = "cuda" 
 
     PROMPT = "What is the meaning of life?"
 
-    MAX_TOKENS = 50
+    MAX_TOKENS = 200
     TEMPERATURE = 0.8
     TOP_P = 0.9
 
