@@ -6,8 +6,8 @@ import wandb
 import numpy as np
 import torch
 from tqdm import tqdm
-from src.training.loader import data_loading, load_checkpoint, save_checkpoint
-from src.training.args import get_args_pretrain
+from src.training.utils.loader import data_loading, load_checkpoint, save_checkpoint
+from src.training.utils.args import get_args_pretrain
 from src.observability.profiler import ProfileManager
 from src.model.optimizer import AdamW, SGDOptimizer
 from src.model.transformer import Transformer
