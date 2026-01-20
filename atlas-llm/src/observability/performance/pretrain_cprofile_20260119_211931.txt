@@ -1,0 +1,76 @@
+================================================================================
+FUNCTION-LEVEL PROFILE (cProfile)
+================================================================================
+
+Top 30 functions by cumulative time:
+--------------------------------------------------------------------------------
+         56983000 function calls (28237837 primitive calls) in 598.039 seconds
+
+   Ordered by: cumulative time
+   List reduced from 11385 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  588.788  588.788 /mnt/c/Users/kevin/CS336/atlas-llm/atlas-llm/src/training/pretrain.py:79(run)
+        1    0.000    0.000  588.788  588.788 /mnt/c/Users/kevin/CS336/atlas-llm/atlas-llm/.venv/lib/python3.12/site-packages/torch/random.py:32(manual_seed)
+      2/1    0.000    0.000  588.788  588.788 /mnt/c/Users/kevin/CS336/atlas-llm/atlas-llm/.venv/lib/python3.12/site-packages/torch/cuda/random.py:111(manual_seed_all)
+      9/1    0.000    0.000  588.788  588.788 /mnt/c/Users/kevin/CS336/atlas-llm/atlas-llm/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:247(_lazy_call)
+   6493/1    0.041    0.000  588.788  588.788 /mnt/c/Users/kevin/CS336/atlas-llm/atlas-llm/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:242(is_initialized)
+      3/1    0.000    0.000  588.788  588.788 /usr/lib/python3.12/traceback.py:214(format_stack)
+    188/1    0.001    0.000  588.788  588.788 /usr/lib/python3.12/traceback.py:221(extract_stack)
+    188/1    0.001    0.000  588.788  588.788 /usr/lib/python3.12/traceback.py:377(extract)
+    188/1    0.001    0.000  588.788  588.788 /usr/lib/python3.12/traceback.py:399(_extract_from_extended_frame_gen)
+   5372/1    0.003    0.000  588.788  588.788 /usr/lib/python3.12/traceback.py:391(extended_frame_gen)
+   5372/1    0.033    0.000  588.788  588.788 /usr/lib/python3.12/traceback.py:327(walk_stack)
+   5356/1    0.026    0.000  588.788  588.788 /usr/lib/python3.12/linecache.py:147(lazycache)
+   8812/1    0.054    0.000  588.788  588.788 /usr/lib/python3.12/traceback.py:265(__init__)
+  15854/1    0.064    0.000  588.785  588.785 /usr/lib/python3.12/traceback.py:318(line)
+   7887/1    0.005    0.000  588.785  588.785 /usr/lib/python3.12/linecache.py:26(getline)
+    247/1    0.003    0.000  588.785  588.785 /usr/lib/python3.12/linecache.py:80(updatecache)
+     97/1    0.001    0.000  588.783  588.783 /usr/lib/python3.12/tokenize.py:445(open)
+    148/1    0.001    0.000  588.772  588.772 /usr/lib/python3.12/tokenize.py:352(detect_encoding)
+    225/1    0.002    0.000  588.772  588.772 /usr/lib/python3.12/tokenize.py:376(read_or_stop)
+    225/1    0.003    0.000  588.771  588.771 /usr/lib/python3.12/tokenize.py:382(find_cookie)
+    615/1    0.003    0.000  588.771  588.771 <frozen codecs>:309(__init__)
+   3586/1    0.044    0.000  588.736  588.736 /usr/lib/python3.12/selectors.py:275(_key_from_fd)
+   9407/1    0.032    0.000  588.736  588.736 /usr/lib/python3.12/asyncio/selector_events.py:750(_process_events)
+   3586/1    0.021    0.000  588.736  588.736 /usr/lib/python3.12/asyncio/base_events.py:1895(_add_callback)
+  18515/1    0.037    0.000  588.736  588.736 /usr/lib/python3.12/asyncio/events.py:86(_run)
+    105/1    0.000    0.000  588.736  588.736 /usr/lib/python3.12/asyncio/selector_events.py:969(_read_ready)
+    105/1    0.000    0.000  588.735  588.735 /usr/lib/python3.12/asyncio/streams.py:284(data_received)
+    105/1    0.001    0.000  588.735  588.735 /usr/lib/python3.12/asyncio/streams.py:211(_stream_reader)
+    105/1    0.000    0.000  588.735  588.735 /usr/lib/python3.12/asyncio/streams.py:499(feed_data)
+    105/1    0.000    0.000  588.735  588.735 /usr/lib/python3.12/asyncio/streams.py:474(_wakeup_waiter)
+
+
+
+
+Top 20 functions by total time:
+--------------------------------------------------------------------------------
+         56983000 function calls (28237837 primitive calls) in 598.039 seconds
+
+   Ordered by: internal time
+   List reduced from 11385 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+61590/61589  120.724    0.002  120.724    0.002 {method 'item' of 'torch._C.TensorBase' objects}
+   3711/0  115.240    0.031    0.000          /mnt/c/Users/kevin/CS336/atlas-llm/atlas-llm/.venv/lib/python3.12/site-packages/torch/storage.py:79(size)
+  47969/0   30.017    0.001    0.000          /mnt/c/Users/kevin/CS336/atlas-llm/atlas-llm/.venv/lib/python3.12/site-packages/numpy/_core/multiarray.py:1418(may_share_memory)
+17593/17586   25.773    0.001   25.773    0.001 {built-in method posix.stat}
+4079/3322   23.342    0.006   23.323    0.007 {built-in method _io.open}
+     3393   21.960    0.006   21.960    0.006 {method 'copy_' of 'torch._C.StorageBase' objects}
+   9301/0   20.992    0.002    0.000          /usr/lib/python3.12/selectors.py:451(select)
+10402/9407   18.450    0.002   20.363    0.002 {method 'poll' of 'select.epoll' objects}
+   1583/3   17.980    0.011    6.929    2.310 {method 'acquire' of '_thread.lock' objects}
+     1526   15.347    0.010   15.347    0.010 {built-in method _io.open_code}
+    269/0   11.698    0.043    0.000          /usr/lib/python3.12/threading.py:308(_release_save)
+  47576/0    9.752    0.000    0.000          /mnt/c/Users/kevin/CS336/atlas-llm/atlas-llm/.venv/lib/python3.12/site-packages/numpy/_core/memmap.py:359(__getitem__)
+4591/1077    8.360    0.002    3.972    0.004 {method 'read' of '_io.BufferedReader' objects}
+       17    7.658    0.450    7.658    0.450 {built-in method posix.waitpid}
+    12357    5.473    0.000    5.473    0.000 {built-in method posix.lstat}
+   174000    4.473    0.000    4.473    0.000 {built-in method torch.mm}
+8551690/7862929    3.431    0.000    2.173    0.000 {built-in method builtins.isinstance}
+     1297    3.344    0.003    3.344    0.003 {built-in method posix.listdir}
+ 194538/0    3.245    0.000    0.000          /mnt/c/Users/kevin/CS336/atlas-llm/atlas-llm/.venv/lib/python3.12/site-packages/triton/backends/nvidia/driver.py:443(__call__)
+     4704    2.446    0.001    2.446    0.001 {method '__exit__' of '_io._IOBase' objects}
+
+

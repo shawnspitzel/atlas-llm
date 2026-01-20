@@ -10,17 +10,7 @@ from line_profiler import LineProfiler
 
 
 class ProfileManager:
-    """Manages cProfile and line_profiler for training/inference profiling.
-
-    Usage:
-        profiler = ProfileManager(profile_dir="src/benchmarks/profiling", base_name="pretrain")
-        profiler.add_function(my_function)  # Add functions for line profiling
-
-        with profiler:
-            # Your code here
-            result = profiler.wrap(main_function)(args)
-    """
-
+    """Manage both generalized cProfiling as well as line profiling. Outputs performance findings to a given directory"""
     def __init__(self, profile_dir: str = "src/benchmarks/profiling", base_name: str = "profile"):
         self.profile_dir = profile_dir
         self.base_name = base_name
@@ -33,13 +23,13 @@ class ProfileManager:
         os.makedirs(profile_dir, exist_ok=True)
 
     def add_function(self, func: Callable) -> None:
-        """Add a function to be profiled by line_profiler."""
+        """Add the function you want to profile"""
         if self.line_profiler is None:
             self.line_profiler = LineProfiler()
         self.line_profiler.add_function(func)
 
     def wrap(self, func: Callable) -> Callable:
-        """Wrap a function with line_profiler."""
+        """Wrap the function you're calling"""
         if self.line_profiler is None:
             self.line_profiler = LineProfiler()
         return self.line_profiler(func)
@@ -55,14 +45,12 @@ class ProfileManager:
         return False
 
     def _start(self) -> None:
-        """Start profiling and register signal handlers."""
         self.cprofile = cProfile.Profile()
         if self.line_profiler is None:
             self.line_profiler = LineProfiler()
-
         self._active = True
 
-        # Register signal handlers
+        # register signal handlers in the event you cancel a run, or terminal closes unexpectedly.
         self._original_sigint = signal.signal(signal.SIGINT, self._signal_handler)
         self._original_sigterm = signal.signal(signal.SIGTERM, self._signal_handler)
         atexit.register(self._atexit_handler)
@@ -70,19 +58,16 @@ class ProfileManager:
         self.cprofile.enable()
 
     def _signal_handler(self, signum, frame) -> None:
-        """Handle interrupt signals by saving profile data."""
         print("\n\nReceived interrupt signal, saving profiling data...")
         self._save_results(interrupted=True)
         self._cleanup()
         sys.exit(0)
 
     def _atexit_handler(self) -> None:
-        """Save profile data on exit if still active."""
         if self._active and self.cprofile is not None:
             self._save_results(interrupted=True)
 
     def _save_results(self, interrupted: bool = False) -> None:
-        """Save profiling results to files."""
         if self.cprofile is None:
             return
 
@@ -91,8 +76,6 @@ class ProfileManager:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         suffix = "_interrupted" if interrupted else ""
         status = "INTERRUPTED" if interrupted else ""
-
-        # Save cProfile text results
         cprofile_file = os.path.join(
             self.profile_dir,
             f"{self.base_name}_cprofile_{timestamp}{suffix}.txt"
@@ -110,8 +93,6 @@ class ProfileManager:
             f.write("-" * 80 + "\n")
             stats.sort_stats('time')
             stats.print_stats(20)
-
-        # Save line_profiler results
         lineprofile_file = os.path.join(
             self.profile_dir,
             f"{self.base_name}_lineprofile_{timestamp}{suffix}.txt"
@@ -122,14 +103,12 @@ class ProfileManager:
             f.write("=" * 80 + "\n\n")
             self.line_profiler.print_stats(stream=f)
 
-        # Save binary cProfile data
         cprofile_binary = os.path.join(
             self.profile_dir,
             f"{self.base_name}_cprofile_{timestamp}{suffix}.prof"
         )
         self.cprofile.dump_stats(cprofile_binary)
 
-        # Print summary
         print("\n" + "=" * 80)
         print(f"PROFILING {'SAVED (Training Interrupted)' if interrupted else 'COMPLETE'}")
         print("=" * 80)
@@ -145,7 +124,6 @@ class ProfileManager:
         self._active = False
 
     def _cleanup(self) -> None:
-        """Restore original signal handlers and cleanup."""
         self._active = False
 
         if self._original_sigint is not None:
