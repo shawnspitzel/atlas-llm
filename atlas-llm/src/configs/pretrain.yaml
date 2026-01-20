@@ -1,4 +1,4 @@
-program: assignment1-basics/cs336_basics/training/pretrain.py
+program: src/training/pretrain.py
 project: AtlasLM-Pretrain
 method: grid
 metric:
@@ -12,9 +12,8 @@ command:
   - ${args}
 
 parameters:
-  # Sweep parameter - learning rate
   learning_rate:
-    values: [3.0e-4, 6.0e-4, 1.0e-3]
+    value: 3.0e-4 
   d_model:
     value: 256
   num_heads:
@@ -41,7 +40,7 @@ parameters:
   log_interval:
     value: 10
   checkpoint_interval:
-    value: 50 
+    value: 100 
   seed:
     value: 42
 
@@ -63,19 +62,19 @@ parameters:
     value: 100000
 
   train_data:
-    value: /Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/data/tokenized/tinystories/train/TinyStoriesV2-GPT4-train_tokens_.bin
+    value: src/data/tokenized/owt/train/owt_train_tokens_.bin
   val_data:
-    value: /Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/data/tokenized/tinystories/val/TinyStoriesV2-GPT4-valid_val_tokens_.bin
+    value: src/data/tokenized/owt/val/owt_valid_val_tokens_.bin
   data_dtype:
     value: uint16
 
   checkpoint_dir:
-    value: /Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/checkpoints/model/gpt4-small-tinystories
+    value: src/checkpoints/model/tiny-model
     
   resume_from:
     value: null
 
   device:
-    value: cpu
+    value: cuda
   compile:
-    value: false
+    value: true

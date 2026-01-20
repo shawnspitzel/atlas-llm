@@ -12,27 +12,23 @@ command:
   - ${args}
 
 parameters:
-  # GPT-2 "Tiny" - A smaller variant for faster CPU training
-  # ~40M parameters - 3x larger than your current model but trainable on CPU
-
   d_model:
     value: 512
   num_heads:
     value: 8
   d_ff:
-    value: 2048  # 4 * d_model
+    value: 2048
   num_layers:
     value: 8
   vocab_size:
-    value: 50257  # Match GPT-2 vocab
+    value: 50257 
   context_length:
-    value: 512  # Reduced from 1024 to save memory
+    value: 512
   theta:
     value: 10000.0
 
-  # Training hyperparameters
   batch_size:
-    value: 8  # Can handle larger batch than full GPT-2
+    value: 8
   max_iters:
     value: 15000
   eval_interval:
@@ -46,11 +42,10 @@ parameters:
   seed:
     value: 42
 
-  # Optimizer
   optimizer:
     value: adamw
   learning_rate:
-    value: 3.0e-4  # Slightly higher for smaller model
+    value: 3.0e-4 
   min_lr:
     value: 3.0e-5
   weight_decay:
@@ -62,13 +57,11 @@ parameters:
   gradient_clip_norm:
     value: 1.0
 
-  # Learning rate schedule
   warmup_iters:
     value: 500
   cosine_iters:
     value: 15000
 
-  # Data paths
   train_data:
     value: /Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/data/tokenized/tinystories/train/TinyStoriesV2-GPT4-train_tokens_.bin
   val_data:
