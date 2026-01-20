@@ -8,11 +8,10 @@ import torch
 from tqdm import tqdm
 from src.training.loader import data_loading, load_checkpoint, save_checkpoint
 from src.training.args import get_args_pretrain
-from src.observability.profiling.profiler import ProfileManager
+from src.observability.profiler import ProfileManager
 from src.model.optimizer import AdamW, SGDOptimizer
 from src.model.transformer import Transformer
 from src.model.loss import cross_entropy_loss, gradient_clipping, learning_rate_schedule
-
 
 def get_checkpoint_dir(params):
     if params.get("checkpoint_dir"):
@@ -30,7 +29,6 @@ def get_checkpoint_dir(params):
 
     os.makedirs(checkpoint_dir, exist_ok=True)
     return checkpoint_dir
-
 
 def pretrain(model, train_data: np.array, val_data: np.array, optimizer, params, iteration: int):
     model.train()
@@ -209,7 +207,7 @@ if __name__ == "__main__":
 
     params.update(dict(wandb.config))
 
-    profiler = ProfileManager(profile_dir="src/benchmarks/profiling", base_name="pretrain")
+    profiler = ProfileManager(profile_dir="src/observability/performance", base_name="pretrain")
     profiler.add_function(pretrain)
     profiler.add_function(run)
 

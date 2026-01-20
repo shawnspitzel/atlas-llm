@@ -1,91 +1,20 @@
 import os
 import os.path as osp
+import sys
+import traceback
 import wandb
 import numpy as np
 import torch
 import torch.distributed as dist
-import cProfile
-import pstats
-import sys
-import traceback
-import signal
-import atexit
 from tqdm import tqdm
 from src.training.loader import data_loading, load_checkpoint, save_checkpoint
+from src.observability.profiler import ProfileManager
 from src.model.optimizer import AdamW, SGDOptimizer
 from src.model.transformer import Transformer
 from src.model.loss import cross_entropy_loss, gradient_clipping, learning_rate_schedule
-from src.utils.args import get_args_pretrain
+from src.training.args import get_args_pretrain
 from src.systems.ddp import get_ddp_individual_parameters, ddp_individual_parameters_on_after_backward
 from src.systems.optimizer_sharding import ShardedOptimizer
-
-# Global profiler state for signal handlers
-_global_profilers = {
-    'cprofile': None,
-    'lineprofile': None,
-    'profile_dir': None,
-    'base_name': None
-}
-
-def save_profile_data():
-    """Save profiling data - called on exit or interruption"""
-    from datetime import datetime
-
-    if _global_profilers['cprofile'] is None:
-        return
-
-    try:
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        profile_dir = _global_profilers['profile_dir']
-        base_name = _global_profilers['base_name']
-        cprofile = _global_profilers['cprofile']
-        lp = _global_profilers['lineprofile']
-
-        # Save cProfile results
-        cprofile_file = os.path.join(profile_dir, f"{base_name}_cprofile_{timestamp}_interrupted.txt")
-        with open(cprofile_file, 'w') as f:
-            stats = pstats.Stats(cprofile, stream=f)
-            f.write("="*80 + "\n")
-            f.write("FUNCTION-LEVEL PROFILE (cProfile) - Distributed - INTERRUPTED\n")
-            f.write("="*80 + "\n\n")
-            f.write("Top 30 functions by cumulative time:\n")
-            f.write("-"*80 + "\n")
-            stats.sort_stats('cumulative')
-            stats.print_stats(30)
-            f.write("\n\nTop 20 functions by total time:\n")
-            f.write("-"*80 + "\n")
-            stats.sort_stats('time')
-            stats.print_stats(20)
-
-        # Save line_profiler results
-        lineprofile_file = os.path.join(profile_dir, f"{base_name}_lineprofile_{timestamp}_interrupted.txt")
-        with open(lineprofile_file, 'w') as f:
-            f.write("="*80 + "\n")
-            f.write("LINE-BY-LINE PROFILE (line_profiler) - Distributed - INTERRUPTED\n")
-            f.write("="*80 + "\n\n")
-            lp.print_stats(stream=f)
-
-        # Save binary cProfile data
-        cprofile_binary = os.path.join(profile_dir, f"{base_name}_cprofile_{timestamp}_interrupted.prof")
-        cprofile.dump_stats(cprofile_binary)
-
-        print("\n" + "="*80)
-        print("PROFILING SAVED (Distributed Training Interrupted)")
-        print("="*80)
-        print(f"\nProfile results saved to:")
-        print(f"  1. Function-level: {cprofile_file}")
-        print(f"  2. Line-by-line: {lineprofile_file}")
-        print(f"  3. Binary data: {cprofile_binary}")
-        print("="*80 + "\n")
-    except Exception as e:
-        print(f"Warning: Failed to save profiling data: {e}")
-
-def signal_handler(signum, frame):
-    """Handle Ctrl+C and other interrupts"""
-    print("\n\nReceived interrupt signal, saving profiling data...")
-    save_profile_data()
-    sys.exit(0)
-
 
 def get_checkpoint_dir(params):
     if params.get("checkpoint_dir"):
@@ -114,7 +43,6 @@ def pretrain(model, train_data: np.array, val_data: np.array, optimizer, params,
     loss = cross_entropy_loss(logits, targets)
     loss.backward()
 
-    # Synchronize gradients if using DDP
     if use_ddp:
         ddp_individual_parameters_on_after_backward(model)
 
@@ -156,9 +84,7 @@ def pretrain(model, train_data: np.array, val_data: np.array, optimizer, params,
 
 
 def init_distributed():
-    """Initialize distributed training environment"""
     if not dist.is_initialized():
-        # These should be set by torchrun or your launch script
         dist.init_process_group(backend="nccl" if torch.cuda.is_available() else "gloo")
 
     rank = dist.get_rank()
@@ -168,14 +94,12 @@ def init_distributed():
 
 
 def run(params):
-    # Initialize distributed training
     use_distributed = params.get("use_distributed", False)
 
     if use_distributed:
         rank, world_size = init_distributed()
         is_main_process = rank == 0
 
-        # Set device for this process
         if torch.cuda.is_available():
             torch.cuda.set_device(rank)
             device = torch.device(f"cuda:{rank}")
@@ -230,14 +154,12 @@ def run(params):
 
     model = model.to(params["device"])
 
-    # Wrap model with DDP if using distributed training
     if use_distributed:
         model = get_ddp_individual_parameters(model)
 
     if params["compile"]:
         model = torch.compile(model)
 
-    # Create base optimizer
     if params["optimizer"] == "sgd":
         base_optimizer = SGDOptimizer
         optimizer_kwargs = {"lr": params["learning_rate"]}
@@ -249,15 +171,12 @@ def run(params):
             "lr": params["learning_rate"]
         }
 
-    # Use ShardedOptimizer if distributed, otherwise regular optimizer
     if use_distributed:
-        # ShardedOptimizer shards optimizer states across ranks
         optimizer = ShardedOptimizer(
             params=model.module.parameters(),
             optimizer=base_optimizer,
             **optimizer_kwargs
         )
-        # Add param group to initialize the sharded optimizer
         optimizer.add_param_group({'params': model.module.parameters()})
     else:
         optimizer = base_optimizer(params=model.parameters(), **optimizer_kwargs)
@@ -267,7 +186,6 @@ def run(params):
         resume_path = params["resume_from"]
         start_iter = load_checkpoint(resume_path, model.module if use_distributed else model, optimizer=optimizer, device=params["device"])
 
-    # Only show progress bar on main process
     disable_tqdm = use_distributed and not is_main_process
 
     with tqdm(total=params["max_iters"], desc="Training", unit=" iters", initial=start_iter, disable=disable_tqdm) as pbar:
@@ -282,7 +200,6 @@ def run(params):
                 use_ddp=use_distributed
                 )
 
-            # Only log from main process
             if is_main_process:
                 if wandb.run is not None:
                     try:
@@ -332,7 +249,6 @@ def run(params):
         print(f"Model saved to {output_path}")
         wandb.finish()
 
-    # Clean up distributed
     if use_distributed:
         dist.destroy_process_group()
 
@@ -340,7 +256,6 @@ if __name__ == "__main__":
 
     params = get_args_pretrain()
 
-    # Initialize wandb only on main process
     is_main = not params.get("use_distributed", False) or (dist.is_initialized() and dist.get_rank() == 0)
 
     if is_main and wandb.run is None:
@@ -358,98 +273,25 @@ if __name__ == "__main__":
 
     try:
         if params.get("profile", False):
-            from line_profiler import LineProfiler
-            from datetime import datetime
-
-            # Only profile on main process in distributed mode
             is_main = not params.get("use_distributed", False) or (dist.is_initialized() and dist.get_rank() == 0)
 
             if is_main:
-                # Setup both profilers
-                cprofile = cProfile.Profile()
-                lp = LineProfiler()
-                lp.add_function(pretrain)
-                lp.add_function(run)
-                lp.add_function(init_distributed)
-
-                # Create profile output directory
                 profile_output = params.get("profile_output", "profile_results/distributed_pretrain")
                 profile_dir = os.path.dirname(profile_output)
-                os.makedirs(profile_dir, exist_ok=True)
                 base_name = os.path.splitext(os.path.basename(profile_output))[0]
 
-                # Store profiler state globally for signal handlers
-                _global_profilers['cprofile'] = cprofile
-                _global_profilers['lineprofile'] = lp
-                _global_profilers['profile_dir'] = profile_dir
-                _global_profilers['base_name'] = base_name
+                profiler = ProfileManager(profile_dir=profile_dir, base_name=base_name)
+                profiler.add_function(pretrain)
+                profiler.add_function(run)
+                profiler.add_function(init_distributed)
 
-                # Register signal handlers for interruption
-                signal.signal(signal.SIGINT, signal_handler)
-                signal.signal(signal.SIGTERM, signal_handler)
-                atexit.register(save_profile_data)
-
-                # Enable cProfile
-                cprofile.enable()
-
-                # Wrap run function with line_profiler
-                lp_wrapper = lp(run)
-                lp_wrapper(params)
-
-                # Disable cProfile
-                cprofile.disable()
-
-                # Clear global state after successful completion
-                _global_profilers['cprofile'] = None
-
-                # Generate timestamp for unique filenames
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-                # Save cProfile results to file
-                cprofile_file = os.path.join(profile_dir, f"{base_name}_cprofile_{timestamp}.txt")
-                with open(cprofile_file, 'w') as f:
-                    stats = pstats.Stats(cprofile, stream=f)
-                    f.write("="*80 + "\n")
-                    f.write("FUNCTION-LEVEL PROFILE (cProfile) - Distributed Training\n")
-                    f.write("="*80 + "\n\n")
-                    f.write("Top 30 functions by cumulative time:\n")
-                    f.write("-"*80 + "\n")
-                    stats.sort_stats('cumulative')
-                    stats.print_stats(30)
-                    f.write("\n\nTop 20 functions by total time:\n")
-                    f.write("-"*80 + "\n")
-                    stats.sort_stats('time')
-                    stats.print_stats(20)
-
-                # Save line_profiler results to file
-                lineprofile_file = os.path.join(profile_dir, f"{base_name}_lineprofile_{timestamp}.txt")
-                with open(lineprofile_file, 'w') as f:
-                    f.write("="*80 + "\n")
-                    f.write("LINE-BY-LINE PROFILE (line_profiler) - Distributed Training\n")
-                    f.write("="*80 + "\n\n")
-                    lp.print_stats(stream=f)
-
-                # Also save binary cProfile data for later analysis
-                cprofile_binary = os.path.join(profile_dir, f"{base_name}_cprofile_{timestamp}.prof")
-                cprofile.dump_stats(cprofile_binary)
-
-                # Print summary to console
-                print("\n" + "="*80)
-                print("PROFILING COMPLETE (Rank 0 / Main Process)")
-                print("="*80)
-                print(f"\nProfile results saved to:")
-                print(f"  1. Function-level (cProfile): {cprofile_file}")
-                print(f"  2. Line-by-line (line_profiler): {lineprofile_file}")
-                print(f"  3. Binary cProfile data: {cprofile_binary}")
-                print(f"\nTo view binary cProfile data interactively:")
-                print(f"  python -m pstats {cprofile_binary}")
-                print("="*80 + "\n")
+                with profiler:
+                    profiler.wrap(run)(params)
             else:
-                # Non-main processes just run without profiling
                 run(params)
         else:
             run(params)
-    except Exception as e:
+    except Exception:
         traceback.print_exc()
         sys.stdout.flush()
         sys.stderr.flush()
