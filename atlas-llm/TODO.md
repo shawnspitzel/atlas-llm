@@ -1,14 +1,16 @@
 - ~~Implement optimizer state sharding~~
-- Profile current implementation
+- Profile current implementation (* means do before pretrain run!)
+    - Peak memory usage *
+    - Peak GPU usage *
+    - Throughput *
     - Naive Attention vs FlashAttention
     - Compile vs No-Compile
-    - Peak memory usage
-    - Peak GPU usage
     - Inference bottlenecks
     - Accounting
-- Implement FlashAttention2 (from-scratch)
 - Implement non-naive distributed training pipeline
 - Implement Fully-Sharded Data Parallelism (FSDP)
-    - More information at HuggingFace Ultra-Scale Playbook
+    - More information at HuggingFace Ultra-Scale Playbook  
+- Implement AWS S3 Checkpoint Storage
+- Implement FlashAttention2 (from-scratch)
 - Implement Tensor Parallelism
 - Quantize model to use F8 mixed-precision data types (torch.autocast())

@@ -1,5 +1,5 @@
-program: assignment1-basics/cs336_basics/training/pretrain.py
-project: AtlasLM-Pretrain-GPT2
+program: src/training/distributed_pretrain.py
+project: AtlasLM-Pretrain-Distributed-GPT2
 method: grid
 metric:
   name: val/loss
@@ -28,7 +28,7 @@ parameters:
     value: 10000.0
 
   batch_size:
-    value: 512 )
+    value: 8  # Per-GPU batch size. Total batch = 8 * num_gpus. Increase if you have more GPU memory
   max_iters:
     value: 10000
   eval_interval:
@@ -63,19 +63,19 @@ parameters:
     value: 10000
 
   train_data:
-    value: /Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/data/tokenized/tinystories/train/TinyStoriesV2-GPT4-train_tokens_.bin
+    value: src/data/tokenized/owt/train/owt_train_tokens_.bin
   val_data:
-    value: /Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/data/tokenized/tinystories/val/TinyStoriesV2-GPT4-valid_val_tokens_.bin
+    value: src/data/tokenized/owt/val/owt_valid_val_tokens_.bin
   data_dtype:
     value: uint16
 
   checkpoint_dir:
-    value: /Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/checkpoints/model/gpt2-small-tinystories
+    value: src/checkpoints/model/gpt2
 
   resume_from:
     value: null
 
   device:
-    value: cuda
+    value: cuda  # Will be overridden per rank in distributed mode
   compile:
-    value: true
+    value: false  # Set to false if OOM or compilation errors occur

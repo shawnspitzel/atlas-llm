@@ -389,8 +389,8 @@ class BPETokenizer:
         self._save(cache_path, vocab_size)
         print(f"Training complete. Final vocabulary size: {len(self.vocabulary)}")
 
-        if checkpoint_dir.exists():
-            shutil.rmtree(checkpoint_dir)
+        # if checkpoint_dir.exists():
+        #     shutil.rmtree(checkpoint_dir)
 
         return self.reverseVocab, self.merges
     

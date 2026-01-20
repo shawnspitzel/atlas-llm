@@ -1,7 +1,7 @@
 import argparse
 import yaml
 from pathlib import Path
-from cs336_basics.inference.preprocess_data import preprocess_data
+from src.tokenizer.preprocess_data import preprocess_data
 
 
 def run_from_config(config_path: str):
@@ -41,7 +41,7 @@ def run_from_config(config_path: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Usage: python3 -m cs336_basics.inference.preprocess_config --config cs336_basics/configs/preprocess.yaml"
+        description="Usage: uv run src.training.preprocess_config --config src/configs/preprocess.yaml"
     )
     parser.add_argument(
         "--config",

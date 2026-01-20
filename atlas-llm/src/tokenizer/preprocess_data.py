@@ -9,8 +9,8 @@ import gc
 import pickle
 import tempfile
 from tqdm import tqdm
-from cs336_basics.tokenizer.bpe import BPETokenizer
-from cs336_basics.inference.pretokenization import find_chunk_boundaries
+from src.tokenizer.bpe import BPETokenizer
+from src.tokenizer.find_chunks import find_chunk_boundaries
 
 
 def _encode_chunk_worker(args):
@@ -27,21 +27,48 @@ def _encode_chunk_worker(args):
     gc.collect()
 
     token_count = 0
+    # Process in smaller sub-chunks to avoid loading huge chunks into memory
+    max_sub_chunk_size = 10 * 1024 * 1024  # 10MB at a time
+
     with open(output_file_path, 'wb') as out_f:
         with open(file_path, 'rb') as in_f:
             for i in range(start_idx, end_idx):
-                in_f.seek(boundaries[i])
-                chunk_text = in_f.read(boundaries[i+1] - boundaries[i]).decode('utf-8', errors='ignore')
-                chunk_tokens = tokenizer.encode(chunk_text)
+                chunk_start = boundaries[i]
+                chunk_end = boundaries[i+1]
+                chunk_size = chunk_end - chunk_start
 
-                np_tokens = np.array(chunk_tokens, dtype=np.uint16)
-                np_tokens.tofile(out_f)
-                token_count += len(chunk_tokens)
+                # Process chunk in sub-chunks if it's too large
+                if chunk_size <= max_sub_chunk_size:
+                    # Small enough to process at once
+                    in_f.seek(chunk_start)
+                    chunk_text = in_f.read(chunk_size).decode('utf-8', errors='ignore')
+                    chunk_tokens = tokenizer.encode(chunk_text)
 
-                del chunk_text
-                del chunk_tokens
-                del np_tokens
-                gc.collect()
+                    np_tokens = np.array(chunk_tokens, dtype=np.uint16)
+                    np_tokens.tofile(out_f)
+                    token_count += len(chunk_tokens)
+
+                    del chunk_text
+                    del chunk_tokens
+                    del np_tokens
+                else:
+                    # Process in smaller sub-chunks
+                    current_pos = chunk_start
+                    while current_pos < chunk_end:
+                        sub_chunk_size = min(max_sub_chunk_size, chunk_end - current_pos)
+                        in_f.seek(current_pos)
+                        sub_chunk_text = in_f.read(sub_chunk_size).decode('utf-8', errors='ignore')
+                        sub_chunk_tokens = tokenizer.encode(sub_chunk_text)
+
+                        np_tokens = np.array(sub_chunk_tokens, dtype=np.uint16)
+                        np_tokens.tofile(out_f)
+                        token_count += len(sub_chunk_tokens)
+
+                        current_pos += sub_chunk_size
+                        del sub_chunk_text
+                        del sub_chunk_tokens
+                        del np_tokens
+                        gc.collect()
 
     return (output_file_path, token_count)
 
@@ -54,7 +81,7 @@ def preprocess_data(
     num_workers: int = 4
 ):
     script_path = Path(__file__).resolve()
-    package_root = script_path.parent.parent
+    package_root = script_path.parent.parent.parent
 
     if output_dir is None:
         output_dir = package_root / 'data/tokenized'
@@ -96,12 +123,11 @@ def preprocess_data(
     print(f"  Reading from: {train_file}")
     print(f"  Using {num_workers} parallel workers")
 
-    desired_num_chunks = num_workers * 10  # 10 chunks per worker
+    desired_num_chunks = num_workers * 40  # 40 chunks per worker
     with open(train_file, 'rb') as f:
         train_boundaries = find_chunk_boundaries(f, desired_num_chunks, b"<|endoftext|>")
 
     num_chunks = len(train_boundaries) - 1
-
     if num_workers > 1:
         chunks_per_worker = num_chunks // num_workers
         remainder = num_chunks % num_workers
@@ -128,7 +154,6 @@ def preprocess_data(
                 worker_temp_path
             ))
             current_idx = end_idx
-
         with Pool(num_workers) as pool:
             worker_file_info = []
             total_tokens = 0
@@ -282,6 +307,8 @@ def preprocess_data(
 
 
 if __name__ == "__main__":
+    from line_profiler import LineProfiler
+
     parser = argparse.ArgumentParser(description="Preprocess text data for training")
 
     parser.add_argument("--train_file", type=str, required=True,
@@ -297,20 +324,56 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    profiler = cProfile.Profile()
-    profiler.enable()
+    cprofile = cProfile.Profile()
+    lp = LineProfiler()
+    lp.add_function(preprocess_data)
+    lp.add_function(_encode_chunk_worker)
 
-    preprocess_data(
+    cprofile.enable()
+    lp_wrapper = lp(preprocess_data)
+    lp_wrapper(
         train_file=args.train_file,
         val_file=args.val_file,
         vocab_size=args.vocab_size,
         output_dir=args.output_dir,
         num_workers=args.num_workers
     )
+    cprofile.disable()
 
-    profiler.disable()
-    stats = pstats.Stats(profiler)
-    stats.sort_stats('cumulative')
-    stats.print_stats(30)
-    stats.sort_stats('time')
-    stats.print_stats(20)
+    profile_dir = Path("profile_results")
+    profile_dir.mkdir(exist_ok=True)
+    cprofile_file = profile_dir / f"cprofile.txt"
+    with open(cprofile_file, 'w') as f:
+        stats = pstats.Stats(cprofile, stream=f)
+        f.write("="*80 + "\n")
+        f.write("FUNCTION-LEVEL PROFILE (cProfile)\n")
+        f.write("="*80 + "\n\n")
+        f.write("Top 30 functions by cumulative time:\n")
+        f.write("-"*80 + "\n")
+        stats.sort_stats('cumulative')
+        stats.print_stats(30)
+        f.write("\n\nTop 20 functions by total time:\n")
+        f.write("-"*80 + "\n")
+        stats.sort_stats('time')
+        stats.print_stats(20)
+    lineprofile_file = profile_dir / f"lineprofile.txt"
+    with open(lineprofile_file, 'w') as f:
+        f.write("="*80 + "\n")
+        f.write("LINE-BY-LINE PROFILE (line_profiler)\n")
+        f.write("="*80 + "\n\n")
+        lp.print_stats(stream=f)
+
+
+    cprofile_binary = profile_dir / f"cprofile.prof"
+    cprofile.dump_stats(str(cprofile_binary))
+
+    print("\n" + "="*80)
+    print("PROFILING COMPLETE")
+    print("="*80)
+    print(f"\nProfile results saved to:")
+    print(f"  1. Function-level (cProfile): {cprofile_file}")
+    print(f"  2. Line-by-line (line_profiler): {lineprofile_file}")
+    print(f"  3. Binary cProfile data: {cprofile_binary}")
+    print(f"\nTo view binary cProfile data interactively:")
+    print(f"  python -m pstats {cprofile_binary}")
+    print("="*80 + "\n")

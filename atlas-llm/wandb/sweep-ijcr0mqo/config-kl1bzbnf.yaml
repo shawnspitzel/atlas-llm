@@ -1,0 +1,64 @@
+wandb_version: 1
+
+batch_size:
+  value: 512
+beta1:
+  value: 0.9
+beta2:
+  value: 0.999
+checkpoint_dir:
+  value: checkpoints/gpt2_distributed
+checkpoint_interval:
+  value: 500
+compile:
+  value: true
+context_length:
+  value: 1024
+cosine_iters:
+  value: 10000
+d_ff:
+  value: 3072
+d_model:
+  value: 768
+data_dtype:
+  value: uint16
+device:
+  value: cuda
+eval_interval:
+  value: 100
+eval_iters:
+  value: 20
+gradient_clip_norm:
+  value: 1
+learning_rate:
+  value: 0.00025
+log_interval:
+  value: 10
+max_iters:
+  value: 10000
+min_lr:
+  value: 2.5e-05
+num_heads:
+  value: 12
+num_layers:
+  value: 12
+optimizer:
+  value: adamw
+resume_from:
+  value: null
+seed:
+  value: 42
+theta:
+  value: 10000
+train_data:
+  value: data/tokenized/owt/train/owt_train_tokens_.bin
+use_distributed:
+  value: true
+val_data:
+  value: data/tokenized/owt/val/owt_val_tokens_.bin
+vocab_size:
+  value: 50257
+warmup_iters:
+  value: 375
+weight_decay:
+  value: 0.01

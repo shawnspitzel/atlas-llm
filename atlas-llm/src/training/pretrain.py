@@ -1,18 +1,17 @@
 import os
 import os.path as osp
+import sys
+import traceback
 import wandb
 import numpy as np
 import torch
-import cProfile
-import pstats
-import sys
-import traceback
 from tqdm import tqdm
 from src.training.loader import data_loading, load_checkpoint, save_checkpoint
+from src.training.args import get_args_pretrain
+from src.observability.profiling.profiler import ProfileManager
 from src.model.optimizer import AdamW, SGDOptimizer
 from src.model.transformer import Transformer
 from src.model.loss import cross_entropy_loss, gradient_clipping, learning_rate_schedule
-from src.utils.args import get_args_pretrain
 
 
 def get_checkpoint_dir(params):
@@ -210,28 +209,14 @@ if __name__ == "__main__":
 
     params.update(dict(wandb.config))
 
+    profiler = ProfileManager(profile_dir="src/benchmarks/profiling", base_name="pretrain")
+    profiler.add_function(pretrain)
+    profiler.add_function(run)
+
     try:
-        if params.get("profile", False):
-            profiler = cProfile.Profile()
-            profiler.enable()
-
-            run(params)
-
-            profiler.disable()
-            profile_output = params["profile_output"]
-
-            os.makedirs(osp.dirname(profile_output), exist_ok=True)
-            profiler.dump_stats(profile_output)
-
-            print(f"\nProfile stats saved to: {profile_output}")
-
-            stats = pstats.Stats(profiler)
-            stats.strip_dirs()
-            stats.sort_stats('cumulative')
-            stats.print_stats(20)
-        else:
-            run(params)
-    except Exception as e:
+        with profiler:
+            profiler.wrap(run)(params)
+    except Exception:
         traceback.print_exc()
         sys.stdout.flush()
         sys.stderr.flush()

@@ -1,9 +1,9 @@
-from cs336_basics.model.embeddings import Embedding
-from cs336_basics.model.util import Linear
-from cs336_basics.model.mlp import FeedForward
-from cs336_basics.model.norms import RMSNorm
-from cs336_basics.model.embeddings import RotaryPositionalEmbedding
-from cs336_basics.model.attention import MultiHeadAttention
+from src.model.embeddings import Embedding
+from src.model.util import Linear
+from src.model.mlp import FeedForward
+from src.model.norms import RMSNorm
+from src.model.embeddings import RotaryPositionalEmbedding
+from src.model.attention import MultiHeadAttention
 import torch.nn as nn
 from torch import Tensor
 class TransformerBlock(nn.Module):

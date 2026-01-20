@@ -7,12 +7,12 @@ import yaml
 import pickle
 from pathlib import Path
 
-from cs336_basics.model.transformer import Transformer
-from cs336_basics.tokenizer.bpe import BPETokenizer
-from cs336_basics.inference.decoder import inference
+from src.model.transformer import Transformer
+from src.tokenizer.bpe import BPETokenizer
+from src.inference.decoder import inference
 
 
-def find_latest_checkpoint(checkpoint_dir: str) -> str:
+def load_model_checkpoint(checkpoint_dir: str) -> str:
     checkpoint_path = Path(checkpoint_dir)
     if not checkpoint_path.exists():
         raise FileNotFoundError(f"Checkpoint directory not found: {checkpoint_dir}")
@@ -52,7 +52,7 @@ def load_config(config_path: str) -> dict:
     return params
 
 
-def load_model_from_checkpoint(checkpoint_path: str, config: dict, device: str = "cpu") -> Transformer:
+def load_model(checkpoint_path: str, config: dict, device: str = "cuda") -> Transformer:
     checkpoint = torch.load(checkpoint_path, map_location=device)
     state_dict = checkpoint["model"]
 
@@ -163,7 +163,7 @@ def run(model, tokenizer, device, prompt, max_tokens=100, temperature=1.0, top_p
         stats.print_stats(20)
         print(s.getvalue())
     
-    profile_output = "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/benchmarks/inference_profile.stats"
+    profile_output = "/Users/shawnspitzel/cs336/atlas-llm/atlas-llm/src/benchmarks/inference_profile.stats"
     profiler.dump_stats(profile_output)
     print(f"\nDetailed profiling stats saved to: {profile_output}")
     return result
@@ -171,10 +171,10 @@ def run(model, tokenizer, device, prompt, max_tokens=100, temperature=1.0, top_p
 
 def main():
 
-    CONFIG_PATH = "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/configs/pretrain.yaml"
-    CHECKPOINT_DIR = "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/checkpoints/model/gpt4-small-tinystories"
-    TOKENIZER_PATH = "/Users/shawnspitzel/cs336/cs326/assignment1-basics/cs336_basics/tokenizer/cache/TinyStoriesV2-GPT4-train_v50257_st0_cache.pkl"
-    DEVICE = "cpu" 
+    CONFIG_PATH = "/Users/shawnspitzel/cs336/atlas-llm/atlas-llm/src/configs/pretrain.yaml"
+    CHECKPOINT_DIR = "/Users/shawnspitzel/cs336/atlas-llm/atlas-llm/src/checkpoints/model/gpt4-small-tinystories"
+    TOKENIZER_PATH = "/Users/shawnspitzel/cs336/atlas-llm/atlas-llm/src/tokenizer/cache/TinyStoriesV2-GPT4-train_v50257_st0_cache.pkl"
+    DEVICE = "cuda" 
 
     PROMPT = "What is the meaning of life?"
 
@@ -189,7 +189,7 @@ def main():
         return
 
     try:
-        checkpoint_path = find_latest_checkpoint(CHECKPOINT_DIR)
+        checkpoint_path = load_model_checkpoint(CHECKPOINT_DIR)
     except FileNotFoundError as e:
         print(f"Error: {e}")
         return
@@ -201,7 +201,7 @@ def main():
         return
 
     try:
-        model = load_model_from_checkpoint(checkpoint_path, config=config, device=DEVICE)
+        model = load_model(checkpoint_path, config=config, device=DEVICE)
     except Exception as e:
         print(f"Error loading model: {e}")
         return
