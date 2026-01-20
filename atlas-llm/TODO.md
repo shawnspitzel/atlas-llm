@@ -1,4 +1,5 @@
 - ~~Implement optimizer state sharding~~
+- Implement AWS S3 Checkpoint Storage
 - Profile current implementation (* means do before pretrain run!)
     - Peak memory usage *
     - Peak GPU usage *
@@ -10,7 +11,6 @@
 - Implement non-naive distributed training pipeline
 - Implement Fully-Sharded Data Parallelism (FSDP)
     - More information at HuggingFace Ultra-Scale Playbook  
-- Implement AWS S3 Checkpoint Storage
 - Implement FlashAttention2 (from-scratch)
 - Implement Tensor Parallelism
 - Quantize model to use F8 mixed-precision data types (torch.autocast())
