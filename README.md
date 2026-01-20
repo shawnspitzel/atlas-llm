@@ -1,6 +1,6 @@
 # Atlas LLM
 
-AtlasLLM is a from-scratch implementation of a Transformer-based large language model. Below is a list containing some of the following features I've implemented from scratch
+AtlasLLM is a from-scratch implementation of a Transformer-based large language model. Below is a list containing some of the following features I've implemented from scratch:
 
 ## Features
 - Multi-head attention with RoPE embeddings
