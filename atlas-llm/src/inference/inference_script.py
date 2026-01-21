@@ -173,8 +173,8 @@ def run(model, tokenizer, device, prompt, max_tokens=100, temperature=1.0, top_p
 
 def main():
 
-    CONFIG_PATH = "src/configs/pretrain.yaml"
-    CHECKPOINT_DIR = "src/checkpoints/model/tiny-model"
+    CONFIG_PATH = "src/configs/pretrain_gpt2_tiny.yaml"
+    CHECKPOINT_DIR = "src/checkpoints/model/gpt2-tiny"
     TOKENIZER_PATH = "src/tokenizer/cache/owt_train_v50257_st0_cache.pkl"
     DEVICE = "cuda" 
 
