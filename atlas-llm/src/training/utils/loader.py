@@ -4,6 +4,7 @@ import numpy as np
 import numpy.typing as npt
 import torch
 from torch import Tensor
+from src.training.utils.storage import S3Storage
 
 def data_loading(x: npt.NDArray, batch_size: int, context_length: int, device: torch.device) -> tuple[Tensor, Tensor]:
     inputs = torch.empty((batch_size, context_length), dtype=torch.long, device=device)
@@ -31,26 +32,36 @@ def data_loading(x: npt.NDArray, batch_size: int, context_length: int, device: t
 def save_checkpoint(
     model: torch.nn.Module,
     optimizer: torch.optim.Optimizer, 
-    iteration: int, 
+    iteration: int,
+    config: dict,
     out: str | os.PathLike | typing.BinaryIO | typing.IO[bytes]
     ):
+    storage_location = config.get("storage-location") if config else None
     state_dict = {
         "model": model.state_dict(),
         "optimizer": optimizer.state_dict(),
         "iteration": iteration
     }
-    torch.save(state_dict, out)
+    if storage_location == "cloud":
+        S3Storage.save(state_dict, key=str(out))
+    else:
+        torch.save(state_dict, out)
 
 def load_checkpoint(
     src: str | os.PathLike | typing.BinaryIO | typing.IO[bytes],
     model: torch.nn.Module,
     optimizer: torch.optim.Optimizer,
+    config: dict,
     device=None
     ):
-    if device is None:
-        state = torch.load(src)
+    storage_location = config.get("storage-location") if config else None
+    if storage_location == "cloud":
+        state = S3Storage.load(key=str(src), device=device)
     else:
-        state = torch.load(src, map_location=device)
+        if device is None:
+            state = torch.load(src)
+        else:
+            state = torch.load(src, map_location=device)
     model.load_state_dict(state["model"])
     optimizer.load_state_dict(state["optimizer"])
     return state["iteration"]

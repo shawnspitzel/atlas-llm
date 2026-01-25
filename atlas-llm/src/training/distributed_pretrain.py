@@ -184,7 +184,7 @@ def run(params):
     start_iter = 0
     if params["resume_from"]:
         resume_path = params["resume_from"]
-        start_iter = load_checkpoint(resume_path, model.module if use_distributed else model, optimizer=optimizer, device=params["device"])
+        start_iter = load_checkpoint(resume_path, model.module if use_distributed else model, optimizer=optimizer, config=params, device=params["device"])
 
     disable_tqdm = use_distributed and not is_main_process
 
@@ -233,6 +233,7 @@ def run(params):
                     model=model.module if use_distributed else model,
                     optimizer=optimizer,
                     iteration=iter,
+                    config=params,
                     out=checkpoint_path
                 )
                 pbar.write(f"Saved checkpoint to {checkpoint_path}")
@@ -244,6 +245,7 @@ def run(params):
                     model=model.module if use_distributed else model,
                     optimizer=optimizer,
                     iteration=params["max_iters"],
+                    config=params,
                     out=output_path
                 )
         print(f"Model saved to {output_path}")

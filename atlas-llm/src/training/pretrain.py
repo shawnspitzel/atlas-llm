@@ -131,7 +131,7 @@ def run(params):
     start_iter = 0
     if params["resume_from"]:
         resume_path = params["resume_from"]
-        start_iter = load_checkpoint(resume_path, model, optimizer=optimizer, device=device)
+        start_iter = load_checkpoint(resume_path, model, optimizer=optimizer, config=params, device=device)
 
     with tqdm(total=params["max_iters"], desc="Training", unit=" iters", initial=start_iter) as pbar:
         for iter in range(start_iter, params["max_iters"]):
@@ -175,6 +175,7 @@ def run(params):
                     model=model,
                     optimizer=optimizer,
                     iteration=iter,
+                    config=params,
                     out=checkpoint_path
                 )
                 pbar.write(f"Saved checkpoint to {checkpoint_path}")
@@ -185,6 +186,7 @@ def run(params):
                 model=model,
                 optimizer=optimizer,
                 iteration=params["max_iters"],
+                config=params,
                 out=output_path
             )
     print(f"Model saved to {output_path}")
