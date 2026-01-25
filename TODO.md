@@ -1,5 +1,5 @@
 - ~~Implement optimizer state sharding~~
-- Implement AWS S3 Checkpoint Storage
+- ~~Implement AWS S3 Checkpoint Storage~~
 - Profile current implementation (* means do before pretrain run!)
     - Peak memory usage *
     - Peak GPU usage *
