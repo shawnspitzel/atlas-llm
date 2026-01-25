@@ -7,7 +7,7 @@ AtlasLLM is a from-scratch implementation of a Transformer-based large language 
 - SwiGLU feed-forward networks
 - RMSNorm normalization
 - Custom AdamW optimizer
-- Distributed training
+- Distributed training (Multi-GPU)
 - Optimizer state sharding (ZeRO-1)
 - BPE tokenizer
 - Top-p sampling
