@@ -1,0 +1,62 @@
+wandb_version: 1
+
+batch_size:
+  value: 8
+beta1:
+  value: 0.9
+beta2:
+  value: 0.95
+checkpoint_dir:
+  value: src/checkpoints/model/gpt2-tiny
+checkpoint_interval:
+  value: 5000
+compile:
+  value: true
+context_length:
+  value: 512
+cosine_iters:
+  value: 80000
+d_ff:
+  value: 2560
+d_model:
+  value: 640
+data_dtype:
+  value: uint16
+device:
+  value: cuda
+eval_interval:
+  value: 500
+eval_iters:
+  value: 20
+gradient_clip_norm:
+  value: 1
+learning_rate:
+  value: 0.0006
+log_interval:
+  value: 10
+max_iters:
+  value: 10000
+min_lr:
+  value: 6.0e-05
+num_heads:
+  value: 10
+num_layers:
+  value: 10
+optimizer:
+  value: adamw
+resume_from:
+  value: null
+seed:
+  value: 42
+theta:
+  value: 10000
+train_data:
+  value: src/data/tokenized/owt/train/owt_train_tokens_.bin
+val_data:
+  value: src/data/tokenized/owt/val/owt_valid_val_tokens_.bin
+vocab_size:
+  value: 50257
+warmup_iters:
+  value: 2000
+weight_decay:
+  value: 0.1

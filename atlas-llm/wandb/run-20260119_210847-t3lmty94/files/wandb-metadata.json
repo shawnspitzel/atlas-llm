@@ -1,0 +1,71 @@
+{
+  "os": "Linux-6.6.87.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "CPython 3.12.3",
+  "startedAt": "2026-01-20T02:08:47.949732Z",
+  "args": [
+    "--batch_size=8",
+    "--beta1=0.9",
+    "--beta2=0.999",
+    "--checkpoint_dir=src/checkpoints/model/tiny-model",
+    "--checkpoint_interval=50",
+    "--compile=True",
+    "--context_length=256",
+    "--cosine_iters=100000",
+    "--d_ff=1024",
+    "--d_model=256",
+    "--data_dtype=uint16",
+    "--device=cuda",
+    "--eval_interval=10",
+    "--eval_iters=10",
+    "--gradient_clip_norm=1",
+    "--learning_rate=0.0003",
+    "--log_interval=10",
+    "--max_iters=1500",
+    "--min_lr=6e-05",
+    "--num_heads=4",
+    "--num_layers=4",
+    "--optimizer=adamw",
+    "--resume_from=None",
+    "--seed=42",
+    "--theta=10000",
+    "--train_data=src/data/tokenized/owt/train/owt_train_tokens_.bin",
+    "--val_data=src/data/tokenized/owt/val/owt_valid_val_tokens_.bin",
+    "--vocab_size=100000",
+    "--warmup_iters=2000",
+    "--weight_decay=0.01"
+  ],
+  "program": "/mnt/c/Users/kevin/CS336/atlas-llm/atlas-llm/src/training/pretrain.py",
+  "codePath": "atlas-llm/src/training/pretrain.py",
+  "codePathLocal": "src/training/pretrain.py",
+  "git": {
+    "remote": "https://github.com/shawnspitzel/atlas-llm.git",
+    "commit": "1e90876fd747b1e8f7cf691ed0c42fd6a8573371"
+  },
+  "email": "shawnspitzel@gmail.com",
+  "root": "/mnt/c/Users/kevin/CS336/atlas-llm/atlas-llm",
+  "host": "DESKTOP-DBTREBA",
+  "executable": "/mnt/c/Users/kevin/CS336/atlas-llm/atlas-llm/.venv/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "44857970688"
+    }
+  },
+  "memory": {
+    "total": "16729194496"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4060 Ti",
+      "memoryTotal": "8585740288",
+      "architecture": "Ada",
+      "uuid": "GPU-79c3433b-e693-a218-47a0-5c430515be6c"
+    }
+  ],
+  "cudaVersion": "12.6",
+  "writerId": "jnusohno8bgmibkqc12y11eucfc7hy59"
+}

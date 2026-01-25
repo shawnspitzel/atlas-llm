@@ -2,9 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+src/observability/performance/*
 # Data
 src/data*
+
+# S3 storage config (contains bucket/credentials info)
+src/configs/s3.yaml
 src/checkpoints/model/*
 cs336_spring2025_assignment1_basics.pdf
 cs336_spring2025_assignment2_systems.pdf
