@@ -10,9 +10,28 @@ from pathlib import Path
 from src.model.transformer import Transformer
 from src.tokenizer.bpe import BPETokenizer
 from src.inference.decoder import inference
+from src.training.utils.storage import S3Storage
 
 
-def load_model_checkpoint(checkpoint_dir: str) -> str:
+def load_model_checkpoint(checkpoint_dir: str, config: dict = None) -> str:
+    storage_location = config.get("storage-location") if config else None
+
+    if storage_location == "cloud":
+        checkpoint_files = S3Storage.list_checkpoints(prefix=checkpoint_dir)
+        if not checkpoint_files:
+            raise FileNotFoundError(f"No checkpoint files found in S3 at {checkpoint_dir}")
+
+        checkpoint_files_sorted = sorted(
+            checkpoint_files,
+            key=lambda f: int(f.split('_')[-1].replace('.pt', '')),
+            reverse=True
+        )
+
+        for checkpoint_key in checkpoint_files_sorted:
+            if S3Storage.exists(checkpoint_key):
+                return checkpoint_key
+        raise FileNotFoundError(f"No valid checkpoint files found in S3 at {checkpoint_dir}")
+
     checkpoint_path = Path(checkpoint_dir)
     if not checkpoint_path.exists():
         raise FileNotFoundError(f"Checkpoint directory not found: {checkpoint_dir}")
@@ -52,7 +71,12 @@ def load_config(config_path: str) -> dict:
 
 
 def load_model(checkpoint_path: str, config: dict, device: str = "cuda") -> Transformer:
-    checkpoint = torch.load(checkpoint_path, map_location=device)
+    storage_location = config.get("storage-location") if config else None
+
+    if storage_location == "cloud":
+        checkpoint = S3Storage.load(key=checkpoint_path, device=device)
+    else:
+        checkpoint = torch.load(checkpoint_path, map_location=device)
     state_dict = checkpoint["model"]
 
     if any(k.startswith("_orig_mod.") for k in state_dict.keys()):
@@ -178,7 +202,7 @@ def main():
     TOKENIZER_PATH = "src/tokenizer/cache/owt_train_v50257_st0_cache.pkl"
     DEVICE = "cuda" 
 
-    PROMPT = "What is the meaning of life?"
+    PROMPT = "Sally ran up the hill and spoke with her friends, but when"
 
     MAX_TOKENS = 200
     TEMPERATURE = 0.8
@@ -191,7 +215,7 @@ def main():
         return
 
     try:
-        checkpoint_path = load_model_checkpoint(CHECKPOINT_DIR)
+        checkpoint_path = load_model_checkpoint(CHECKPOINT_DIR, config=config)
     except FileNotFoundError as e:
         print(f"Error: {e}")
         return
